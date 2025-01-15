@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Fax 2_ri-arrow-right-line</name>
+   <tag></tag>
+   <elementGuidId>215fc8a6-74d1-420a-800d-062d58d6329c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-konsumen']/bcaf-consumer/div/div[3]/div/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'ri-arrow-right-line']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ri-arrow-right-line</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ri-arrow-right-line</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-konsumen&quot;)/bcaf-consumer[1]/div[@class=&quot;document-type-accordion mb-0&quot;]/div[@class=&quot;card-footer mt-2&quot;]/div[@class=&quot;step-navigation text-right&quot;]/a[@class=&quot;btn btn-primary btn-icon btn-icon-nolabel m-0&quot;]/i[@class=&quot;ri-arrow-right-line&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-konsumen']/bcaf-consumer/div/div[3]/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

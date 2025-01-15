@@ -1,0 +1,164 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,Firefox 121.0,,,2024-01-10 17:25:16,2024-01-10 17:30:36,5m - 20.218s,FAILED
+,,,,,,,
+Test Cases/me corp/Login,Firefox 121.0,,,2024-01-10 17:25:17,2024-01-10 17:25:30,13.059s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 121.0,,,2024-01-10 17:25:17,2024-01-10 17:25:17,0.001s,PASSED
+"password = ""Mobile123+""",Firefox 121.0,,,2024-01-10 17:25:17,2024-01-10 17:25:17,0.001s,PASSED
+switch (role),Firefox 121.0,,,2024-01-10 17:25:17,2024-01-10 17:25:19,1.636s,PASSED
+"openBrowser("""")",Firefox 121.0,,,2024-01-10 17:25:19,2024-01-10 17:25:26,6.615s,PASSED
+navigateToUrl(ME_url),Firefox 121.0,,,2024-01-10 17:25:26,2024-01-10 17:25:27,1.790s,PASSED
+maximizeWindow(),Firefox 121.0,,,2024-01-10 17:25:27,2024-01-10 17:25:27,0.069s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User ID_login""), username)",Firefox 121.0,,,2024-01-10 17:25:27,2024-01-10 17:25:28,0.818s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User Password_login""), password)",Firefox 121.0,,,2024-01-10 17:25:28,2024-01-10 17:25:29,0.793s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Login""))",Firefox 121.0,,,2024-01-10 17:25:29,2024-01-10 17:25:30,0.686s,PASSED
+,,,,,,,
+Test Cases/me corp/inisiasi,Firefox 121.0,,,2024-01-10 17:25:30,2024-01-10 17:26:50,1m - 19.921s,PASSED
+robot = new java.awt.Robot(),Firefox 121.0,,,2024-01-10 17:25:31,2024-01-10 17:25:31,0.079s,PASSED
+driver = getWebDriver(),Firefox 121.0,,,2024-01-10 17:25:31,2024-01-10 17:25:31,0.021s,PASSED
+userDir = getProjectDir(),Firefox 121.0,,,2024-01-10 17:25:31,2024-01-10 17:25:31,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,Firefox 121.0,,,2024-01-10 17:25:31,2024-01-10 17:25:31,0.003s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""))",Firefox 121.0,,,2024-01-10 17:25:31,2024-01-10 17:25:32,1.055s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru""))",Firefox 121.0,,,2024-01-10 17:25:32,2024-01-10 17:25:33,0.646s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-memilih-button-transaksi-dan-aplikasi-baru.png"")",Firefox 121.0,,,2024-01-10 17:25:33,2024-01-10 17:25:34,0.872s,PASSED
+"if (tipeKonsumen == ""Perorangan"")",Firefox 121.0,,,2024-01-10 17:25:34,2024-01-10 17:25:34,0.001s,PASSED
+else,Firefox 121.0,,,2024-01-10 17:25:34,2024-01-10 17:25:34,0.553s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""))",Firefox 121.0,,,2024-01-10 17:25:34,2024-01-10 17:25:35,0.604s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""), badanUsaha)",Firefox 121.0,,,2024-01-10 17:25:35,2024-01-10 17:25:35,0.727s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-input-badan-usaha.png"")",Firefox 121.0,,,2024-01-10 17:25:35,2024-01-10 17:25:36,0.612s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )""))",Firefox 121.0,,,2024-01-10 17:25:36,2024-01-10 17:25:37,0.650s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-page-sebelum-input-capture.png"")",Firefox 121.0,,,2024-01-10 17:25:37,2024-01-10 17:25:37,0.525s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp""))",Firefox 121.0,,,2024-01-10 17:25:37,2024-01-10 17:25:38,0.607s,PASSED
+npwpPath = userDir + pathNPWP,Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.001s,PASSED
+siupPath = userDir + pathSIUP,Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.002s,PASSED
+tdpPath = userDir + pathTDP,Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.000s,PASSED
+"npwpPath = npwpPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.002s,PASSED
+"siupPath = siupPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.001s,PASSED
+"tdpPath = tdpPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:38,0.000s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), npwpPath)",Firefox 121.0,,,2024-01-10 17:25:38,2024-01-10 17:25:40,2.391s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_NPWP""), 0)",Firefox 121.0,,,2024-01-10 17:25:40,2024-01-10 17:26:11,30.512s,PASSED
+npwpTemp = nanoTime().toString(),Firefox 121.0,,,2024-01-10 17:26:11,2024-01-10 17:26:11,0.010s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix""), npwpTemp)",Firefox 121.0,,,2024-01-10 17:26:11,2024-01-10 17:26:18,7.562s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_Name fix""), nama)",Firefox 121.0,,,2024-01-10 17:26:18,2024-01-10 17:26:19,0.793s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix""))",Firefox 121.0,,,2024-01-10 17:26:19,2024-01-10 17:26:20,0.735s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), siupPath)",Firefox 121.0,,,2024-01-10 17:26:20,2024-01-10 17:26:22,1.897s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP""))",Firefox 121.0,,,2024-01-10 17:26:22,2024-01-10 17:26:23,1.598s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), tdpPath)",Firefox 121.0,,,2024-01-10 17:26:23,2024-01-10 17:26:25,1.790s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-Capture-npwp-siup-tdp.png"")",Firefox 121.0,,,2024-01-10 17:26:25,2024-01-10 17:26:26,1.133s,PASSED
+"if (isPerubahanData == ""ya"")",Firefox 121.0,,,2024-01-10 17:26:26,2024-01-10 17:26:26,0.000s,PASSED
+else,Firefox 121.0,,,2024-01-10 17:26:26,2024-01-10 17:26:27,0.563s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-Memilih-Radio-Button-Perubahan-Data.png"")",Firefox 121.0,,,2024-01-10 17:26:27,2024-01-10 17:26:27,0.617s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix""))",Firefox 121.0,,,2024-01-10 17:26:27,2024-01-10 17:26:28,0.586s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching""), 300)",Firefox 121.0,,,2024-01-10 17:26:28,2024-01-10 17:26:37,9.207s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-Masuk-aplikasi-matching.png"")",Firefox 121.0,,,2024-01-10 17:26:37,2024-01-10 17:26:38,0.627s,PASSED
+"click(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_In Process""))",Firefox 121.0,,,2024-01-10 17:26:38,2024-01-10 17:26:39,0.662s,PASSED
+"click(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Blacklist""))",Firefox 121.0,,,2024-01-10 17:26:39,2024-01-10 17:26:39,0.732s,PASSED
+"click(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Rejectlist""))",Firefox 121.0,,,2024-01-10 17:26:39,2024-01-10 17:26:40,0.588s,PASSED
+delay(3),Firefox 121.0,,,2024-01-10 17:26:40,2024-01-10 17:26:43,3.017s,PASSED
+"click(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK""))",Firefox 121.0,,,2024-01-10 17:26:43,2024-01-10 17:26:43,0.590s,PASSED
+"click(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Ya""))",Firefox 121.0,,,2024-01-10 17:26:43,2024-01-10 17:26:45,1.637s,PASSED
+delay(3),Firefox 121.0,,,2024-01-10 17:26:45,2024-01-10 17:26:48,3.014s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-dilakukan-inisiasi-konsumen-baru.png"")",Firefox 121.0,,,2024-01-10 17:26:48,2024-01-10 17:26:50,1.575s,PASSED
+,,,,,,,
+Test Cases/me corp/data-entry-aplikasi-pending,Firefox 121.0,,,2024-01-10 17:26:50,2024-01-10 17:30:36,3m - 46.523s,FAILED
+userDir = getProjectDir(),Firefox 121.0,,,2024-01-10 17:26:51,2024-01-10 17:26:51,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid""), konsumen_SID, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:26:51,2024-01-10 17:27:21,30.300s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line""), 60, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:27:21,2024-01-10 17:27:47,25.861s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:27:47,2024-01-10 17:27:48,0.901s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-masuk-submenu-surat-keterangan-domisili.png"")",Firefox 121.0,,,2024-01-10 17:27:48,2024-01-10 17:27:50,1.696s,PASSED
+"markPassed(""scenario 1 - Masuk submenu surat keterangan domisili"")",Firefox 121.0,,,2024-01-10 17:27:50,2024-01-10 17:27:50,0.017s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_Capture_Domisili""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:27:50,2024-01-10 17:27:51,0.744s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), userDir + cobaKTP.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-10 17:27:51,2024-01-10 17:27:53,2.406s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-capture-surat-keterangan-domisili-berhasil.png"")",Firefox 121.0,,,2024-01-10 17:27:53,2024-01-10 17:27:55,2.346s,PASSED
+"markPassed(""scenario 1 - Capture surat keterangan domisili berhasil"")",Firefox 121.0,,,2024-01-10 17:27:55,2024-01-10 17:27:55,0.003s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_FAP""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:27:55,2024-01-10 17:27:56,0.791s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-submenu-FAP.png"")",Firefox 121.0,,,2024-01-10 17:27:56,2024-01-10 17:27:59,3.132s,PASSED
+"markPassed(""scenario 1 - Masuk submenu FAP"")",Firefox 121.0,,,2024-01-10 17:27:59,2024-01-10 17:27:59,0.001s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/a_Add Capture_FAP""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:27:59,2024-01-10 17:28:00,0.821s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), userDir + cobaKTP.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-10 17:28:00,2024-01-10 17:28:03,2.439s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Jenis Usaha_form-control ng-untouched ng-pristine ng-invalid""), konsumen_jenisUsaha, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:03,2024-01-10 17:28:05,2.166s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Economy Code_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_economyCode, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:05,2024-01-10 17:28:06,1.239s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:06,2024-01-10 17:28:07,0.989s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:07,2024-01-10 17:28:08,0.992s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kode Lokasi Proyek_form""), konsumen_kodeLokasi, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:08,2024-01-10 17:28:09,1.067s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:09,2024-01-10 17:28:10,0.943s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:10,2024-01-10 17:28:11,0.745s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Berdiri Sejak Tahun_form-control ng-untouched ng-pristine ng-invalid""), konsumen_tahunBerdiri, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:11,2024-01-10 17:28:12,1.026s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Omzet Usaha per Tahun_form-control text-right ng-untouched ng-pristine ng-invalid""), konsumen_omzetUsaha, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:12,2024-01-10 17:28:13,0.966s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_No. Rekening BCA_form-control ng-untouched ng-pristine ng-valid""), konsumen_noRekBCA, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:13,2024-01-10 17:28:14,0.930s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Perusahaan_form-control ng-untouched ng-pristine ng-invalid""), konsumen_alamatPT, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:14,2024-01-10 17:28:15,0.970s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Provinsi_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_provinsi, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:15,2024-01-10 17:28:16,1.217s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:16,2024-01-10 17:28:17,0.950s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:17,2024-01-10 17:28:17,0.710s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_KabKota_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kabKota, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:17,2024-01-10 17:28:19,1.113s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_MALANG""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:19,2024-01-10 17:28:20,0.992s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_MALANG""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:20,2024-01-10 17:28:20,0.740s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kecamatan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kecamantan, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:20,2024-01-10 17:28:21,1.159s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU""), 0, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:21,2024-01-10 17:28:22,0.941s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:22,2024-01-10 17:28:23,0.789s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kelurahan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kelurahan, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:23,2024-01-10 17:28:25,1.319s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:25,2024-01-10 17:28:25,0.959s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:25,2024-01-10 17:28:26,0.835s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kode Pos_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kodePos, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:26,2024-01-10 17:28:27,1.069s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_65145""), 100, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:27,2024-01-10 17:28:28,1.083s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_65145""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:28,2024-01-10 17:28:29,0.743s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-FAP.png"")",Firefox 121.0,,,2024-01-10 17:28:29,2024-01-10 17:28:32,2.484s,PASSED
+"markPassed(""scenario 1 - Input data FAP"")",Firefox 121.0,,,2024-01-10 17:28:32,2024-01-10 17:28:32,0.001s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line""), 60, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:32,2024-01-10 17:28:32,0.346s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Pengiriman Surat  Alamat Perusahaan_isAlamatPengirimanSurat""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:32,2024-01-10 17:28:33,0.728s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Email_form-control ng-untouched ng-pristine ng-valid""), konsumen_email, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:33,2024-01-10 17:28:34,1.116s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Telepon 1_form-control ng-untouched ng-pristine ng-valid""), konsumen_telepon1, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:34,2024-01-10 17:28:35,0.903s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-alamat-pengirim-surat.png"")",Firefox 121.0,,,2024-01-10 17:28:35,2024-01-10 17:28:37,2.409s,PASSED
+"markPassed(""scenario 1 - Input data alamat pengirim surat"")",Firefox 121.0,,,2024-01-10 17:28:37,2024-01-10 17:28:37,0.001s,PASSED
+"scrollToPosition(0, 0, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:37,2024-01-10 17:28:37,0.042s,PASSED
+delay(2),Firefox 121.0,,,2024-01-10 17:28:37,2024-01-10 17:28:39,2.009s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/1_a_Pengurus""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:39,2024-01-10 17:28:40,0.763s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-pengurus.png"")",Firefox 121.0,,,2024-01-10 17:28:40,2024-01-10 17:28:41,0.580s,PASSED
+"markPassed(""scenario 1 - Input data pengurus"")",Firefox 121.0,,,2024-01-10 17:28:41,2024-01-10 17:28:41,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:41,2024-01-10 17:28:42,1.339s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/3_button_Pengurus 1""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:42,2024-01-10 17:28:43,0.730s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-submenu-data-pengurus-1.png"")",Firefox 121.0,,,2024-01-10 17:28:43,2024-01-10 17:28:45,1.905s,PASSED
+"markPassed(""scenario 1 - Masuk submenu data pengurus 1"")",Firefox 121.0,,,2024-01-10 17:28:45,2024-01-10 17:28:45,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/4_a_Capture File""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:28:45,2024-01-10 17:28:45,0.875s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), userDir + cobaKTP.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-10 17:28:45,2024-01-10 17:28:47,1.944s,PASSED
+"waitForElementClickable(findTestObject(""Input_Corporate/Pengurus/5_input_Name_form-control ng-untouched ng-pristine ng-invalid""), 300)",Firefox 121.0,,,2024-01-10 17:28:47,2024-01-10 17:29:11,23.765s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-input-otomatis-data-pengurus-berdasarkan-data-capture-ktp-pengurus-yang-di-capture.png"")",Firefox 121.0,,,2024-01-10 17:29:11,2024-01-10 17:29:13,1.467s,PASSED
+"markPassed(""scenario 1 - Berhasil input otomatis data pengurus berdasarkan data capture ktp pengurus yang di capture "")",Firefox 121.0,,,2024-01-10 17:29:13,2024-01-10 17:29:13,0.000s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/8_input_SID Pengurus_form-control ng-pristine ng-invalid is-invalid ng-touched""), pengurus_SID, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:13,2024-01-10 17:29:14,1.701s,PASSED
+"scrollToElement(findTestObject(""Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )""), 30, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:14,2024-01-10 17:29:15,0.373s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/15_input_Kode Pos_form-control bcaf-autocomplete ng-pristine ng-invalid ng-touched""), pengurus_kodePos, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:15,2024-01-10 17:29:16,1.188s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/13_div_Pilih Role""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:16,2024-01-10 17:29:17,0.929s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/13_div_Pilih Role""), pengurus_role, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:17,2024-01-10 17:29:18,0.859s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/14_div_Not Set""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:18,2024-01-10 17:29:18,0.834s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/21_div_Pilih Jabatan""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:18,2024-01-10 17:29:19,0.887s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan""), pengurus_jabatan, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:19,2024-01-10 17:29:20,1.081s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/22_span_Komisaris Utama""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:20,2024-01-10 17:29:21,0.908s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-input-otomatis-data-pengurus-1.png"")",Firefox 121.0,,,2024-01-10 17:29:21,2024-01-10 17:29:23,1.614s,PASSED
+"markPassed(""scenario 1 - Berhasil input data pengurus 1"")",Firefox 121.0,,,2024-01-10 17:29:23,2024-01-10 17:29:23,0.001s,PASSED
+"scrollToPosition(0, 133, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:23,2024-01-10 17:29:23,0.019s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/1_a_Pemegang Saham""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:23,2024-01-10 17:29:24,0.797s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-pemegang-saham-1.png"")",Firefox 121.0,,,2024-01-10 17:29:24,2024-01-10 17:29:24,0.574s,PASSED
+"markPassed(""scenario 1 - Berhasil masuk menu pemegang saham "")",Firefox 121.0,,,2024-01-10 17:29:24,2024-01-10 17:29:24,0.000s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/2_a_Add""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:24,2024-01-10 17:29:25,0.880s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/input_Perorangan_radios""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:25,2024-01-10 17:29:26,0.872s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/input_Jenis Pemegang Saham_radios""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:26,2024-01-10 17:29:27,0.731s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Memilih-radio-button-pemegang-saham.png"")",Firefox 121.0,,,2024-01-10 17:29:27,2024-01-10 17:29:27,0.597s,PASSED
+"markPassed(""scenario 1 - Memilih radio button pemegang saham"")",Firefox 121.0,,,2024-01-10 17:29:27,2024-01-10 17:29:27,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/4_button_OK""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:27,2024-01-10 17:29:28,0.882s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/5_button_Pemegang Saham 1""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:28,2024-01-10 17:29:29,1.049s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-pemegang-saham-1.png"")",Firefox 121.0,,,2024-01-10 17:29:29,2024-01-10 17:29:31,1.562s,PASSED
+"markPassed(""scenario 1 - Masuk submenu pemegang saham 1"")",Firefox 121.0,,,2024-01-10 17:29:31,2024-01-10 17:29:31,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/6_a_Capture File""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:31,2024-01-10 17:29:32,1.008s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), userDir + cobaKTP.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-10 17:29:32,2024-01-10 17:29:34,2.320s,PASSED
+"scrollToPosition(0, 200, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:34,2024-01-10 17:29:35,0.474s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Pemegang_saham/input_Kode Pos_2""), pemegangShm_kodePos)",Firefox 121.0,,,2024-01-10 17:29:35,2024-01-10 17:29:59,24.223s,PASSED
+"scrollToPosition(0, 133, OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:59,2024-01-10 17:29:59,0.036s,PASSED
+"click(findTestObject(""Input_Corporate/Penjamin/1_a_Penjamin""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:29:59,2024-01-10 17:30:00,0.991s,PASSED
+"click(findTestObject(""Input_Corporate/Penjamin/2_input_Ya_guarantor_Tidak""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:30:00,2024-01-10 17:30:01,1.400s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-pemegang-saham-1.png"")",Firefox 121.0,,,2024-01-10 17:30:01,2024-01-10 17:30:02,0.526s,PASSED
+"markPassed(""scenario 1 - Berhasil input pemegang saham 1"")",Firefox 121.0,,,2024-01-10 17:30:02,2024-01-10 17:30:02,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/li_Financial""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:30:02,2024-01-10 17:30:03,1.010s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-financial.png"")",Firefox 121.0,,,2024-01-10 17:30:03,2024-01-10 17:30:03,0.536s,PASSED
+"markPassed(""scenario 1 - Masuk submenu financial"")",Firefox 121.0,,,2024-01-10 17:30:03,2024-01-10 17:30:03,0.001s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/button_Laporan Keuangan""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:30:03,2024-01-10 17:30:04,0.895s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/a_Capture File""), OPTIONAL)",Firefox 121.0,,,2024-01-10 17:30:04,2024-01-10 17:30:05,0.428s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), userDir + cobaKTP.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-10 17:30:05,2024-01-10 17:30:36,31.385s,FAILED

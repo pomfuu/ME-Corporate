@@ -1,0 +1,309 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1,Chrome 99.0.4844.82,,,2022-03-28 11:56:12,2022-03-28 12:10:16,14m - 4.201s,FAILED
+,,,,,,,
+Test Cases/Sprint 4/Skenario 1/01-01-Transaction-AppBaru-InisiasiKonsumenBaru,Chrome 99.0.4844.82,Pengajuan 1 ( NPWP Tidak berlaku ),,2022-03-28 11:56:12,2022-03-28 11:57:49,1m - 37.144s,PASSED
+robot = new java.awt.Robot(),Chrome 99.0.4844.82,,,2022-03-28 11:56:13,2022-03-28 11:56:13,0.131s,PASSED
+userDir = getProjectDir(),Chrome 99.0.4844.82,,,2022-03-28 11:56:13,2022-03-28 11:56:13,0.001s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.82,Membuka browser chrome,,2022-03-28 11:56:13,2022-03-28 11:56:15,2.246s,PASSED
+driver = getWebDriver(),Chrome 99.0.4844.82,,,2022-03-28 11:56:15,2022-03-28 11:56:15,0.009s,PASSED
+navigateToUrl(ME_url),Chrome 99.0.4844.82,Melakukan navigasi ke alamat url / akses web aplikasi ME,,2022-03-28 11:56:15,2022-03-28 11:56:16,1.331s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,Memaksimalkan aplikasi ME ke ukuran full desktop,,2022-03-28 11:56:16,2022-03-28 11:56:16,0.152s,PASSED
+delay(5),Chrome 99.0.4844.82,Melakukan delay 5 detik,,2022-03-28 11:56:16,2022-03-28 11:56:21,5.043s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User ID_login""), CMO)",Chrome 99.0.4844.82,Melakukan input user login,,2022-03-28 11:56:21,2022-03-28 11:56:22,0.674s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User Password_login""), password)",Chrome 99.0.4844.82,Melakukan input password,,2022-03-28 11:56:22,2022-03-28 11:56:23,0.743s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-aplikasi-baru-login.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:56:23,2022-03-28 11:56:24,0.801s,PASSED
+"markPassed(""Scenario 1 - Memastikan login berhasil"")",Chrome 99.0.4844.82,,,2022-03-28 11:56:24,2022-03-28 11:56:24,0.009s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Login""))",Chrome 99.0.4844.82,Menekan tombol login,,2022-03-28 11:56:24,2022-03-28 11:56:24,0.339s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:24,2022-03-28 11:56:26,2.008s,PASSED
+"verifyElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""), 0)",Chrome 99.0.4844.82,Melakukan verifikasi objek tombol menu transaksi muncul,,2022-03-28 11:56:26,2022-03-28 11:56:26,0.318s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""))",Chrome 99.0.4844.82,Memilih menu transaksi,,2022-03-28 11:56:26,2022-03-28 11:56:27,0.335s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:27,2022-03-28 11:56:28,1.014s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru""))",Chrome 99.0.4844.82,Memilih menu aplikasi baru,,2022-03-28 11:56:28,2022-03-28 11:56:28,0.360s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:28,2022-03-28 11:56:29,1.018s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:56:29,2022-03-28 11:56:30,0.624s,PASSED
+"markPassed(""Scenario 1 - Memilih button transaksi dan aplikasi baru"")",Chrome 99.0.4844.82,,,2022-03-28 11:56:30,2022-03-28 11:56:30,0.001s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype""))",Chrome 99.0.4844.82,Memilih radio type perorangan,,2022-03-28 11:56:30,2022-03-28 11:56:30,0.340s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:30,2022-03-28 11:56:31,1.010s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype""))",Chrome 99.0.4844.82,Memilih radio type korporasi,,2022-03-28 11:56:31,2022-03-28 11:56:31,0.336s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:31,2022-03-28 11:56:32,1.008s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""))",Chrome 99.0.4844.82,Click input badan usaha,,2022-03-28 11:56:32,2022-03-28 11:56:33,0.344s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:33,2022-03-28 11:56:34,1.012s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""), ""Perseroan Terbatas ( PT. , NV. , LTD. )"")",Chrome 99.0.4844.82,Input search Badan Usaha,,2022-03-28 11:56:34,2022-03-28 11:56:34,0.669s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:34,2022-03-28 11:56:35,1.009s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-input-badan-usaha.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:56:35,2022-03-28 11:56:36,0.617s,PASSED
+"markPassed(""Scenario 1 - Input badan usaha"")",Chrome 99.0.4844.82,,,2022-03-28 11:56:36,2022-03-28 11:56:36,0.001s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:36,2022-03-28 11:56:38,2.013s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )""))",Chrome 99.0.4844.82,Memilih badan usaha,,2022-03-28 11:56:38,2022-03-28 11:56:38,0.355s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:38,2022-03-28 11:56:40,2.002s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-page-sebelum-input-capture.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:56:40,2022-03-28 11:56:41,0.644s,PASSED
+"markPassed(""Scenario 1 - Sebelum input capture npwp + SIUP + TDP"")",Chrome 99.0.4844.82,,,2022-03-28 11:56:41,2022-03-28 11:56:41,0.000s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:41,2022-03-28 11:56:43,2.011s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp""))",Chrome 99.0.4844.82,Menekan tombol capture NPWP,,2022-03-28 11:56:43,2022-03-28 11:56:43,0.342s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:43,2022-03-28 11:56:45,2.003s,PASSED
+"uploadFile(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/Capture_""), userDir + pathfinder_npwp)",Chrome 99.0.4844.82,Melakukan upload file NPWP,,2022-03-28 11:56:45,2022-03-28 11:56:46,0.329s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_NPWP""), 0)",Chrome 99.0.4844.82,,,2022-03-28 11:56:46,2022-03-28 11:56:48,2.582s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix""), NPWP_tidakBerlaku)",Chrome 99.0.4844.82,Input data nomer NPWP tidak berlaku,,2022-03-28 11:56:48,2022-03-28 11:56:49,0.649s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:56:49,2022-03-28 11:56:50,1.012s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_Name fix""), CN_tidakBerlaku)",Chrome 99.0.4844.82,Input data nama NPWP tidak berlaku,,2022-03-28 11:56:50,2022-03-28 11:56:51,0.651s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix""))",Chrome 99.0.4844.82,Menekan tombol capture SIUP,,2022-03-28 11:56:51,2022-03-28 11:56:51,0.333s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:51,2022-03-28 11:56:53,2.013s,PASSED
+"uploadFile(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/Capture_""), userDir + pathfinder_siup)",Chrome 99.0.4844.82,Melakukan upload file SIUP,,2022-03-28 11:56:53,2022-03-28 11:56:53,0.329s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:53,2022-03-28 11:56:55,2.005s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP""))",Chrome 99.0.4844.82,Menekan tombol capture TDP,,2022-03-28 11:56:55,2022-03-28 11:56:56,0.443s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:56,2022-03-28 11:56:58,2.015s,PASSED
+"uploadFile(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/Capture_""), userDir + pathfinder_tdp)",Chrome 99.0.4844.82,Menekan tombol capture TDP,,2022-03-28 11:56:58,2022-03-28 11:56:58,0.327s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:56:58,2022-03-28 11:57:00,2.005s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Capture-npwp-siup-tdp.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:57:00,2022-03-28 11:57:01,0.877s,PASSED
+"markPassed(""Scenario 1 - Capture NPWP + SIUP + TDP"")",Chrome 99.0.4844.82,,,2022-03-28 11:57:01,2022-03-28 11:57:01,0.000s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:57:01,2022-03-28 11:57:03,2.010s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak""))",Chrome 99.0.4844.82,Memilih ada perubahan data ( Tidak ),,2022-03-28 11:57:03,2022-03-28 11:57:03,0.341s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:57:03,2022-03-28 11:57:04,1.002s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data YA""))",Chrome 99.0.4844.82,Memilih ada peruahan data ( Ya ),,2022-03-28 11:57:04,2022-03-28 11:57:05,0.332s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:57:05,2022-03-28 11:57:06,1.012s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Memilih-Radio-Button-Perubahan-Data.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:57:06,2022-03-28 11:57:07,0.898s,PASSED
+"markPassed(""Scenario 1 - Memilih Radio Button Perubahan Data"")",Chrome 99.0.4844.82,,,2022-03-28 11:57:07,2022-03-28 11:57:07,0.000s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:57:07,2022-03-28 11:57:09,2.002s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix""))",Chrome 99.0.4844.82,Menekan tombol proses,,2022-03-28 11:57:09,2022-03-28 11:57:09,0.350s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:57:09,2022-03-28 11:57:11,2.003s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching""), 300)",Chrome 99.0.4844.82,Menunggu menu Matching tampil,,2022-03-28 11:57:11,2022-03-28 11:57:39,27.747s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-aplikasi-matching.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:57:39,2022-03-28 11:57:39,0.666s,PASSED
+"markPassed(""Scenario 1 - Masuk aplikasi matching"")",Chrome 99.0.4844.82,,,2022-03-28 11:57:39,2022-03-28 11:57:39,0.001s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:57:39,2022-03-28 11:57:41,2.004s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/a_Ok""))",Chrome 99.0.4844.82,Menekan tombol ok,,2022-03-28 11:57:41,2022-03-28 11:57:42,0.333s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:57:42,2022-03-28 11:57:43,1.009s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Ya""))",Chrome 99.0.4844.82,Menekan tombol ya,,2022-03-28 11:57:43,2022-03-28 11:57:43,0.507s,PASSED
+delay(3),Chrome 99.0.4844.82,Melakukan delay 3 detik,,2022-03-28 11:57:43,2022-03-28 11:57:46,3.005s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-dilakukan-inisiasi-konsumen-baru.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:57:46,2022-03-28 11:57:47,0.967s,PASSED
+"markPassed(""Scenario 1 - Berhasil dilakukan inisiasi konsumen baru"")",Chrome 99.0.4844.82,,,2022-03-28 11:57:47,2022-03-28 11:57:47,0.001s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:57:47,2022-03-28 11:57:49,2.013s,PASSED
+,,,,,,,
+Test Cases/Sprint 4/Skenario 1/01-02-Transaction-AppPending-InputCorporate,Chrome 99.0.4844.82,,,2022-03-28 11:57:49,2022-03-28 12:01:48,3m - 58.670s,PASSED
+userDir = getProjectDir(),Chrome 99.0.4844.82,,,2022-03-28 11:57:50,2022-03-28 11:57:50,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid""), konsumen_SID, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input SID name,,2022-03-28 11:57:50,2022-03-28 11:58:48,58.008s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:48,2022-03-28 11:58:49,1.013s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line""), 60, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll element,,2022-03-28 11:58:49,2022-03-28 11:58:49,0.313s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:49,2022-03-28 11:58:50,1.017s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili""), OPTIONAL)",Chrome 99.0.4844.82,Memilih menu Surat keterangan domisili,,2022-03-28 11:58:50,2022-03-28 11:58:50,0.384s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:50,2022-03-28 11:58:51,1.012s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-masuk-submenu-surat-keterangan-domisili.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:58:51,2022-03-28 11:58:52,0.863s,PASSED
+"markPassed(""scenario 1 - Masuk submenu surat keterangan domisili"")",Chrome 99.0.4844.82,,,2022-03-28 11:58:52,2022-03-28 11:58:52,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:52,2022-03-28 11:58:53,1.005s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_Capture_Domisili""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombil capture domisili,,2022-03-28 11:58:53,2022-03-28 11:58:54,0.385s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:54,2022-03-28 11:58:55,1.006s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file surat keterangan domisili,,2022-03-28 11:58:55,2022-03-28 11:58:55,0.329s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:55,2022-03-28 11:58:56,1.003s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-capture-surat-keterangan-domisili-berhasil.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:58:56,2022-03-28 11:58:57,0.979s,PASSED
+"markPassed(""scenario 1 - Capture surat keterangan domisili berhasil"")",Chrome 99.0.4844.82,,,2022-03-28 11:58:57,2022-03-28 11:58:57,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:57,2022-03-28 11:58:58,1.010s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_FAP""), OPTIONAL)",Chrome 99.0.4844.82,Memilih mebu FAP,,2022-03-28 11:58:58,2022-03-28 11:58:58,0.403s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:58:58,2022-03-28 11:58:59,1.005s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-submenu-FAP.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:58:59,2022-03-28 11:59:01,1.531s,PASSED
+"markPassed(""scenario 1 - Masuk submenu FAP"")",Chrome 99.0.4844.82,,,2022-03-28 11:59:01,2022-03-28 11:59:01,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:01,2022-03-28 11:59:02,1.005s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/a_Add Capture_FAP""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol capture FAP,,2022-03-28 11:59:02,2022-03-28 11:59:02,0.392s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:02,2022-03-28 11:59:03,1.012s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file FAP,,2022-03-28 11:59:03,2022-03-28 11:59:04,0.327s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:04,2022-03-28 11:59:05,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Jenis Usaha_form-control ng-untouched ng-pristine ng-invalid""), konsumen_jenisUsaha, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input jenis usaha,,2022-03-28 11:59:05,2022-03-28 11:59:05,0.743s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:05,2022-03-28 11:59:06,1.004s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Economy Code_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_economyCode, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search Economy code,,2022-03-28 11:59:06,2022-03-28 11:59:07,0.730s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:07,2022-03-28 11:59:08,1.014s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list economy code yang di pilih,,2022-03-28 11:59:08,2022-03-28 11:59:09,0.302s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:09,2022-03-28 11:59:10,1.013s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir""), OPTIONAL)",Chrome 99.0.4844.82,Memilih economy code,,2022-03-28 11:59:10,2022-03-28 11:59:10,0.394s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:10,2022-03-28 11:59:11,1.009s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kode Lokasi Proyek_form""), konsumen_kodeLokasi, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search Kode lokasi proyek,,2022-03-28 11:59:11,2022-03-28 11:59:12,0.696s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:12,2022-03-28 11:59:13,1.016s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu list Kode lokasi proyek,,2022-03-28 11:59:13,2022-03-28 11:59:13,0.298s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:13,2022-03-28 11:59:14,1.003s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB""), OPTIONAL)",Chrome 99.0.4844.82,Memilih kode lokasi proyek,,2022-03-28 11:59:14,2022-03-28 11:59:14,0.395s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:14,2022-03-28 11:59:15,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Berdiri Sejak Tahun_form-control ng-untouched ng-pristine ng-invalid""), konsumen_tahunBerdiri, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input sejak tahun berdiri,,2022-03-28 11:59:15,2022-03-28 11:59:16,0.654s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:16,2022-03-28 11:59:17,1.013s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Omzet Usaha per Tahun_form-control text-right ng-untouched ng-pristine ng-invalid""), konsumen_omzetUsaha, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input omzet usaha pertahun,,2022-03-28 11:59:17,2022-03-28 11:59:18,0.791s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:18,2022-03-28 11:59:19,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_No. Rekening BCA_form-control ng-untouched ng-pristine ng-valid""), konsumen_noRekBCA, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input no. rekening BCA,,2022-03-28 11:59:19,2022-03-28 11:59:20,0.726s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:20,2022-03-28 11:59:21,1.008s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Perusahaan_form-control ng-untouched ng-pristine ng-invalid""), konsumen_alamatPT, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input alamat perusahaan,,2022-03-28 11:59:21,2022-03-28 11:59:21,0.776s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:21,2022-03-28 11:59:22,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Provinsi_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_provinsi, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search provinsi,,2022-03-28 11:59:22,2022-03-28 11:59:23,0.815s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:23,2022-03-28 11:59:24,1.014s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list provinsi yang di pilih,,2022-03-28 11:59:24,2022-03-28 11:59:24,0.299s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:24,2022-03-28 11:59:25,1.008s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR""), OPTIONAL)",Chrome 99.0.4844.82,Memilih provinsi,,2022-03-28 11:59:25,2022-03-28 11:59:26,0.394s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:26,2022-03-28 11:59:27,1.012s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_KabKota_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kabKota, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search kabupaten/kota,,2022-03-28 11:59:27,2022-03-28 11:59:28,0.727s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:28,2022-03-28 11:59:29,1.006s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_MALANG""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list kabupaten/kota yang di pilih,,2022-03-28 11:59:29,2022-03-28 11:59:29,0.311s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan dellay 1 detik,,2022-03-28 11:59:29,2022-03-28 11:59:30,1.005s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_MALANG""), OPTIONAL)",Chrome 99.0.4844.82,Memilih kabupaten/kota,,2022-03-28 11:59:30,2022-03-28 11:59:30,0.386s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:30,2022-03-28 11:59:31,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kecamatan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kecamantan, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search kecamatan,,2022-03-28 11:59:31,2022-03-28 11:59:32,0.770s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:32,2022-03-28 11:59:33,1.013s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU""), 0, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list kecamatan yang di pilih,,2022-03-28 11:59:33,2022-03-28 11:59:33,0.300s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:33,2022-03-28 11:59:34,1.010s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU""), OPTIONAL)",Chrome 99.0.4844.82,Memilih kecamatan,,2022-03-28 11:59:34,2022-03-28 11:59:35,0.398s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:35,2022-03-28 11:59:36,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kelurahan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kelurahan, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search kelurahan,,2022-03-28 11:59:36,2022-03-28 11:59:37,0.806s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:37,2022-03-28 11:59:38,1.012s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list kelurahan yang di pilih,,2022-03-28 11:59:38,2022-03-28 11:59:38,0.302s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:38,2022-03-28 11:59:39,1.011s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE""), OPTIONAL)",Chrome 99.0.4844.82,Memilih kelurahan,,2022-03-28 11:59:39,2022-03-28 11:59:39,0.399s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:39,2022-03-28 11:59:40,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Kode Pos_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid""), konsumen_kodePos, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search kodep pos,,2022-03-28 11:59:40,2022-03-28 11:59:41,0.701s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:41,2022-03-28 11:59:42,1.013s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_65145""), 100, OPTIONAL)",Chrome 99.0.4844.82,Menunggu menampilkan list kode post yang di pilih,,2022-03-28 11:59:42,2022-03-28 11:59:42,0.301s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:42,2022-03-28 11:59:43,1.011s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/li_65145""), OPTIONAL)",Chrome 99.0.4844.82,Memilih kode pos,,2022-03-28 11:59:43,2022-03-28 11:59:44,0.400s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:44,2022-03-28 11:59:45,1.009s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-FAP.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:59:45,2022-03-28 11:59:46,1.522s,PASSED
+"markPassed(""scenario 1 - Input data FAP"")",Chrome 99.0.4844.82,,,2022-03-28 11:59:46,2022-03-28 11:59:46,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:46,2022-03-28 11:59:47,1.004s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line""), 60, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll element,,2022-03-28 11:59:47,2022-03-28 11:59:48,0.314s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Pengiriman Surat  Alamat Perusahaan_isAlamatPengirimanSurat""), OPTIONAL)",Chrome 99.0.4844.82,Memilih alamat pengiriman surat tidak,,2022-03-28 11:59:48,2022-03-28 11:59:48,0.397s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:48,2022-03-28 11:59:49,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Email_form-control ng-untouched ng-pristine ng-valid""), konsumen_email, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input email,,2022-03-28 11:59:49,2022-03-28 11:59:50,0.780s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:50,2022-03-28 11:59:51,1.008s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_Telepon 1_form-control ng-untouched ng-pristine ng-valid""), konsumen_telepon1, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input telepon 1,,2022-03-28 11:59:51,2022-03-28 11:59:52,0.769s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:52,2022-03-28 11:59:53,1.008s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-alamat-pengirim-surat.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:59:53,2022-03-28 11:59:54,1.400s,PASSED
+"markPassed(""scenario 1 - Input data alamat pengirim surat"")",Chrome 99.0.4844.82,,,2022-03-28 11:59:54,2022-03-28 11:59:54,0.001s,PASSED
+"scrollToPosition(0, 0, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 11:59:54,2022-03-28 11:59:54,0.028s,PASSED
+delay(2),Chrome 99.0.4844.82,Melakukan delay 2 detik,,2022-03-28 11:59:54,2022-03-28 11:59:56,2.006s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:56,2022-03-28 11:59:57,1.016s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/1_a_Pengurus""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol pengurus,,2022-03-28 11:59:57,2022-03-28 11:59:58,0.436s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:58,2022-03-28 11:59:59,1.011s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Input-data-pengurus.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 11:59:59,2022-03-28 11:59:59,0.633s,PASSED
+"markPassed(""scenario 1 - Input data pengurus"")",Chrome 99.0.4844.82,,,2022-03-28 11:59:59,2022-03-28 11:59:59,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 11:59:59,2022-03-28 12:00:00,1.003s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )""), OPTIONAL)",Chrome 99.0.4844.82,Melakukan add pengurus,,2022-03-28 12:00:00,2022-03-28 12:00:01,0.452s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:01,2022-03-28 12:00:02,1.002s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/3_button_Pengurus 1""), OPTIONAL)",Chrome 99.0.4844.82,Memilih tombol pengurus 1,,2022-03-28 12:00:02,2022-03-28 12:00:02,0.430s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:02,2022-03-28 12:00:03,1.007s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-submenu-data-pengurus-1.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:00:03,2022-03-28 12:00:04,0.948s,PASSED
+"markPassed(""scenario 1 - Masuk submenu data pengurus 1"")",Chrome 99.0.4844.82,,,2022-03-28 12:00:04,2022-03-28 12:00:04,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:04,2022-03-28 12:00:05,1.015s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/4_a_Capture File""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol capture KTP pengurus,,2022-03-28 12:00:05,2022-03-28 12:00:05,0.449s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:05,2022-03-28 12:00:06,1.006s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file KTP pengurus,,2022-03-28 12:00:06,2022-03-28 12:00:07,0.349s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:07,2022-03-28 12:00:08,1.009s,PASSED
+"waitForElementClickable(findTestObject(""Input_Corporate/Pengurus/5_input_Name_form-control ng-untouched ng-pristine ng-invalid""), 300)",Chrome 99.0.4844.82,Menunggu input form name dapat terclik,,2022-03-28 12:00:08,2022-03-28 12:00:17,8.899s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:17,2022-03-28 12:00:18,1.014s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-input-otomatis-data-pengurus-berdasarkan-data-capture-ktp-pengurus-yang-di-capture.png"")",Chrome 99.0.4844.82,Melakukan screenchoot full page,,2022-03-28 12:00:18,2022-03-28 12:00:19,1.053s,PASSED
+"markPassed(""scenario 1 - Berhasil input otomatis data pengurus berdasarkan data capture ktp pengurus yang di capture "")",Chrome 99.0.4844.82,,,2022-03-28 12:00:19,2022-03-28 12:00:19,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:19,2022-03-28 12:00:20,1.014s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/8_input_SID Pengurus_form-control ng-pristine ng-invalid is-invalid ng-touched""), pengurus_SID, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input SID Pengurus,,2022-03-28 12:00:20,2022-03-28 12:00:21,0.776s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:21,2022-03-28 12:00:22,1.014s,PASSED
+"scrollToElement(findTestObject(""Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )""), 30, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:00:22,2022-03-28 12:00:22,0.310s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:22,2022-03-28 12:00:23,1.013s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/15_input_Kode Pos_form-control bcaf-autocomplete ng-pristine ng-invalid ng-touched""), pengurus_kodePos, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input kode pos,,2022-03-28 12:00:23,2022-03-28 12:00:24,0.735s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:24,2022-03-28 12:00:25,1.007s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/13_div_Pilih Role""), OPTIONAL)",Chrome 99.0.4844.82,Melakukan click input pilih role,,2022-03-28 12:00:25,2022-03-28 12:00:25,0.424s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:25,2022-03-28 12:00:26,1.006s,PASSED
+"setText(findTestObject(""Input_Corporate/Pengurus/13_div_Pilih Role""), pengurus_role, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search pilih role,,2022-03-28 12:00:26,2022-03-28 12:00:27,0.712s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:27,2022-03-28 12:00:28,1.014s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/14_div_Not Set""), OPTIONAL)",Chrome 99.0.4844.82,Memilih role,,2022-03-28 12:00:28,2022-03-28 12:00:28,0.440s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:28,2022-03-28 12:00:29,1.011s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/21_div_Pilih Jabatan""), OPTIONAL)",Chrome 99.0.4844.82,Melakukan click input pilih jabatan,,2022-03-28 12:00:29,2022-03-28 12:00:30,0.449s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:30,2022-03-28 12:00:31,1.015s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan""), pengurus_jabatan, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input search Jabatan,,2022-03-28 12:00:31,2022-03-28 12:00:32,0.847s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:32,2022-03-28 12:00:33,1.005s,PASSED
+"click(findTestObject(""Input_Corporate/Pengurus/22_span_Komisaris Utama""), OPTIONAL)",Chrome 99.0.4844.82,Memilih jabatan,,2022-03-28 12:00:33,2022-03-28 12:00:33,0.420s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-input-otomatis-data-pengurus-1.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:00:33,2022-03-28 12:00:34,1.015s,PASSED
+"markPassed(""scenario 1 - Berhasil input data pengurus 1"")",Chrome 99.0.4844.82,,,2022-03-28 12:00:34,2022-03-28 12:00:34,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:34,2022-03-28 12:00:35,1.009s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:35,2022-03-28 12:00:36,1.005s,PASSED
+"scrollToPosition(0, 133, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:00:36,2022-03-28 12:00:36,0.018s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:36,2022-03-28 12:00:37,1.006s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/1_a_Pemegang Saham""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol pemegang saham,,2022-03-28 12:00:37,2022-03-28 12:00:38,0.449s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:38,2022-03-28 12:00:39,1.016s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-pemegang-saham-1.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:00:39,2022-03-28 12:00:39,0.632s,PASSED
+"markPassed(""scenario 1 - Berhasil masuk menu pemegang saham "")",Chrome 99.0.4844.82,,,2022-03-28 12:00:39,2022-03-28 12:00:39,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:39,2022-03-28 12:00:40,1.004s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/2_a_Add""), OPTIONAL)",Chrome 99.0.4844.82,Melakukan add pemegang saham,,2022-03-28 12:00:40,2022-03-28 12:00:41,0.448s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:41,2022-03-28 12:00:42,1.006s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/input_Perorangan_radios""), OPTIONAL)",Chrome 99.0.4844.82,Memilih radio button perorangan,,2022-03-28 12:00:42,2022-03-28 12:00:42,0.439s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/input_Jenis Pemegang Saham_radios""), OPTIONAL)",Chrome 99.0.4844.82,Memilih radio button korporasi,,2022-03-28 12:00:42,2022-03-28 12:00:42,0.422s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:42,2022-03-28 12:00:43,1.002s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Memilih-radio-button-pemegang-saham.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:00:43,2022-03-28 12:00:44,0.670s,PASSED
+"markPassed(""scenario 1 - Memilih radio button pemegang saham"")",Chrome 99.0.4844.82,,,2022-03-28 12:00:44,2022-03-28 12:00:44,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:44,2022-03-28 12:00:45,1.010s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/4_button_OK""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol ok,,2022-03-28 12:00:45,2022-03-28 12:00:46,0.443s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:46,2022-03-28 12:00:47,1.008s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/5_button_Pemegang Saham 1""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol pemegang saham 1,,2022-03-28 12:00:47,2022-03-28 12:00:47,0.431s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:00:47,2022-03-28 12:00:48,1.006s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-pemegang-saham-1.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:00:48,2022-03-28 12:01:01,12.744s,PASSED
+"markPassed(""scenario 1 - Masuk submenu pemegang saham 1"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:01,2022-03-28 12:01:01,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:01,2022-03-28 12:01:02,1.013s,PASSED
+"click(findTestObject(""Input_Corporate/Pemegang_saham/6_a_Capture File""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol capture KTP Pemegang saham,,2022-03-28 12:01:02,2022-03-28 12:01:02,0.446s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:02,2022-03-28 12:01:03,1.005s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file KTP Pemegang saham,,2022-03-28 12:01:03,2022-03-28 12:01:04,0.313s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:04,2022-03-28 12:01:05,1.002s,PASSED
+"scrollToPosition(0, 200, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:01:05,2022-03-28 12:01:05,0.021s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:05,2022-03-28 12:01:06,1.015s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Pemegang_saham/input_Kode Pos_2""), pemegangShm_kodePos)",Chrome 99.0.4844.82,Melakukan input kode pos,,2022-03-28 12:01:06,2022-03-28 12:01:14,8.413s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:14,2022-03-28 12:01:15,1.013s,PASSED
+"scrollToPosition(0, 133, OPTIONAL)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:01:15,2022-03-28 12:01:15,0.020s,PASSED
+"click(findTestObject(""Input_Corporate/Penjamin/1_a_Penjamin""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol menu penjamin,,2022-03-28 12:01:15,2022-03-28 12:01:16,0.458s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:16,2022-03-28 12:01:17,1.010s,PASSED
+"click(findTestObject(""Input_Corporate/Penjamin/2_input_Ya_guarantor_Tidak""), OPTIONAL)",Chrome 99.0.4844.82,Memilih tidak,,2022-03-28 12:01:17,2022-03-28 12:01:17,0.416s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik ,,2022-03-28 12:01:17,2022-03-28 12:01:18,1.016s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Berhasil-pemegang-saham-1.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:18,2022-03-28 12:01:19,0.653s,PASSED
+"markPassed(""scenario 1 - Berhasil input pemegang saham 1"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:19,2022-03-28 12:01:19,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:19,2022-03-28 12:01:20,1.002s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/li_Financial""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol mwnu Financial,,2022-03-28 12:01:20,2022-03-28 12:01:20,0.436s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:20,2022-03-28 12:01:21,1.014s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-Submenu-financial.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:21,2022-03-28 12:01:22,0.628s,PASSED
+"markPassed(""scenario 1 - Masuk submenu financial"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:22,2022-03-28 12:01:22,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:22,2022-03-28 12:01:23,1.012s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/button_Laporan Keuangan""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol laporan keuangan,,2022-03-28 12:01:23,2022-03-28 12:01:23,0.425s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:23,2022-03-28 12:01:24,1.014s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/a_Capture File""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol capture laporan keuangan,,2022-03-28 12:01:24,2022-03-28 12:01:25,0.446s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:25,2022-03-28 12:01:26,1.004s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file laporan keuangan,,2022-03-28 12:01:26,2022-03-28 12:01:26,0.331s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:26,2022-03-28 12:01:27,1.015s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-berhasil-input-capture-laporan-keuangan.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:27,2022-03-28 12:01:28,0.676s,PASSED
+"markPassed(""scenario 1 - berhasil input capture laporan keuangan"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:28,2022-03-28 12:01:28,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:28,2022-03-28 12:01:29,1.006s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/button_Bukti Kepemilikan Rekening""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol Bukti kepemilikan rekening,,2022-03-28 12:01:29,2022-03-28 12:01:29,0.435s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:29,2022-03-28 12:01:30,1.017s,PASSED
+"click(findTestObject(""Input_Corporate/Financial/a_Capture File""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol capture laporan bukti kepemilikan,,2022-03-28 12:01:30,2022-03-28 12:01:31,0.431s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:31,2022-03-28 12:01:32,1.002s,PASSED
+"uploadFile(findTestObject(""Input_Corporate/Capture_""), userDir + cobaKTP, OPTIONAL)",Chrome 99.0.4844.82,Melakukan upload file bukti kepemilikan,,2022-03-28 12:01:32,2022-03-28 12:01:32,0.330s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:32,2022-03-28 12:01:33,1.015s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-behasil-input-capture-laporan-bukti-kepemilikan.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:33,2022-03-28 12:01:34,0.879s,PASSED
+"markPassed(""scenario 1 - berhasil input capture laporan bukti kepemilikan"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:34,2022-03-28 12:01:34,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:34,2022-03-28 12:01:35,1.004s,PASSED
+"setText(findTestObject(""Input_Corporate/Financial/input_BCA Branch_form-control ng-untouched ng-pristine ng-valid""), financial_BCABranch, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input BCA Branch,,2022-03-28 12:01:35,2022-03-28 12:01:35,0.658s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:35,2022-03-28 12:01:36,1.003s,PASSED
+"setText(findTestObject(""Input_Corporate/Financial/input_Account No. 10 Digit_form-control ng-untouched ng-pristine ng-valid""), financial_rekNum, OPTIONAL)",Chrome 99.0.4844.82,Melakukan input account no,,2022-03-28 12:01:36,2022-03-28 12:01:37,0.832s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:37,2022-03-28 12:01:38,1.006s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-berhasil-input-branch-dan-account-10digit-pada-submenu-financial.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:38,2022-03-28 12:01:39,0.900s,PASSED
+"markPassed(""scenario 1 - berhasil input branch dan account 10 digit pada submenu financial"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:39,2022-03-28 12:01:39,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:39,2022-03-28 12:01:40,1.006s,PASSED
+"click(findTestObject(""Input_Corporate/Contact_Person/a_Contact Person""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombil contact person,,2022-03-28 12:01:40,2022-03-28 12:01:41,0.459s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:41,2022-03-28 12:01:42,1.006s,PASSED
+"click(findTestObject(""Input_Corporate/Contact_Person/input_Yes_inline-radios_No""), OPTIONAL)",Chrome 99.0.4844.82,Memilih tidak,,2022-03-28 12:01:42,2022-03-28 12:01:42,0.429s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:42,2022-03-28 12:01:43,1.006s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-berhasil-input-contact-person.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:43,2022-03-28 12:01:44,0.624s,PASSED
+"markPassed(""scenario 1 - berhasil input contact person"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:44,2022-03-28 12:01:44,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:44,2022-03-28 12:01:45,1.009s,PASSED
+"click(findTestObject(""Input_Corporate/Other_Document/a_Other Document""), OPTIONAL)",Chrome 99.0.4844.82,Menekan tombol menu other document,,2022-03-28 12:01:45,2022-03-28 12:01:45,0.548s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:45,2022-03-28 12:01:46,1.015s,PASSED
+"takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + ""scenario-1-Masuk-menu-other-document.png"")",Chrome 99.0.4844.82,Melakukan screenshoot full page,,2022-03-28 12:01:46,2022-03-28 12:01:47,0.623s,PASSED
+"markPassed(""scenario 1 - Masuk menu other document"")",Chrome 99.0.4844.82,,,2022-03-28 12:01:47,2022-03-28 12:01:47,0.001s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:01:47,2022-03-28 12:01:48,1.007s,PASSED
+,,,,,,,
+Test Cases/Sprint 4/Skenario 1/01-03-01-Transaction-AppPending-InputData-Information,Chrome 99.0.4844.82,,,2022-03-28 12:06:18,2022-03-28 12:06:56,37.672s,FAILED
+userDir = getProjectDir(),Chrome 99.0.4844.82,,,2022-03-28 12:06:18,2022-03-28 12:06:18,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:06:18,2022-03-28 12:06:19,1.017s,PASSED
+"click(findTestObject(""ME_AppPending/span_Collateral dan Loan""))",Chrome 99.0.4844.82,Menekan menu Colleretan and Loan,,2022-03-28 12:06:19,2022-03-28 12:06:56,36.563s,FAILED
+,,,,,,,
+Test Cases/Sprint 4/Skenario 1/01-03-02-Transaction-AppPending-InputData-Vehicle,Chrome 99.0.4844.82,,,2022-03-28 12:08:13,2022-03-28 12:08:38,25.568s,FAILED
+userDir = getProjectDir(),Chrome 99.0.4844.82,,,2022-03-28 12:08:13,2022-03-28 12:08:13,0.000s,PASSED
+delay(1),Chrome 99.0.4844.82,Melakukan delay 1 detik,,2022-03-28 12:08:13,2022-03-28 12:08:14,1.016s,PASSED
+"scrollToPosition(0, 130)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:08:14,2022-03-28 12:08:38,24.343s,FAILED
+,,,,,,,
+Test Cases/Sprint 4/Skenario 1/01-04-Transaction-InputPenyimpangan-ProcessBM,Chrome 99.0.4844.82,,,2022-03-28 12:09:52,2022-03-28 12:10:16,24.391s,FAILED
+userDir = getProjectDir(),Chrome 99.0.4844.82,,,2022-03-28 12:09:52,2022-03-28 12:09:52,0.000s,PASSED
+"scrollToPosition(0, 0)",Chrome 99.0.4844.82,Melakukan scroll,,2022-03-28 12:09:52,2022-03-28 12:10:16,24.373s,FAILED

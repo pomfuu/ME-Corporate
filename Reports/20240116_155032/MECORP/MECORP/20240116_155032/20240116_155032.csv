@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,,,,2024-01-16 15:50:43,2024-01-16 15:50:58,15.351s,ERROR
+,,,,,,,
+Test Cases/me corp/Login,,,,2024-01-16 15:50:43,2024-01-16 15:50:49,6.138s,FAILED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-01-16 15:50:44,2024-01-16 15:50:44,0.002s,PASSED
+"password = ""Mobile123+""",,,,2024-01-16 15:50:44,2024-01-16 15:50:44,0.000s,PASSED
+switch (role),,,,2024-01-16 15:50:44,2024-01-16 15:50:46,1.546s,PASSED
+"openBrowser("""")",,,,2024-01-16 15:50:46,2024-01-16 15:50:49,3.865s,FAILED
+,,,,,,,
+Test Cases/me corp/Transaction-AppBaru-InputData-inisiasi,,,,2024-01-16 15:50:50,2024-01-16 15:50:51,1.679s,ERROR
+robot = new java.awt.Robot(),,,,2024-01-16 15:50:51,2024-01-16 15:50:51,0.081s,PASSED
+driver = getWebDriver(),,,,2024-01-16 15:50:51,2024-01-16 15:50:51,0.031s,ERROR
+,,,,,,,
+Test Cases/me corp/Transaction-AppPending-InputData-data-entry,,,,2024-01-16 15:50:51,2024-01-16 15:50:54,2.406s,ERROR
+,,,,,,,
+Test Cases/me corp/Transaction-AppPending-InputData-corporateLoan,,,,2024-01-16 15:50:54,2024-01-16 15:50:56,2.073s,FAILED
+userDir = getProjectDir(),,,,2024-01-16 15:50:55,2024-01-16 15:50:55,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,,,,2024-01-16 15:50:55,2024-01-16 15:50:55,0.001s,PASSED
+"click(findTestObject(""ME_AppPending/span_Collateral dan Loan""))",,,,2024-01-16 15:50:55,2024-01-16 15:50:56,0.312s,FAILED
+,,,,,,,
+Test Cases/me corp/Transaction-AppPending-InputData-Vehicle,,,,2024-01-16 15:50:56,2024-01-16 15:50:58,2.400s,FAILED
+userDir = getProjectDir(),,,,2024-01-16 15:50:58,2024-01-16 15:50:58,0.001s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,,,,2024-01-16 15:50:58,2024-01-16 15:50:58,0.000s,PASSED
+"scrollToPosition(0, 130)",,,,2024-01-16 15:50:58,2024-01-16 15:50:58,0.046s,FAILED

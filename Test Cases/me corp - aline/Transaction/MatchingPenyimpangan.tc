@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MatchingPenyimpangan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58bccfd6-7a4f-406f-a03e-165b38265839</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>82862d5e-4538-44fb-8012-d19ec22d59f5</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>45</value>
+      </iterationEntity>
+      <testDataId>Data Files/MeCorpDynamic</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>82862d5e-4538-44fb-8012-d19ec22d59f5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>index</value>
+      <variableId>5ca77db3-588f-4c85-9875-308ca8dc52bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ca77db3-588f-4c85-9875-308ca8dc52bd</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

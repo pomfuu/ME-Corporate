@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MECORP" time="57.127" tests="2" failures="0" errors="0">
+   <testsuite name="MECORP" tests="2" failures="0" errors="0" time="57.127" skipped="0" timestamp="2024-01-09 11:23:36" hostname="Jerry - DESKTOP-R03MSOE" id="Test Suites/MECORP/MECORP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_112323\\MECORP\\MECORP\\20240109_112323"/>
+         <property name="logFiles" value="C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_112323\\MECORP\\MECORP\\20240109_112323\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-input-badan-usaha.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-page-sebelum-input-capture.png"/>
+         <property name="hostName" value="Jerry - DESKTOP-R03MSOE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Firefox 121.0"/>
+         <property name="hostAddress" value="192.168.136.1"/>
+         <property name="sessionId" value="92380f1f-ccb9-49c0-a6f1-7a7d379066c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/me corp/Login" time="14.771" classname="Test Cases/me corp/Login" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:23:37 - [TEST_CASE][PASSED] - Test Cases/me corp/Login: Test Cases/me corp/Login
+
+2024-01-09 11:23:38 - [TEST_STEP][PASSED] - username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2024-01-09 11:23:38 - [TEST_STEP][PASSED] - password = "Mobile123+": null
+
+2024-01-09 11:23:38 - [TEST_STEP][PASSED] - switch (role): null
+
+2024-01-09 11:23:38 - [TEST_STEP][PASSED] - case "cmo":: null
+
+2024-01-09 11:23:38 - [TEST_STEP][PASSED] - username = CMO: null
+
+2024-01-09 11:23:40 - [TEST_STEP][PASSED] - break: null
+
+2024-01-09 11:23:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:23:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-01-09 11:23:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:23:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:23:48 - [TEST_STEP][PASSED] - navigateToUrl(ME_url): Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2024-01-09 11:23:49 - [MESSAGE][PASSED] - Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2024-01-09 11:23:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-09 11:23:49 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-09 11:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User ID_login"), username): Text '20160535' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2024-01-09 11:23:50 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2024-01-09 11:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User Password_login"), password): Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2024-01-09 11:23:51 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2024-01-09 11:23:51 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Login")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on
+
+2024-01-09 11:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp/inisiasi" time="41.625" classname="Test Cases/me corp/inisiasi" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:23:52 - [TEST_CASE][PASSED] - Test Cases/me corp/inisiasi: Test Cases/me corp/inisiasi
+
+2024-01-09 11:23:53 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2024-01-09 11:23:53 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2024-01-09 11:23:53 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2024-01-09 11:23:53 - [TEST_STEP][PASSED] - ssDir = userDir + sprint2WebScreenshotPath: null
+
+2024-01-09 11:23:53 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Transaksi")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2024-01-09 11:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2024-01-09 11:23:54 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2024-01-09 11:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2024-01-09 11:23:55 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + "scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png"): Taking screenshot successfully
+
+2024-01-09 11:23:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 11:23:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png]]
+
+2024-01-09 11:23:55 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype' is clicked on
+
+2024-01-09 11:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype' is clicked on
+
+2024-01-09 11:23:56 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2024-01-09 11:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2024-01-09 11:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha"), "Perseroan Terbatas"): Text 'Perseroan Terbatas' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2024-01-09 11:23:58 - [MESSAGE][PASSED] - Text 'Perseroan Terbatas' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2024-01-09 11:23:58 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + "scenario-1-input-badan-usaha.png"): Taking screenshot successfully
+
+2024-01-09 11:23:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 11:23:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-input-badan-usaha.png]]
+
+2024-01-09 11:23:58 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2024-01-09 11:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2024-01-09 11:23:59 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + "scenario-1-page-sebelum-input-capture.png"): Taking screenshot successfully
+
+2024-01-09 11:23:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 11:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-scenario-1-page-sebelum-input-capture.png]]
+
+2024-01-09 11:23:59 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2024-01-09 11:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2024-01-09 11:24:00 - [TEST_STEP][PASSED] - npwpPath = userDir + pathfinder_npwp: null
+
+2024-01-09 11:24:00 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File"), npwpPath.replace("/", "\")): popup.popup.uploadFile is PASSED
+
+2024-01-09 11:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File' is clicked on
+
+2024-01-09 11:24:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2024-01-09 11:24:03 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+2024-01-09 11:24:03 - [TEST_STEP][PASSED] - markPassed(npwpPath.replace("/", "\")): C:\Users\Jerry\Katalon Studio\me-corp-add-data\Assets\npwp-dummy.jpg
+
+2024-01-09 11:24:03 - [MESSAGE][PASSED] - C:\Users\Jerry\Katalon Studio\me-corp-add-data\Assets\npwp-dummy.jpg
+
+2024-01-09 11:24:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_NPWP"), 0): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present
+
+2024-01-09 11:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-09 11:24:33 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-09 11:23:36 - [TEST_SUITE][PASSED] - MECORP: Test Cases/me corp/inisiasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

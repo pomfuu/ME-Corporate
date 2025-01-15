@@ -1,0 +1,116 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aplikasi Baru,Chrome 121.0.0.0,,,20-02-2024 10:08:02,20-02-2024 10:14:04,6m - 2.484s,FAILED
+,,,,,,,
+Test Cases/me corp - aline/Login,Chrome 121.0.0.0,,,20-02-2024 10:08:02,20-02-2024 10:08:10,7.879s,PASSED
+switch (role),Chrome 121.0.0.0,,,20-02-2024 10:08:02,20-02-2024 10:08:02,0.002s,PASSED
+openBrowser(ME_url),Chrome 121.0.0.0,,,20-02-2024 10:08:02,20-02-2024 10:08:05,2.926s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,20-02-2024 10:08:05,20-02-2024 10:08:05,0.132s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='username']""]), AHUUsername)",Chrome 121.0.0.0,,,20-02-2024 10:08:05,20-02-2024 10:08:06,0.762s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='password']""]), password)",Chrome 121.0.0.0,,,20-02-2024 10:08:06,20-02-2024 10:08:07,0.758s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//button[@type='submit']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:07,20-02-2024 10:08:07,0.552s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//ul/li[@id='menu0']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:07,20-02-2024 10:08:09,2.111s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@id='sidebar']//a[@href='/aplikasi-baru']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:09,20-02-2024 10:08:10,0.349s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Transaction/AplikasiBaru,Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:38,28.658s,PASSED
+robot = new java.awt.Robot(),Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.139s,PASSED
+npwp = NPWPGenerator.generateIncrementingNPWP(),Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.038s,PASSED
+driver = getWebDriver(),Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.009s,PASSED
+userDir = getProjectDir(),Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.003s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.003s,PASSED
+"if (tipeKonsumen == ""Perorangan"")",Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:10,0.329s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//ng-select[@formcontrolname='businessType']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:10,20-02-2024 10:08:11,0.321s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath""://form//*[text()='$badanUsaha']]))",Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:11,0.488s,PASSED
+"npwpPath = pathfinder_npwp.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:11,0.005s,PASSED
+"siupPath = pathfinder_siup.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:11,0.005s,PASSED
+"tdpPath = pathfinder_tdp.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:11,0.001s,PASSED
+"uploadFile = [[""path"":npwpPath], [""path"":siupPath], [""path"":tdpPath]]",Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:11,0.000s,PASSED
+uploadFile.each({ java.lang.Object key -> ... }),Chrome 121.0.0.0,,,20-02-2024 10:08:11,20-02-2024 10:08:21,9.903s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='npwpNo']""]), 2)",Chrome 121.0.0.0,,,20-02-2024 10:08:21,20-02-2024 10:08:22,0.622s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='npwpNo']""]), npwp)",Chrome 121.0.0.0,,,20-02-2024 10:08:22,20-02-2024 10:08:23,0.751s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='name']""]), nama)",Chrome 121.0.0.0,,,20-02-2024 10:08:23,20-02-2024 10:08:23,0.632s,PASSED
+"if (isPerubahanData == ""ya"")",Chrome 121.0.0.0,,,20-02-2024 10:08:23,20-02-2024 10:08:23,0.001s,PASSED
+else,Chrome 121.0.0.0,,,20-02-2024 10:08:23,20-02-2024 10:08:23,0.298s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()=' Proses ']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:23,20-02-2024 10:08:24,0.304s,PASSED
+delay(2),Chrome 121.0.0.0,,,20-02-2024 10:08:24,20-02-2024 10:08:26,2.014s,PASSED
+"for ([i = 1, i < 5, (i++)])",Chrome 121.0.0.0,,,20-02-2024 10:08:26,20-02-2024 10:08:36,10.395s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@class='tab-content']/div[4]//*[text()='OK']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:36,20-02-2024 10:08:37,0.746s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@type='checkbox']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:37,20-02-2024 10:08:37,0.550s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Ya']""]))",Chrome 121.0.0.0,,,20-02-2024 10:08:37,20-02-2024 10:08:38,0.781s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate,Chrome 121.0.0.0,,,20-02-2024 10:08:38,20-02-2024 10:11:18,2m - 40.070s,PASSED
+userDir = getProjectDir(),Chrome 121.0.0.0,,,20-02-2024 10:08:39,20-02-2024 10:08:39,0.001s,PASSED
+"filePath = pathfinder_npwp.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:08:39,20-02-2024 10:08:39,0.001s,PASSED
+"ktpPath = cobaKTP.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:08:39,20-02-2024 10:08:39,0.001s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//input[@formcontrolname='sidName']""]), information_namaPemilikRek)",Chrome 121.0.0.0,,,20-02-2024 10:08:39,20-02-2024 10:09:39,1m - 0.236s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Surat Keterangan Domisili ']""]))",Chrome 121.0.0.0,,,20-02-2024 10:09:39,20-02-2024 10:09:46,6.746s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@role='tablist']//div[4]//*[text()=' Capture ']""]))",Chrome 121.0.0.0,,,20-02-2024 10:09:46,20-02-2024 10:09:46,0.391s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//modal-container//button[2]""]), filePath)",Chrome 121.0.0.0,,,20-02-2024 10:09:46,20-02-2024 10:09:48,1.630s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='FAP ']""]))",Chrome 121.0.0.0,,,20-02-2024 10:09:48,20-02-2024 10:09:49,1.187s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()=' Add Capture']""]))",Chrome 121.0.0.0,,,20-02-2024 10:09:49,20-02-2024 10:09:49,0.395s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//modal-container//button[2]""]), filePath)",Chrome 121.0.0.0,,,20-02-2024 10:09:49,20-02-2024 10:09:51,1.492s,PASSED
+"fieldData = [[""Jenis Usaha"", ""TEST""], [""Omzet Usaha per Tahun"", information_mutasiSaldo], [""Alamat Perusahaan"", information_cabang], [""Berdiri Sejak Tahun"", ""2003""], [""No. Rekening BCA"", ""12345678911""]]",Chrome 121.0.0.0,,,20-02-2024 10:09:51,20-02-2024 10:09:51,0.001s,PASSED
+for (def data : fieldData),Chrome 121.0.0.0,,,20-02-2024 10:09:51,20-02-2024 10:09:55,4.822s,PASSED
+"fieldSearchData = [[""Kode Lokasi Proyek"", information_cabang], [""Kab/Kota"", information_cabang], [""Kelurahan"", ""Arteri Pondok Indah""], [""Economy Code"", ""100107""], [""Provinsi"", ""Banten""], [""Kecamatan"", ""pamulang""], [""Kode Pos"", ""15418""]]",Chrome 121.0.0.0,,,20-02-2024 10:09:55,20-02-2024 10:09:55,0.005s,PASSED
+for (def data : fieldSearchData),Chrome 121.0.0.0,,,20-02-2024 10:09:55,20-02-2024 10:10:08,12.711s,PASSED
+"fieldData2 = [[""email"", ""test@gmail.com""], [""phoneAreaCode2"", ""62""], [""telepon2"", ""8888888""], [""phoneAreaCode1"", ""62""], [""telepon1"", ""8888887""], [""faxAreaCode2"", ""1""], [""fax2"", ""12345""], [""faxAreaCode1"", ""1""], [""fax1"", ""12345""]]",Chrome 121.0.0.0,,,20-02-2024 10:10:08,20-02-2024 10:10:08,0.000s,PASSED
+for (def data : fieldData2),Chrome 121.0.0.0,,,20-02-2024 10:10:08,20-02-2024 10:10:14,6.289s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Resume AHU' and @href='#tab-resumeahu']""]))",Chrome 121.0.0.0,,,20-02-2024 10:10:14,20-02-2024 10:10:19,4.577s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Pengurus' and @href='#tab-pengurus']""]))",Chrome 121.0.0.0,,,20-02-2024 10:10:19,20-02-2024 10:10:20,1.125s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@id='accordionPengurus']//*[text()=' Add']""]))",Chrome 121.0.0.0,,,20-02-2024 10:10:20,20-02-2024 10:10:21,1.035s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@formarrayname='pengurus']""]))",Chrome 121.0.0.0,,,20-02-2024 10:10:21,20-02-2024 10:10:22,0.500s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@data-parent='#accordionPengurus']//*[text()='Capture File']""]))",Chrome 121.0.0.0,,,20-02-2024 10:10:22,20-02-2024 10:10:22,0.392s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//modal-container//button[2]""]), ktpPath)",Chrome 121.0.0.0,,,20-02-2024 10:10:22,20-02-2024 10:10:24,1.525s,PASSED
+"fieldDataPengurus = [[""Name"", ""TEST""], [""Identity No"", ""12345""], [""Birth Place"", ""Jakarta Selatan""], [""SID Pengurus"", ""TEST""], [""Alamat"", ""Jakarta Selatan""]]",Chrome 121.0.0.0,,,20-02-2024 10:10:24,20-02-2024 10:10:24,0.000s,PASSED
+for (def data : fieldDataPengurus),Chrome 121.0.0.0,,,20-02-2024 10:10:24,20-02-2024 10:10:49,24.897s,PASSED
+"fieldSearchDataPengurus = [[""Provinsi"", ""Banten""], [""Kecamatan"", ""pamulang""], [""Kode Pos"", ""15418""], [""Kab/Kota"", information_cabang], [""Kelurahan"", ""Arteri Pondok Indah""]]",Chrome 121.0.0.0,,,20-02-2024 10:10:49,20-02-2024 10:10:49,0.001s,PASSED
+for (def data : fieldSearchDataPengurus),Chrome 121.0.0.0,,,20-02-2024 10:10:49,20-02-2024 10:10:57,8.922s,PASSED
+"fieldSearchDataRole = [[""Role"", ""Signer""], [""Job Title"", ""Komisaris Utama""]]",Chrome 121.0.0.0,,,20-02-2024 10:10:57,20-02-2024 10:10:57,0.001s,PASSED
+for (def data : fieldSearchDataRole),Chrome 121.0.0.0,,,20-02-2024 10:10:57,20-02-2024 10:11:01,3.208s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Birth Date']/following-sibling::div[1]//button""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:01,20-02-2024 10:11:05,4.795s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='2024']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:05,20-02-2024 10:11:06,0.471s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='2023']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:06,20-02-2024 10:11:07,0.563s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='July']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:07,20-02-2024 10:11:07,0.569s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='7']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:07,20-02-2024 10:11:08,0.642s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Pemegang Saham' and @href='#tab-pemegangSaham']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:08,20-02-2024 10:11:12,4.701s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Penjamin' and @href='#tab-penjamin']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:12,20-02-2024 10:11:13,0.948s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Financial' and @href='#tab-financial']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:13,20-02-2024 10:11:14,1.048s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Contact Person' and @href='#tab-contact-person']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:14,20-02-2024 10:11:15,0.949s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Other Document' and @href='#tab-other-document']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:15,20-02-2024 10:11:16,1.084s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='BO' and @href='#tab-bo']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:16,20-02-2024 10:11:17,0.955s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@class='button-save-draft']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:17,20-02-2024 10:11:18,0.955s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information,Chrome 121.0.0.0,,,20-02-2024 10:11:18,20-02-2024 10:11:40,21.997s,PASSED
+userDir = getProjectDir(),Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:19,0.001s,PASSED
+"filePath = pathfinder_npwp.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:19,0.000s,PASSED
+"ktpPath = cobaKTP.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:19,0.002s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div//following-sibling::span[text()='Collateral dan Loan']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:19,0.841s,PASSED
+"fieldDataInformation = [[""salesOffice"", sales_office], [""salesAgent"", sales_agent], [""jenisPengajuan"", information_jenisPengajuan], [""tujuan"", information_tujuanKredit]]",Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:19,0.002s,PASSED
+for (def data : fieldDataInformation),Chrome 121.0.0.0,,,20-02-2024 10:11:19,20-02-2024 10:11:27,8.047s,PASSED
+"check(findTestObject(""Object Repository/xpath_dynamic"", [""xpath""://div//input[@name='cluster']/following-sibling::label[text()='$cluster']]))",Chrome 121.0.0.0,,,20-02-2024 10:11:27,20-02-2024 10:11:28,0.572s,PASSED
+"fieldDataReccomendation = [[""recommenderName"", information_namaPemilikRek], [""recommenderBranch"", information_cabang], [""recommenderRole"", test]]",Chrome 121.0.0.0,,,20-02-2024 10:11:28,20-02-2024 10:11:28,0.001s,PASSED
+for (def data : fieldDataReccomendation),Chrome 121.0.0.0,,,20-02-2024 10:11:28,20-02-2024 10:11:31,2.519s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//ng-select[@formcontrolname='paymentMethod']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:31,20-02-2024 10:11:31,0.419s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@role='option']//*[text()='Bank (Transfer)']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:31,20-02-2024 10:11:31,0.523s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@formcontrolname='bcaAccountNo']""]), information_accountNum)",Chrome 121.0.0.0,,,20-02-2024 10:11:31,20-02-2024 10:11:32,0.904s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Mutasi Rekening']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:32,20-02-2024 10:11:33,0.522s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()=' Add Mutasi Rekening']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:33,20-02-2024 10:11:33,0.405s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@class='modal-content']//*[text()='Capture File']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:33,20-02-2024 10:11:34,0.521s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//modal-container//button[2]""]), filePath)",Chrome 121.0.0.0,,,20-02-2024 10:11:34,20-02-2024 10:11:35,1.540s,PASSED
+"fieldDataMutasi = [[""mutasiDebit"", information_mutasiDebit], [""mutasiSaldo"", information_mutasiSaldo], [""mutasiKredit"", information_mutasiKredit]]",Chrome 121.0.0.0,,,20-02-2024 10:11:35,20-02-2024 10:11:35,0.001s,PASSED
+for (def data : fieldDataMutasi),Chrome 121.0.0.0,,,20-02-2024 10:11:35,20-02-2024 10:11:38,2.970s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//button[text()=' Add']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:38,20-02-2024 10:11:39,0.430s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='View Detail']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:39,20-02-2024 10:11:39,0.542s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@class='close']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:39,20-02-2024 10:11:40,0.516s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//div[@class='button-save-draft']""]))",Chrome 121.0.0.0,,,20-02-2024 10:11:40,20-02-2024 10:11:40,0.514s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle,Chrome 121.0.0.0,,,20-02-2024 10:13:46,20-02-2024 10:14:04,18.535s,FAILED
+userDir = getProjectDir(),Chrome 121.0.0.0,,,20-02-2024 10:13:46,20-02-2024 10:13:46,0.000s,PASSED
+"filePath = pathfinder_npwp.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:13:46,20-02-2024 10:13:46,0.000s,PASSED
+"ktpPath = cobaKTP.replace(""/"", ""\"")",Chrome 121.0.0.0,,,20-02-2024 10:13:46,20-02-2024 10:13:46,0.001s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Vehicle' and @href='#tab-vehicle']""]))",Chrome 121.0.0.0,,,20-02-2024 10:13:46,20-02-2024 10:13:57,11.662s,PASSED
+"fieldDataVehicle = [[""dealerName"", ""Adhiprima Utama Mobilindo, PT""], [""dealerBranchName"", ""a""]]",Chrome 121.0.0.0,,,20-02-2024 10:13:57,20-02-2024 10:13:57,0.000s,PASSED
+for (def data : fieldDataVehicle),Chrome 121.0.0.0,,,20-02-2024 10:13:57,20-02-2024 10:14:03,5.282s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[text()='Data Vehicle']""]))",Chrome 121.0.0.0,,,20-02-2024 10:14:03,20-02-2024 10:14:03,0.514s,PASSED
+"check(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//input[@formcontrolname='carCondition' and @value='2']""]))",Chrome 121.0.0.0,,,20-02-2024 10:14:03,20-02-2024 10:14:04,0.406s,PASSED
+"fieldSelectVehicle = [[""productCode"", ""New General""], [""packetName"", ""Non Packet""], [""brandName"", ""DAIHATSU""], [""modelName"", ""AYLA""], [""type"", ""AYLA""], [""purpose"", ""Operasional""], [""hubunganDebitur"", ""Konsumen""]]",Chrome 121.0.0.0,,,20-02-2024 10:14:04,20-02-2024 10:14:04,0.001s,PASSED
+for (def data : fieldSelectVehicle),Chrome 121.0.0.0,,,20-02-2024 10:14:04,20-02-2024 10:14:04,0.383s,FAILED

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,Firefox 121.0,,,2024-01-09 14:39:14,2024-01-09 14:40:01,47.535s,FAILED
+,,,,,,,
+Test Cases/me corp/Login,Firefox 121.0,,,2024-01-09 14:39:14,2024-01-09 14:39:28,13.221s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 121.0,,,2024-01-09 14:39:15,2024-01-09 14:39:15,0.002s,PASSED
+"password = ""Mobile123+""",Firefox 121.0,,,2024-01-09 14:39:15,2024-01-09 14:39:15,0.001s,PASSED
+switch (role),Firefox 121.0,,,2024-01-09 14:39:15,2024-01-09 14:39:17,1.735s,PASSED
+"openBrowser("""")",Firefox 121.0,,,2024-01-09 14:39:17,2024-01-09 14:39:24,7.045s,PASSED
+navigateToUrl(ME_url),Firefox 121.0,,,2024-01-09 14:39:24,2024-01-09 14:39:25,1.216s,PASSED
+maximizeWindow(),Firefox 121.0,,,2024-01-09 14:39:25,2024-01-09 14:39:25,0.054s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User ID_login""), username)",Firefox 121.0,,,2024-01-09 14:39:25,2024-01-09 14:39:26,0.875s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User Password_login""), password)",Firefox 121.0,,,2024-01-09 14:39:26,2024-01-09 14:39:27,0.782s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Login""))",Firefox 121.0,,,2024-01-09 14:39:27,2024-01-09 14:39:28,0.673s,PASSED
+,,,,,,,
+Test Cases/me corp/inisiasi,Firefox 121.0,,,2024-01-09 14:39:28,2024-01-09 14:40:01,33.637s,FAILED
+robot = new java.awt.Robot(),Firefox 121.0,,,2024-01-09 14:39:29,2024-01-09 14:39:29,0.089s,PASSED
+driver = getWebDriver(),Firefox 121.0,,,2024-01-09 14:39:29,2024-01-09 14:39:29,0.024s,PASSED
+userDir = getProjectDir(),Firefox 121.0,,,2024-01-09 14:39:29,2024-01-09 14:39:29,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,Firefox 121.0,,,2024-01-09 14:39:29,2024-01-09 14:39:29,0.002s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""))",Firefox 121.0,,,2024-01-09 14:39:29,2024-01-09 14:39:30,0.601s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru""))",Firefox 121.0,,,2024-01-09 14:39:30,2024-01-09 14:39:30,0.636s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-memilih-button-transaksi-dan-aplikasi-baru.png"")",Firefox 121.0,,,2024-01-09 14:39:30,2024-01-09 14:39:31,0.713s,PASSED
+"if (tipeKonsumen == ""Perorangan"")",Firefox 121.0,,,2024-01-09 14:39:31,2024-01-09 14:39:32,0.567s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""))",Firefox 121.0,,,2024-01-09 14:39:32,2024-01-09 14:39:32,0.577s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""), ""Perseroan Terbatas"")",Firefox 121.0,,,2024-01-09 14:39:32,2024-01-09 14:39:33,0.688s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-input-badan-usaha.png"")",Firefox 121.0,,,2024-01-09 14:39:33,2024-01-09 14:39:33,0.483s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )""))",Firefox 121.0,,,2024-01-09 14:39:33,2024-01-09 14:39:34,0.600s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + matrix + ""-page-sebelum-input-capture.png"")",Firefox 121.0,,,2024-01-09 14:39:34,2024-01-09 14:39:34,0.486s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp""))",Firefox 121.0,,,2024-01-09 14:39:34,2024-01-09 14:39:35,0.575s,PASSED
+npwpPath = userDir + pathNPWP,Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.000s,PASSED
+siupPath = userDir + pathSIUP,Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.001s,PASSED
+tdpPath = userDir + pathTDP,Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.000s,PASSED
+"npwpPath = npwpPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.002s,PASSED
+"siupPath = siupPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.000s,PASSED
+"tdpPath = tdpPath.replace(""/"", ""\"")",Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:35,0.000s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), npwpPath)",Firefox 121.0,,,2024-01-09 14:39:35,2024-01-09 14:39:37,1.939s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_NPWP""), 0)",Firefox 121.0,,,2024-01-09 14:39:37,2024-01-09 14:39:37,0.342s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix""), npwp)",Firefox 121.0,,,2024-01-09 14:39:37,2024-01-09 14:40:01,23.918s,FAILED

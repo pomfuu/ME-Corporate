@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_year_range</name>
+   <tag></tag>
+   <elementGuidId>a7682ef9-c4d2-49a3-9281-df474e6355b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[15]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'current']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.current</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>377a33c2-6ebb-4c1a-ad65-df7bd7523cfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>01c6778d-cf21-4258-99d9-78d0d952b1fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>current</value>
+      <webElementGuid>da450150-0613-4e93-a5bf-6ebf16b7cb23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2017 - 2032</value>
+      <webElementGuid>fcf1b26d-fcdf-477d-86b8-2d25f0392be2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;c-app&quot;]/bs-datepicker-container[@class=&quot;bottom ng-tns-c42-9 ng-star-inserted&quot;]/div[@class=&quot;bs-datepicker ng-tns-c42-9 theme-blue ng-star-inserted&quot;]/div[@class=&quot;bs-datepicker-container ng-tns-c42-9 ng-trigger ng-trigger-datepickerAnimation&quot;]/div[@class=&quot;bs-calendar-container ng-tns-c42-9&quot;]/div[@class=&quot;bs-media-container ng-tns-c42-9 ng-star-inserted&quot;]/bs-years-calendar-view[@class=&quot;ng-tns-c42-9 ng-star-inserted&quot;]/bs-calendar-layout[1]/div[@class=&quot;bs-datepicker-head&quot;]/bs-datepicker-navigation-view[1]/button[@class=&quot;current&quot;]</value>
+      <webElementGuid>b479fa40-80aa-45bf-ae4d-09920467b7e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[15]</value>
+      <webElementGuid>40323499-096f-4727-bbf5-0eb3dbf2b8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/following::button[1]</value>
+      <webElementGuid>99ced9cf-7d62-401a-8a28-d7a8a3aa12f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='›'])[1]/preceding::button[1]</value>
+      <webElementGuid>ec53b573-4e4e-4f66-b95e-8bcfc0d06177</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//bs-datepicker-navigation-view/button[2]</value>
+      <webElementGuid>1a246967-0477-47de-9e1e-8ba08d6686c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '2017 - 2032' or . = '2017 - 2032')]</value>
+      <webElementGuid>b0d52404-f7ac-4edd-bfc4-73de8893879a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

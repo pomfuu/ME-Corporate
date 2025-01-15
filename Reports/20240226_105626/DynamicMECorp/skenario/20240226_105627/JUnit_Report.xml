@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="skenario" time="23.342" tests="3" failures="0" errors="0">
+   <testsuite name="skenario" tests="3" failures="0" errors="0" time="23.342" skipped="0" timestamp="26-02-2024T10:56:34" hostname="clarien cahyono - LAPTOP-JTB6QV1G" id="Test Suites/DynamicMECorp/skenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240226_105626\\DynamicMECorp\\skenario\\20240226_105627"/>
+         <property name="logFiles" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240226_105626\\DynamicMECorp\\skenario\\20240226_105627\\execution0.log"/>
+         <property name="attachments" value="D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png, D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png, D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png, D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png, D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png, D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png"/>
+         <property name="hostName" value="clarien cahyono - LAPTOP-JTB6QV1G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.10.13.35"/>
+         <property name="sessionId" value="85fc6bcae8dfd5598126879b35b503a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/me corp - aline/Login" time="8.804" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[26-02-2024T10:56:34 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+26-02-2024T10:56:34 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+26-02-2024T10:56:34 - [TEST_STEP][PASSED] - switch (login_role): null
+
+26-02-2024T10:56:34 - [TEST_STEP][PASSED] - case "cmo":: null
+
+26-02-2024T10:56:34 - [TEST_STEP][PASSED] - username = CMO: null
+
+26-02-2024T10:56:35 - [TEST_STEP][PASSED] - break: null
+
+26-02-2024T10:56:35 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T10:56:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T10:56:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T10:56:38 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T10:56:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), username): Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:39 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:39 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:40 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-login" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png]]
+
+26-02-2024T10:56:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:42 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-button-aplikasi-baru" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Login" time="6.786" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[26-02-2024T10:56:43 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - switch (login_role): null
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - case "cmo":: null
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - username = CMO: null
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - break: null
+
+26-02-2024T10:56:43 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T10:56:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T10:56:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T10:56:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T10:56:45 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T10:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), username): Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:45 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:46 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:47 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-login" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png]]
+
+26-02-2024T10:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:49 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-button-aplikasi-baru" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Login" time="7.587" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[26-02-2024T10:56:50 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - switch (login_role): null
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - case "cmo":: null
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - username = CMO: null
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - break: null
+
+26-02-2024T10:56:50 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T10:56:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T10:56:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T10:56:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+26-02-2024T10:56:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T10:56:51 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T10:56:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), username): Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:52 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:53 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+26-02-2024T10:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:53 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-login" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-login.png]]
+
+26-02-2024T10:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+26-02-2024T10:56:57 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + me1WebScreenshotPath + "skenario-button-aplikasi-baru" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T10:56:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\BCAF\me-corp-add-data\Screenshoot\me1\Web\skenario-button-aplikasi-baru.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2024T10:56:34 - [TEST_SUITE][PASSED] - skenario: Test Cases/me corp - aline/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

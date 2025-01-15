@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-04-Transaction-InputPenyimpangan-ProcessBM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72c59823-f36f-465d-a6e4-97536028cce2</testCaseGuid>
+   <variable>
+      <defaultValue>'BM - (Tidak berlaku lagi) Bukti rumah berupa AJB / PBB / PPJB / HGB / Perjanjian Kredit KPR yang menunjukkan alamat sesuai dengan tempat tinggal konsumen (dapat atas nama pemohon / pasangan / anak / orang tua / mertua) (CS)'</defaultValue>
+      <description></description>
+      <id>9ed9906c-3ed7-4db0-b18d-2a4a188983d0</id>
+      <masked>false</masked>
+      <name>processBM_keyword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pengajuan 3'</defaultValue>
+      <description></description>
+      <id>c21bd257-4d03-4bad-ba50-f644c9d79e2b</id>
+      <masked>false</masked>
+      <name>processBM_catatanNote</name>
+   </variable>
+</TestCaseEntity>

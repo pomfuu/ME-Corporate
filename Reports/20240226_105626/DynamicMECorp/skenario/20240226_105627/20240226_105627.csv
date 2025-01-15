@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+skenario,Chrome 121.0.0.0,,,26-02-2024 10:56:34,26-02-2024 10:56:57,23.342s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Login,Chrome 121.0.0.0,,,26-02-2024 10:56:34,26-02-2024 10:56:43,8.804s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,26-02-2024 10:56:34,26-02-2024 10:56:34,0.009s,PASSED
+switch (login_role),Chrome 121.0.0.0,,,26-02-2024 10:56:34,26-02-2024 10:56:35,0.597s,PASSED
+openBrowser(ME_url),Chrome 121.0.0.0,,,26-02-2024 10:56:35,26-02-2024 10:56:38,2.823s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 10:56:38,26-02-2024 10:56:38,0.131s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='username']""]), username)",Chrome 121.0.0.0,,,26-02-2024 10:56:38,26-02-2024 10:56:39,0.705s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='password']""]), password)",Chrome 121.0.0.0,,,26-02-2024 10:56:39,26-02-2024 10:56:39,0.840s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//button[@type='submit']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:39,26-02-2024 10:56:40,0.429s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-login"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:40,26-02-2024 10:56:41,1.700s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//ul/li[@id='menu0']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:41,26-02-2024 10:56:42,0.322s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@id='sidebar']//a[@href='/aplikasi-baru']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:42,26-02-2024 10:56:42,0.337s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-button-aplikasi-baru"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:42,26-02-2024 10:56:43,0.579s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Login,Chrome 121.0.0.0,,,26-02-2024 10:56:43,26-02-2024 10:56:50,6.786s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,26-02-2024 10:56:43,26-02-2024 10:56:43,0.001s,PASSED
+switch (login_role),Chrome 121.0.0.0,,,26-02-2024 10:56:43,26-02-2024 10:56:43,0.003s,PASSED
+openBrowser(ME_url),Chrome 121.0.0.0,,,26-02-2024 10:56:43,26-02-2024 10:56:45,1.781s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 10:56:45,26-02-2024 10:56:45,0.127s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='username']""]), username)",Chrome 121.0.0.0,,,26-02-2024 10:56:45,26-02-2024 10:56:45,0.627s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='password']""]), password)",Chrome 121.0.0.0,,,26-02-2024 10:56:45,26-02-2024 10:56:46,0.734s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//button[@type='submit']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:46,26-02-2024 10:56:47,0.454s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-login"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:47,26-02-2024 10:56:48,1.815s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//ul/li[@id='menu0']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:48,26-02-2024 10:56:49,0.317s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@id='sidebar']//a[@href='/aplikasi-baru']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:49,26-02-2024 10:56:49,0.313s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-button-aplikasi-baru"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:49,26-02-2024 10:56:50,0.559s,PASSED
+,,,,,,,
+Test Cases/me corp - aline/Login,Chrome 121.0.0.0,,,26-02-2024 10:56:50,26-02-2024 10:56:57,7.587s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,26-02-2024 10:56:50,26-02-2024 10:56:50,0.000s,PASSED
+switch (login_role),Chrome 121.0.0.0,,,26-02-2024 10:56:50,26-02-2024 10:56:50,0.003s,PASSED
+openBrowser(ME_url),Chrome 121.0.0.0,,,26-02-2024 10:56:50,26-02-2024 10:56:51,1.461s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 10:56:51,26-02-2024 10:56:51,0.126s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='username']""]), username)",Chrome 121.0.0.0,,,26-02-2024 10:56:51,26-02-2024 10:56:52,0.627s,PASSED
+"setText(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//input[@formcontrolname='password']""]), password)",Chrome 121.0.0.0,,,26-02-2024 10:56:52,26-02-2024 10:56:53,0.822s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//form//button[@type='submit']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:53,26-02-2024 10:56:53,0.520s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-login"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:53,26-02-2024 10:56:56,2.808s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//ul/li[@id='menu0']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:56,26-02-2024 10:56:56,0.301s,PASSED
+"click(findTestObject(""Object Repository/xpath_dynamic"", [""xpath"":""//*[@id='sidebar']//a[@href='/aplikasi-baru']""]))",Chrome 121.0.0.0,,,26-02-2024 10:56:56,26-02-2024 10:56:57,0.325s,PASSED
+"takeScreenshot(baseDir + me1WebScreenshotPath + ""skenario-button-aplikasi-baru"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,26-02-2024 10:56:57,26-02-2024 10:56:57,0.560s,PASSED

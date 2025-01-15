@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="S4" time="643.88" tests="6" failures="0" errors="0">
+   <testsuite name="S4" tests="6" failures="0" errors="0" time="643.88" skipped="0" timestamp="2022-03-28 12:06:05" hostname="elanf - LAPTOP-U713VIND" id="Test Suites/Skenario_4/S4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\elanf\\git\\BCAF_MEAPP_i3\\Reports\\20220328_120554\\Skenario_4\\S4\\20220328_120555"/>
+         <property name="logFiles" value="C:\\Users\\elanf\\git\\BCAF_MEAPP_i3\\Reports\\20220328_120554\\Skenario_4\\S4\\20220328_120555\\execution0.log"/>
+         <property name="attachments" value="C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-aplikasi-baru-login.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-badan-usaha.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-page-sebelum-input-capture.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Capture-npwp-siup-tdp.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Memilih-Radio-Button-Perubahan-Data.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-aplikasi-matching.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-dilakukan-inisiasi-konsumen-baru.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-submenu-surat-keterangan-domisili.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-capture-surat-keterangan-domisili-berhasil.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-submenu-FAP.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-FAP.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-alamat-pengirim-surat.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-pengurus.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-submenu-data-pengurus-1.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-input-otomatis-data-pengurus-berdasarkan-data-capture-ktp-pengurus-yang-di-capture.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-input-otomatis-data-pengurus-1.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-pemegang-saham-1.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Memilih-radio-button-pemegang-saham.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-pemegang-saham-1.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-pemegang-saham-1.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-financial.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-capture-laporan-keuangan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-behasil-input-capture-laporan-bukti-kepemilikan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-branch-dan-account-10digit-pada-submenu-financial.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-contact-person.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-menu-other-document.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-menu-collateral-dan-loan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-jenis-pengajuan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-tujuan-pengajuan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-payment.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-data-autodebit.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-submenu-input-mutasi-rekening.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-sebelum-input-data-mutasi-rekening.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-data-mutasi-rekening.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-mengisi-data-information.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-halaman-collateral-loan-vehicle.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-halaman-collateral-loan-vehicle.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-data-vehicle.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-vehicle.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-loan-data.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-loan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-insurance.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-life-insurance.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-insurance.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-submenu-notes.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-submenu-notes.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-pop-up-add-kendaraan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-add-kendaraan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-pop-up-summary-total.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-menu-penyimpangan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-penyimpangan.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-penyimpangan-selesai.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-proceed.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-3-menu-inquiry-status.png, C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-3-input-search-inquiry-status-data-pengajuan-4.png"/>
+         <property name="hostName" value="elanf - LAPTOP-U713VIND"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.82"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="sessionId" value="83caa8f86da970bad0f900fd5c0440b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-01-Transaction-AppBaru-InisiasiKonsumenBaru" time="74.092" classname="Test Cases/Sprint 4/Skenario 4/04-01-Transaction-AppBaru-InisiasiKonsumenBaru" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:06:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-01-Transaction-AppBaru-InisiasiKonsumenBaru: Test Cases/Sprint 4/Skenario 4/04-01-Transaction-AppBaru-InisiasiKonsumenBaru
+
+2022-03-28 12:06:06 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2022-03-28 12:06:06 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:06:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 12:06:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 12:06:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-28 12:06:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 12:06:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-03-28 12:06:08 - [TEST_STEP][PASSED] - navigateToUrl(ME_url): Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2022-03-28 12:06:10 - [MESSAGE][PASSED] - Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2022-03-28 12:06:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 12:06:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 12:06:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-28 12:06:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-28 12:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User ID_login"), CMO): Text '20190364' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2022-03-28 12:06:16 - [MESSAGE][PASSED] - Text '20190364' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2022-03-28 12:06:16 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User Password_login"), password): Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2022-03-28 12:06:17 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2022-03-28 12:06:17 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-aplikasi-baru-login.png"): Taking screenshot successfully
+
+2022-03-28 12:06:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:06:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-aplikasi-baru-login.png]]
+
+2022-03-28 12:06:18 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Memastikan login berhasil"): Scenario 1 - Memastikan login berhasil
+
+2022-03-28 12:06:18 - [MESSAGE][PASSED] - Scenario 1 - Memastikan login berhasil
+
+2022-03-28 12:06:18 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Login")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on
+
+2022-03-28 12:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on
+
+2022-03-28 12:06:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Transaksi"), 0): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is present
+
+2022-03-28 12:06:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:06:20 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is present
+
+2022-03-28 12:06:20 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Transaksi")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2022-03-28 12:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2022-03-28 12:06:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:22 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2022-03-28 12:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2022-03-28 12:06:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:23 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png"): Taking screenshot successfully
+
+2022-03-28 12:06:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:06:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png]]
+
+2022-03-28 12:06:24 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Memilih button transaksi dan aplikasi baru"): Scenario 1 - Memilih button transaksi dan aplikasi baru
+
+2022-03-28 12:06:24 - [MESSAGE][PASSED] - Scenario 1 - Memilih button transaksi dan aplikasi baru
+
+2022-03-28 12:06:24 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype' is clicked on
+
+2022-03-28 12:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype' is clicked on
+
+2022-03-28 12:06:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:25 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype' is clicked on
+
+2022-03-28 12:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype' is clicked on
+
+2022-03-28 12:06:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:26 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2022-03-28 12:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2022-03-28 12:06:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:28 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha"), "Perseroan Terbatas ( PT. , NV. , LTD. )"): Text 'Perseroan Terbatas ( PT. , NV. , LTD. )' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2022-03-28 12:06:28 - [MESSAGE][PASSED] - Text 'Perseroan Terbatas ( PT. , NV. , LTD. )' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2022-03-28 12:06:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:29 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-badan-usaha.png"): Taking screenshot successfully
+
+2022-03-28 12:06:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:06:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-badan-usaha.png]]
+
+2022-03-28 12:06:30 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Input badan usaha"): Scenario 1 - Input badan usaha
+
+2022-03-28 12:06:30 - [MESSAGE][PASSED] - Scenario 1 - Input badan usaha
+
+2022-03-28 12:06:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:32 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2022-03-28 12:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2022-03-28 12:06:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:34 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-page-sebelum-input-capture.png"): Taking screenshot successfully
+
+2022-03-28 12:06:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:06:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-page-sebelum-input-capture.png]]
+
+2022-03-28 12:06:35 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Sebelum input capture npwp + SIUP + TDP"): Scenario 1 - Sebelum input capture npwp + SIUP + TDP
+
+2022-03-28 12:06:35 - [MESSAGE][PASSED] - Scenario 1 - Sebelum input capture npwp + SIUP + TDP
+
+2022-03-28 12:06:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:37 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2022-03-28 12:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2022-03-28 12:06:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:39 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_npwp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:40 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_NPWP"), 0): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present
+
+2022-03-28 12:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present
+
+2022-03-28 12:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix"), NPWP_Cancel): Text '032792012047000' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix'
+
+2022-03-28 12:06:43 - [MESSAGE][PASSED] - Text '032792012047000' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix'
+
+2022-03-28 12:06:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_Name fix"), CN_Cancel): Text 'ARMITNIA NEERAA     T ' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Name fix'
+
+2022-03-28 12:06:45 - [MESSAGE][PASSED] - Text 'ARMITNIA NEERAA     T ' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Name fix'
+
+2022-03-28 12:06:45 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix' is clicked on
+
+2022-03-28 12:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix' is clicked on
+
+2022-03-28 12:06:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:47 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_siup): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/siup-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:47 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/siup-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:49 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP' is clicked on
+
+2022-03-28 12:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP' is clicked on
+
+2022-03-28 12:06:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:52 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_tdp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/tdp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:52 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/tdp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:06:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:54 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Capture-npwp-siup-tdp.png"): Taking screenshot successfully
+
+2022-03-28 12:06:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:06:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Capture-npwp-siup-tdp.png]]
+
+2022-03-28 12:06:55 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Capture NPWP + SIUP + TDP"): Scenario 1 - Capture NPWP + SIUP + TDP
+
+2022-03-28 12:06:55 - [MESSAGE][PASSED] - Scenario 1 - Capture NPWP + SIUP + TDP
+
+2022-03-28 12:06:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:06:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:06:57 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak' is clicked on
+
+2022-03-28 12:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak' is clicked on
+
+2022-03-28 12:06:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:06:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:06:58 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data YA")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data YA' is clicked on
+
+2022-03-28 12:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data YA' is clicked on
+
+2022-03-28 12:06:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:07:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:07:00 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Memilih-Radio-Button-Perubahan-Data.png"): Taking screenshot successfully
+
+2022-03-28 12:07:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:07:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Memilih-Radio-Button-Perubahan-Data.png]]
+
+2022-03-28 12:07:01 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Memilih Radio Button Perubahan Data"): Scenario 1 - Memilih Radio Button Perubahan Data
+
+2022-03-28 12:07:01 - [MESSAGE][PASSED] - Scenario 1 - Memilih Radio Button Perubahan Data
+
+2022-03-28 12:07:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:07:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:07:03 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix' is clicked on
+
+2022-03-28 12:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix' is clicked on
+
+2022-03-28 12:07:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:07:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:07:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching"), 300): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching' is present
+
+2022-03-28 12:07:09 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching' is present
+
+2022-03-28 12:07:09 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-aplikasi-matching.png"): Taking screenshot successfully
+
+2022-03-28 12:07:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:07:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-aplikasi-matching.png]]
+
+2022-03-28 12:07:10 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Masuk aplikasi matching"): Scenario 1 - Masuk aplikasi matching
+
+2022-03-28 12:07:10 - [MESSAGE][PASSED] - Scenario 1 - Masuk aplikasi matching
+
+2022-03-28 12:07:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:07:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:07:12 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/a_Ok")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/a_Ok' is clicked on
+
+2022-03-28 12:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/a_Ok' is clicked on
+
+2022-03-28 12:07:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:07:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:07:13 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Ya")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Ya' is clicked on
+
+2022-03-28 12:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Ya' is clicked on
+
+2022-03-28 12:07:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-28 12:07:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-28 12:07:17 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Berhasil-dilakukan-inisiasi-konsumen-baru.png"): Taking screenshot successfully
+
+2022-03-28 12:07:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:07:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-dilakukan-inisiasi-konsumen-baru.png]]
+
+2022-03-28 12:07:18 - [TEST_STEP][PASSED] - markPassed("Scenario 1 - Berhasil dilakukan inisiasi konsumen baru"): Scenario 1 - Berhasil dilakukan inisiasi konsumen baru
+
+2022-03-28 12:07:18 - [MESSAGE][PASSED] - Scenario 1 - Berhasil dilakukan inisiasi konsumen baru
+
+2022-03-28 12:07:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:07:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-02-Transaction-AppPending-InputCorporate" time="226.622" classname="Test Cases/Sprint 4/Skenario 4/04-02-Transaction-AppPending-InputCorporate" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:07:20 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-02-Transaction-AppPending-InputCorporate: Test Cases/Sprint 4/Skenario 4/04-02-Transaction-AppPending-InputCorporate
+
+2022-03-28 12:07:20 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid"), konsumen_SID, OPTIONAL): Text '223213445' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:18 - [MESSAGE][PASSED] - Text '223213445' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line"), 60, OPTIONAL): Scroll to object 'Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line' successfully
+
+2022-03-28 12:08:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line' successfully
+
+2022-03-28 12:08:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili' is clicked on
+
+2022-03-28 12:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili' is clicked on
+
+2022-03-28 12:08:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:21 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-submenu-surat-keterangan-domisili.png"): Taking screenshot successfully
+
+2022-03-28 12:08:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:08:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-submenu-surat-keterangan-domisili.png]]
+
+2022-03-28 12:08:22 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu surat keterangan domisili"): scenario 1 - Masuk submenu surat keterangan domisili
+
+2022-03-28 12:08:22 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu surat keterangan domisili
+
+2022-03-28 12:08:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/button_Capture_Domisili"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_Capture_Domisili' is clicked on
+
+2022-03-28 12:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_Capture_Domisili' is clicked on
+
+2022-03-28 12:08:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:25 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:08:25 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:08:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:26 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-capture-surat-keterangan-domisili-berhasil.png"): Taking screenshot successfully
+
+2022-03-28 12:08:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:08:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-capture-surat-keterangan-domisili-berhasil.png]]
+
+2022-03-28 12:08:27 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Capture surat keterangan domisili berhasil"): scenario 1 - Capture surat keterangan domisili berhasil
+
+2022-03-28 12:08:27 - [MESSAGE][PASSED] - scenario 1 - Capture surat keterangan domisili berhasil
+
+2022-03-28 12:08:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/button_FAP"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_FAP' is clicked on
+
+2022-03-28 12:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/button_FAP' is clicked on
+
+2022-03-28 12:08:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:29 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-submenu-FAP.png"): Taking screenshot successfully
+
+2022-03-28 12:08:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:08:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-submenu-FAP.png]]
+
+2022-03-28 12:08:31 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu FAP"): scenario 1 - Masuk submenu FAP
+
+2022-03-28 12:08:31 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu FAP
+
+2022-03-28 12:08:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/a_Add Capture_FAP"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/a_Add Capture_FAP' is clicked on
+
+2022-03-28 12:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/a_Add Capture_FAP' is clicked on
+
+2022-03-28 12:08:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:33 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:08:34 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:08:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Jenis Usaha_form-control ng-untouched ng-pristine ng-invalid"), konsumen_jenisUsaha, OPTIONAL): Text 'Kontruksi' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Jenis Usaha_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:35 - [MESSAGE][PASSED] - Text 'Kontruksi' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Jenis Usaha_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Economy Code_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_economyCode, OPTIONAL): Text '010103' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Economy Code_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:37 - [MESSAGE][PASSED] - Text '010103' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Economy Code_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir' is present
+
+2022-03-28 12:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir' is present
+
+2022-03-28 12:08:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir' is clicked on
+
+2022-03-28 12:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_010103 Pertanian  Kehutanan-Pertanian  Pupuk-Importir' is clicked on
+
+2022-03-28 12:08:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Kode Lokasi Proyek_form"), konsumen_kodeLokasi, OPTIONAL): Text '1213' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kode Lokasi Proyek_form'
+
+2022-03-28 12:08:41 - [MESSAGE][PASSED] - Text '1213' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kode Lokasi Proyek_form'
+
+2022-03-28 12:08:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB' is present
+
+2022-03-28 12:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB' is present
+
+2022-03-28 12:08:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB' is clicked on
+
+2022-03-28 12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_1213 - MALANG,KAB' is clicked on
+
+2022-03-28 12:08:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Berdiri Sejak Tahun_form-control ng-untouched ng-pristine ng-invalid"), konsumen_tahunBerdiri, OPTIONAL): Text '1995' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Berdiri Sejak Tahun_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:46 - [MESSAGE][PASSED] - Text '1995' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Berdiri Sejak Tahun_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Omzet Usaha per Tahun_form-control text-right ng-untouched ng-pristine ng-invalid"), konsumen_omzetUsaha, OPTIONAL): Text '10000000000' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Omzet Usaha per Tahun_form-control text-right ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:48 - [MESSAGE][PASSED] - Text '10000000000' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Omzet Usaha per Tahun_form-control text-right ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_No. Rekening BCA_form-control ng-untouched ng-pristine ng-valid"), konsumen_noRekBCA, OPTIONAL): Text '413514512' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_No. Rekening BCA_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:08:49 - [MESSAGE][PASSED] - Text '413514512' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_No. Rekening BCA_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:08:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Perusahaan_form-control ng-untouched ng-pristine ng-invalid"), konsumen_alamatPT, OPTIONAL): Text 'Jakarta, No. 45' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Perusahaan_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:51 - [MESSAGE][PASSED] - Text 'Jakarta, No. 45' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Perusahaan_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Provinsi_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_provinsi, OPTIONAL): Text 'JAWA TIMUR' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Provinsi_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:53 - [MESSAGE][PASSED] - Text 'JAWA TIMUR' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Provinsi_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR' is present
+
+2022-03-28 12:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR' is present
+
+2022-03-28 12:08:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR' is clicked on
+
+2022-03-28 12:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_JAWA TIMUR' is clicked on
+
+2022-03-28 12:08:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_KabKota_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_kabKota, OPTIONAL): Text 'Malang' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_KabKota_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:57 - [MESSAGE][PASSED] - Text 'Malang' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_KabKota_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:08:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:08:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:08:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_MALANG"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_MALANG' is present
+
+2022-03-28 12:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_MALANG' is present
+
+2022-03-28 12:08:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_MALANG"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_MALANG' is clicked on
+
+2022-03-28 12:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_MALANG' is clicked on
+
+2022-03-28 12:09:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Kecamatan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_kecamantan, OPTIONAL): Text 'lowokwaru' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kecamatan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:02 - [MESSAGE][PASSED] - Text 'lowokwaru' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kecamatan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU"), 0, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU' is present
+
+2022-03-28 12:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU' is present
+
+2022-03-28 12:09:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU' is clicked on
+
+2022-03-28 12:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_LOWOKWARU' is clicked on
+
+2022-03-28 12:09:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Kelurahan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_kelurahan, OPTIONAL): Text 'ketawanggede' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kelurahan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:06 - [MESSAGE][PASSED] - Text 'ketawanggede' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kelurahan_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE' is present
+
+2022-03-28 12:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE' is present
+
+2022-03-28 12:09:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE' is clicked on
+
+2022-03-28 12:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_KETAWANGGEDE' is clicked on
+
+2022-03-28 12:09:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Kode Pos_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid"), konsumen_kodePos, OPTIONAL): Text '65145' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kode Pos_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:11 - [MESSAGE][PASSED] - Text '65145' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Kode Pos_form-control bcaf-autocomplete ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:09:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_65145"), 100, OPTIONAL): Object 'Object Repository/Input_Corporate/Input_Konsumen/li_65145' is present
+
+2022-03-28 12:09:12 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Input_Konsumen/li_65145' is present
+
+2022-03-28 12:09:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/li_65145"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_65145' is clicked on
+
+2022-03-28 12:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/li_65145' is clicked on
+
+2022-03-28 12:09:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Input-data-FAP.png"): Taking screenshot successfully
+
+2022-03-28 12:09:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:09:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-FAP.png]]
+
+2022-03-28 12:09:16 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input data FAP"): scenario 1 - Input data FAP
+
+2022-03-28 12:09:16 - [MESSAGE][PASSED] - scenario 1 - Input data FAP
+
+2022-03-28 12:09:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line"), 60, OPTIONAL): Scroll to object 'Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line' successfully
+
+2022-03-28 12:09:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line' successfully
+
+2022-03-28 12:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Pengiriman Surat  Alamat Perusahaan_isAlamatPengirimanSurat"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Pengiriman Surat  Alamat Perusahaan_isAlamatPengirimanSurat' is clicked on
+
+2022-03-28 12:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Input_Konsumen/input_Alamat Pengiriman Surat  Alamat Perusahaan_isAlamatPengirimanSurat' is clicked on
+
+2022-03-28 12:09:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Email_form-control ng-untouched ng-pristine ng-valid"), konsumen_email, OPTIONAL): Text 'contoh@gmail.com' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Email_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:09:20 - [MESSAGE][PASSED] - Text 'contoh@gmail.com' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Email_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:09:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Input_Konsumen/input_Telepon 1_form-control ng-untouched ng-pristine ng-valid"), konsumen_telepon1, OPTIONAL): Text '089773662555' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Telepon 1_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:09:21 - [MESSAGE][PASSED] - Text '089773662555' is set on object 'Object Repository/Input_Corporate/Input_Konsumen/input_Telepon 1_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:09:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:22 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Input-data-alamat-pengirim-surat.png"): Taking screenshot successfully
+
+2022-03-28 12:09:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:09:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-alamat-pengirim-surat.png]]
+
+2022-03-28 12:09:24 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input data alamat pengirim surat"): scenario 1 - Input data alamat pengirim surat
+
+2022-03-28 12:09:24 - [MESSAGE][PASSED] - scenario 1 - Input data alamat pengirim surat
+
+2022-03-28 12:09:24 - [TEST_STEP][PASSED] - scrollToPosition(0, 0, OPTIONAL): Browser is scrolled to position x = 0, y = 0
+
+2022-03-28 12:09:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2022-03-28 12:09:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:09:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:09:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/1_a_Pengurus"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/1_a_Pengurus' is clicked on
+
+2022-03-28 12:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/1_a_Pengurus' is clicked on
+
+2022-03-28 12:09:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:28 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Input-data-pengurus.png"): Taking screenshot successfully
+
+2022-03-28 12:09:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:09:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Input-data-pengurus.png]]
+
+2022-03-28 12:09:29 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input data pengurus"): scenario 1 - Input data pengurus
+
+2022-03-28 12:09:29 - [MESSAGE][PASSED] - scenario 1 - Input data pengurus
+
+2022-03-28 12:09:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )' is clicked on
+
+2022-03-28 12:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )' is clicked on
+
+2022-03-28 12:09:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/3_button_Pengurus 1"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/3_button_Pengurus 1' is clicked on
+
+2022-03-28 12:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/3_button_Pengurus 1' is clicked on
+
+2022-03-28 12:09:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:33 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-submenu-data-pengurus-1.png"): Taking screenshot successfully
+
+2022-03-28 12:09:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:09:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-submenu-data-pengurus-1.png]]
+
+2022-03-28 12:09:34 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu data pengurus 1"): scenario 1 - Masuk submenu data pengurus 1
+
+2022-03-28 12:09:34 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu data pengurus 1
+
+2022-03-28 12:09:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/4_a_Capture File"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/4_a_Capture File' is clicked on
+
+2022-03-28 12:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/4_a_Capture File' is clicked on
+
+2022-03-28 12:09:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:37 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:09:37 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:09:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Input_Corporate/Pengurus/5_input_Name_form-control ng-untouched ng-pristine ng-invalid"), 300): Object 'Object Repository/Input_Corporate/Pengurus/5_input_Name_form-control ng-untouched ng-pristine ng-invalid' is clickable
+
+2022-03-28 12:09:47 - [MESSAGE][PASSED] - Object 'Object Repository/Input_Corporate/Pengurus/5_input_Name_form-control ng-untouched ng-pristine ng-invalid' is clickable
+
+2022-03-28 12:09:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:48 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Berhasil-input-otomatis-data-pengurus-berdasarkan-data-capture-ktp-pengurus-yang-di-capture.png"): Taking screenshot successfully
+
+2022-03-28 12:09:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:09:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-input-otomatis-data-pengurus-berdasarkan-data-capture-ktp-pengurus-yang-di-capture.png]]
+
+2022-03-28 12:09:49 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Berhasil input otomatis data pengurus berdasarkan data capture ktp pengurus yang di capture "): scenario 1 - Berhasil input otomatis data pengurus berdasarkan data capture ktp pengurus yang di capture 
+
+2022-03-28 12:09:49 - [MESSAGE][PASSED] - scenario 1 - Berhasil input otomatis data pengurus berdasarkan data capture ktp pengurus yang di capture 
+
+2022-03-28 12:09:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Input_Corporate/Pengurus/8_input_SID Pengurus_form-control ng-pristine ng-invalid is-invalid ng-touched"), pengurus_SID, OPTIONAL): Text '3345434656' is set on object 'Object Repository/Input_Corporate/Pengurus/8_input_SID Pengurus_form-control ng-pristine ng-invalid is-invalid ng-touched'
+
+2022-03-28 12:09:51 - [MESSAGE][PASSED] - Text '3345434656' is set on object 'Object Repository/Input_Corporate/Pengurus/8_input_SID Pengurus_form-control ng-pristine ng-invalid is-invalid ng-touched'
+
+2022-03-28 12:09:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )"), 30, OPTIONAL): Scroll to object 'Object Repository/Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )' successfully
+
+2022-03-28 12:09:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Input_Corporate/Pengurus/2_i_Add_ri-file-add-line ( Add_Pengurus )' successfully
+
+2022-03-28 12:09:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Input_Corporate/Pengurus/15_input_Kode Pos_form-control bcaf-autocomplete ng-pristine ng-invalid ng-touched"), pengurus_kodePos, OPTIONAL): Text '56643' is set on object 'Object Repository/Input_Corporate/Pengurus/15_input_Kode Pos_form-control bcaf-autocomplete ng-pristine ng-invalid ng-touched'
+
+2022-03-28 12:09:54 - [MESSAGE][PASSED] - Text '56643' is set on object 'Object Repository/Input_Corporate/Pengurus/15_input_Kode Pos_form-control bcaf-autocomplete ng-pristine ng-invalid ng-touched'
+
+2022-03-28 12:09:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/13_div_Pilih Role"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/13_div_Pilih Role' is clicked on
+
+2022-03-28 12:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/13_div_Pilih Role' is clicked on
+
+2022-03-28 12:09:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("Input_Corporate/Pengurus/13_div_Pilih Role"), pengurus_role, OPTIONAL): Text 'not set' is set on object 'Object Repository/Input_Corporate/Pengurus/13_div_Pilih Role'
+
+2022-03-28 12:09:57 - [MESSAGE][PASSED] - Text 'not set' is set on object 'Object Repository/Input_Corporate/Pengurus/13_div_Pilih Role'
+
+2022-03-28 12:09:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/14_div_Not Set"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/14_div_Not Set' is clicked on
+
+2022-03-28 12:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/14_div_Not Set' is clicked on
+
+2022-03-28 12:09:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:09:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/21_div_Pilih Jabatan"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan' is clicked on
+
+2022-03-28 12:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan' is clicked on
+
+2022-03-28 12:10:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan"), pengurus_jabatan, OPTIONAL): Text 'komisaris utama' is set on object 'Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan'
+
+2022-03-28 12:10:01 - [MESSAGE][PASSED] - Text 'komisaris utama' is set on object 'Object Repository/Input_Corporate/Pengurus/21_div_Pilih Jabatan'
+
+2022-03-28 12:10:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pengurus/22_span_Komisaris Utama"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pengurus/22_span_Komisaris Utama' is clicked on
+
+2022-03-28 12:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pengurus/22_span_Komisaris Utama' is clicked on
+
+2022-03-28 12:10:03 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Berhasil-input-otomatis-data-pengurus-1.png"): Taking screenshot successfully
+
+2022-03-28 12:10:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-input-otomatis-data-pengurus-1.png]]
+
+2022-03-28 12:10:04 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Berhasil input data pengurus 1"): scenario 1 - Berhasil input data pengurus 1
+
+2022-03-28 12:10:04 - [MESSAGE][PASSED] - scenario 1 - Berhasil input data pengurus 1
+
+2022-03-28 12:10:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:06 - [TEST_STEP][PASSED] - scrollToPosition(0, 133, OPTIONAL): Browser is scrolled to position x = 0, y = 133
+
+2022-03-28 12:10:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 133
+
+2022-03-28 12:10:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/1_a_Pemegang Saham"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/1_a_Pemegang Saham' is clicked on
+
+2022-03-28 12:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/1_a_Pemegang Saham' is clicked on
+
+2022-03-28 12:10:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:08 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-Submenu-pemegang-saham-1.png"): Taking screenshot successfully
+
+2022-03-28 12:10:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-pemegang-saham-1.png]]
+
+2022-03-28 12:10:09 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Berhasil masuk menu pemegang saham "): scenario 1 - Berhasil masuk menu pemegang saham 
+
+2022-03-28 12:10:09 - [MESSAGE][PASSED] - scenario 1 - Berhasil masuk menu pemegang saham 
+
+2022-03-28 12:10:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/2_a_Add"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/2_a_Add' is clicked on
+
+2022-03-28 12:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/2_a_Add' is clicked on
+
+2022-03-28 12:10:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/input_Perorangan_radios"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/input_Perorangan_radios' is clicked on
+
+2022-03-28 12:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/input_Perorangan_radios' is clicked on
+
+2022-03-28 12:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/input_Jenis Pemegang Saham_radios"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/input_Jenis Pemegang Saham_radios' is clicked on
+
+2022-03-28 12:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/input_Jenis Pemegang Saham_radios' is clicked on
+
+2022-03-28 12:10:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:13 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Memilih-radio-button-pemegang-saham.png"): Taking screenshot successfully
+
+2022-03-28 12:10:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Memilih-radio-button-pemegang-saham.png]]
+
+2022-03-28 12:10:14 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Memilih radio button pemegang saham"): scenario 1 - Memilih radio button pemegang saham
+
+2022-03-28 12:10:14 - [MESSAGE][PASSED] - scenario 1 - Memilih radio button pemegang saham
+
+2022-03-28 12:10:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/4_button_OK"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/4_button_OK' is clicked on
+
+2022-03-28 12:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/4_button_OK' is clicked on
+
+2022-03-28 12:10:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/5_button_Pemegang Saham 1"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/5_button_Pemegang Saham 1' is clicked on
+
+2022-03-28 12:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/5_button_Pemegang Saham 1' is clicked on
+
+2022-03-28 12:10:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:18 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-Submenu-pemegang-saham-1.png"): Taking screenshot successfully
+
+2022-03-28 12:10:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-pemegang-saham-1.png]]
+
+2022-03-28 12:10:19 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu pemegang saham 1"): scenario 1 - Masuk submenu pemegang saham 1
+
+2022-03-28 12:10:19 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu pemegang saham 1
+
+2022-03-28 12:10:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Pemegang_saham/6_a_Capture File"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Pemegang_saham/6_a_Capture File' is clicked on
+
+2022-03-28 12:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Pemegang_saham/6_a_Capture File' is clicked on
+
+2022-03-28 12:10:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:21 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:22 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:23 - [TEST_STEP][PASSED] - scrollToPosition(0, 200, OPTIONAL): Browser is scrolled to position x = 0, y = 200
+
+2022-03-28 12:10:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 200
+
+2022-03-28 12:10:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Input_Corporate/Pemegang_saham/input_Kode Pos_2"), pemegangShm_kodePos): Text '12345' is set on object 'Object Repository/Input_Corporate/Pemegang_saham/input_Kode Pos_2'
+
+2022-03-28 12:10:32 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input_Corporate/Pemegang_saham/input_Kode Pos_2'
+
+2022-03-28 12:10:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:33 - [TEST_STEP][PASSED] - scrollToPosition(0, 133, OPTIONAL): Browser is scrolled to position x = 0, y = 133
+
+2022-03-28 12:10:33 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 133
+
+2022-03-28 12:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Penjamin/1_a_Penjamin"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Penjamin/1_a_Penjamin' is clicked on
+
+2022-03-28 12:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Penjamin/1_a_Penjamin' is clicked on
+
+2022-03-28 12:10:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Penjamin/2_input_Ya_guarantor_Tidak"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Penjamin/2_input_Ya_guarantor_Tidak' is clicked on
+
+2022-03-28 12:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Penjamin/2_input_Ya_guarantor_Tidak' is clicked on
+
+2022-03-28 12:10:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:36 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Berhasil-pemegang-saham-1.png"): Taking screenshot successfully
+
+2022-03-28 12:10:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Berhasil-pemegang-saham-1.png]]
+
+2022-03-28 12:10:37 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Berhasil input pemegang saham 1"): scenario 1 - Berhasil input pemegang saham 1
+
+2022-03-28 12:10:37 - [MESSAGE][PASSED] - scenario 1 - Berhasil input pemegang saham 1
+
+2022-03-28 12:10:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Financial/li_Financial"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Financial/li_Financial' is clicked on
+
+2022-03-28 12:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Financial/li_Financial' is clicked on
+
+2022-03-28 12:10:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:39 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-Submenu-financial.png"): Taking screenshot successfully
+
+2022-03-28 12:10:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-Submenu-financial.png]]
+
+2022-03-28 12:10:40 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu financial"): scenario 1 - Masuk submenu financial
+
+2022-03-28 12:10:40 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu financial
+
+2022-03-28 12:10:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Financial/button_Laporan Keuangan"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Financial/button_Laporan Keuangan' is clicked on
+
+2022-03-28 12:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Financial/button_Laporan Keuangan' is clicked on
+
+2022-03-28 12:10:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Financial/a_Capture File"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Financial/a_Capture File' is clicked on
+
+2022-03-28 12:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Financial/a_Capture File' is clicked on
+
+2022-03-28 12:10:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:44 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:44 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:45 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-capture-laporan-keuangan.png"): Taking screenshot successfully
+
+2022-03-28 12:10:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-capture-laporan-keuangan.png]]
+
+2022-03-28 12:10:46 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input capture laporan keuangan"): scenario 1 - berhasil input capture laporan keuangan
+
+2022-03-28 12:10:46 - [MESSAGE][PASSED] - scenario 1 - berhasil input capture laporan keuangan
+
+2022-03-28 12:10:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Financial/button_Bukti Kepemilikan Rekening"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Financial/button_Bukti Kepemilikan Rekening' is clicked on
+
+2022-03-28 12:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Financial/button_Bukti Kepemilikan Rekening' is clicked on
+
+2022-03-28 12:10:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Financial/a_Capture File"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Financial/a_Capture File' is clicked on
+
+2022-03-28 12:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Financial/a_Capture File' is clicked on
+
+2022-03-28 12:10:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Input_Corporate/Capture_"), userDir + cobaKTP, OPTIONAL): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:50 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/ktp_dummy.png' sent to object: 'Object Repository/Input_Corporate/Capture_'
+
+2022-03-28 12:10:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:51 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-behasil-input-capture-laporan-bukti-kepemilikan.png"): Taking screenshot successfully
+
+2022-03-28 12:10:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-behasil-input-capture-laporan-bukti-kepemilikan.png]]
+
+2022-03-28 12:10:52 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input capture laporan bukti kepemilikan"): scenario 1 - berhasil input capture laporan bukti kepemilikan
+
+2022-03-28 12:10:52 - [MESSAGE][PASSED] - scenario 1 - berhasil input capture laporan bukti kepemilikan
+
+2022-03-28 12:10:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Input_Corporate/Financial/input_BCA Branch_form-control ng-untouched ng-pristine ng-valid"), financial_BCABranch, OPTIONAL): Text 'BCA' is set on object 'Object Repository/Input_Corporate/Financial/input_BCA Branch_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:10:54 - [MESSAGE][PASSED] - Text 'BCA' is set on object 'Object Repository/Input_Corporate/Financial/input_BCA Branch_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:10:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:55 - [TEST_STEP][PASSED] - setText(findTestObject("Input_Corporate/Financial/input_Account No. 10 Digit_form-control ng-untouched ng-pristine ng-valid"), financial_rekNum, OPTIONAL): Text '2343235657' is set on object 'Object Repository/Input_Corporate/Financial/input_Account No. 10 Digit_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:10:55 - [MESSAGE][PASSED] - Text '2343235657' is set on object 'Object Repository/Input_Corporate/Financial/input_Account No. 10 Digit_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:10:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:56 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-branch-dan-account-10digit-pada-submenu-financial.png"): Taking screenshot successfully
+
+2022-03-28 12:10:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:10:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-branch-dan-account-10digit-pada-submenu-financial.png]]
+
+2022-03-28 12:10:57 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input branch dan account 10 digit pada submenu financial"): scenario 1 - berhasil input branch dan account 10 digit pada submenu financial
+
+2022-03-28 12:10:57 - [MESSAGE][PASSED] - scenario 1 - berhasil input branch dan account 10 digit pada submenu financial
+
+2022-03-28 12:10:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:10:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Contact_Person/a_Contact Person"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Contact_Person/a_Contact Person' is clicked on
+
+2022-03-28 12:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Contact_Person/a_Contact Person' is clicked on
+
+2022-03-28 12:10:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Contact_Person/input_Yes_inline-radios_No"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Contact_Person/input_Yes_inline-radios_No' is clicked on
+
+2022-03-28 12:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Contact_Person/input_Yes_inline-radios_No' is clicked on
+
+2022-03-28 12:11:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:01 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-contact-person.png"): Taking screenshot successfully
+
+2022-03-28 12:11:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-contact-person.png]]
+
+2022-03-28 12:11:02 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input contact person"): scenario 1 - berhasil input contact person
+
+2022-03-28 12:11:02 - [MESSAGE][PASSED] - scenario 1 - berhasil input contact person
+
+2022-03-28 12:11:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Input_Corporate/Other_Document/a_Other Document"), OPTIONAL): Object: 'Object Repository/Input_Corporate/Other_Document/a_Other Document' is clicked on
+
+2022-03-28 12:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Input_Corporate/Other_Document/a_Other Document' is clicked on
+
+2022-03-28 12:11:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:05 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-Masuk-menu-other-document.png"): Taking screenshot successfully
+
+2022-03-28 12:11:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-Masuk-menu-other-document.png]]
+
+2022-03-28 12:11:05 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk menu other document"): scenario 1 - Masuk menu other document
+
+2022-03-28 12:11:05 - [MESSAGE][PASSED] - scenario 1 - Masuk menu other document
+
+2022-03-28 12:11:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:06 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-03-01-Transaction-AppPending-InputData-Information" time="63.753" classname="Test Cases/Sprint 4/Skenario 4/04-03-01-Transaction-AppPending-InputData-Information" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:11:06 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-03-01-Transaction-AppPending-InputData-Information: Test Cases/Sprint 4/Skenario 4/04-03-01-Transaction-AppPending-InputData-Information
+
+2022-03-28 12:11:07 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:11:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:08 - [TEST_STEP][PASSED] - click(findTestObject("ME_AppPending/span_Collateral dan Loan")): Object: 'Object Repository/ME_AppPending/span_Collateral dan Loan' is clicked on
+
+2022-03-28 12:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_AppPending/span_Collateral dan Loan' is clicked on
+
+2022-03-28 12:11:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:09 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-menu-collateral-dan-loan.png"): Taking screenshot successfully
+
+2022-03-28 12:11:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-menu-collateral-dan-loan.png]]
+
+2022-03-28 12:11:10 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk menu collateral dan loan"): scenario 1 - Masuk menu collateral dan loan
+
+2022-03-28 12:11:10 - [MESSAGE][PASSED] - scenario 1 - Masuk menu collateral dan loan
+
+2022-03-28 12:11:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:11 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/li_Information")): Object: 'Object Repository/ME_CollateralandLoan_information/li_Information' is clicked on
+
+2022-03-28 12:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/li_Information' is clicked on
+
+2022-03-28 12:11:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:12 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/input_jenispengajuan1"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/input_jenispengajuan1' is clicked on
+
+2022-03-28 12:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/input_jenispengajuan1' is clicked on
+
+2022-03-28 12:11:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:14 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_jenispengajuan1"), information_jenisPengajuan, OPTIONAL): Text 'mobil bekas' is set on object 'Object Repository/ME_CollateralandLoan_information/input_jenispengajuan1'
+
+2022-03-28 12:11:14 - [MESSAGE][PASSED] - Text 'mobil bekas' is set on object 'Object Repository/ME_CollateralandLoan_information/input_jenispengajuan1'
+
+2022-03-28 12:11:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-jenis-pengajuan.png"): Taking screenshot successfully
+
+2022-03-28 12:11:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-jenis-pengajuan.png]]
+
+2022-03-28 12:11:16 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input Jenis Pengajuan"): scenario 1 - Input Jenis Pengajuan
+
+2022-03-28 12:11:16 - [MESSAGE][PASSED] - scenario 1 - Input Jenis Pengajuan
+
+2022-03-28 12:11:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:17 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/div_Mobil Bekas")): Object: 'Object Repository/ME_CollateralandLoan_information/div_Mobil Bekas' is clicked on
+
+2022-03-28 12:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/div_Mobil Bekas' is clicked on
+
+2022-03-28 12:11:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:18 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/input_tujuankredit"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/input_tujuankredit' is clicked on
+
+2022-03-28 12:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/input_tujuankredit' is clicked on
+
+2022-03-28 12:11:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:20 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_tujuankredit"), information_tujuanKredit, OPTIONAL): Text 'pembelian aset' is set on object 'Object Repository/ME_CollateralandLoan_information/input_tujuankredit'
+
+2022-03-28 12:11:21 - [MESSAGE][PASSED] - Text 'pembelian aset' is set on object 'Object Repository/ME_CollateralandLoan_information/input_tujuankredit'
+
+2022-03-28 12:11:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:22 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-tujuan-pengajuan.png"): Taking screenshot successfully
+
+2022-03-28 12:11:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-tujuan-pengajuan.png]]
+
+2022-03-28 12:11:22 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input Tujuan Pengajuan"): scenario 1 - Input Tujuan Pengajuan
+
+2022-03-28 12:11:22 - [MESSAGE][PASSED] - scenario 1 - Input Tujuan Pengajuan
+
+2022-03-28 12:11:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:23 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/div_Pembelian Aset")): Object: 'Object Repository/ME_CollateralandLoan_information/div_Pembelian Aset' is clicked on
+
+2022-03-28 12:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/div_Pembelian Aset' is clicked on
+
+2022-03-28 12:11:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:25 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_Payment")): Object: 'Object Repository/ME_CollateralandLoan_information/button_Payment' is clicked on
+
+2022-03-28 12:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_Payment' is clicked on
+
+2022-03-28 12:11:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:26 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/input_autodebet")): Object: 'Object Repository/ME_CollateralandLoan_information/input_autodebet' is clicked on
+
+2022-03-28 12:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/input_autodebet' is clicked on
+
+2022-03-28 12:11:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:28 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-payment.png"): Taking screenshot successfully
+
+2022-03-28 12:11:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-payment.png]]
+
+2022-03-28 12:11:29 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input Payment"): scenario 1 - Input Payment
+
+2022-03-28 12:11:29 - [MESSAGE][PASSED] - scenario 1 - Input Payment
+
+2022-03-28 12:11:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:30 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/div_Auto Debet")): Object: 'Object Repository/ME_CollateralandLoan_information/div_Auto Debet' is clicked on
+
+2022-03-28 12:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/div_Auto Debet' is clicked on
+
+2022-03-28 12:11:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Account No. 10 Digit_text-input-account-no"), information_accountNum): Text '11111111111' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_text-input-account-no'
+
+2022-03-28 12:11:32 - [MESSAGE][PASSED] - Text '11111111111' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_text-input-account-no'
+
+2022-03-28 12:11:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/input_Account No. 10 Digit_inline-checkbox-autodebetNoRek"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_inline-checkbox-autodebetNoRek' is clicked on
+
+2022-03-28 12:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_inline-checkbox-autodebetNoRek' is clicked on
+
+2022-03-28 12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/Capture_rekeningautodebet")): Object: 'Object Repository/ME_CollateralandLoan_information/Capture_rekeningautodebet' is clicked on
+
+2022-03-28 12:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/Capture_rekeningautodebet' is clicked on
+
+2022-03-28 12:11:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:35 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_npwp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:11:35 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Account No. 10 Digit_noRekening"), information_accountNum2): Text '11111111111' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_noRekening'
+
+2022-03-28 12:11:37 - [MESSAGE][PASSED] - Text '11111111111' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Account No. 10 Digit_noRekening'
+
+2022-03-28 12:11:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:38 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Cabang BCA_cabangBca"), information_cabang): Text 'jakarta selatan' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Cabang BCA_cabangBca'
+
+2022-03-28 12:11:39 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Cabang BCA_cabangBca'
+
+2022-03-28 12:11:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Nama Pemilik Rekening_form-control ng-untouched ng-pristine ng-invalid"), information_namaPemilikRek): Text 'afgan' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Nama Pemilik Rekening_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:11:40 - [MESSAGE][PASSED] - Text 'afgan' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Nama Pemilik Rekening_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:11:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_No KTP_form-control ng-untouched ng-pristine ng-invalid"), information_noKTP): Text '22222222222222' is set on object 'Object Repository/ME_CollateralandLoan_information/input_No KTP_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:11:42 - [MESSAGE][PASSED] - Text '22222222222222' is set on object 'Object Repository/ME_CollateralandLoan_information/input_No KTP_form-control ng-untouched ng-pristine ng-invalid'
+
+2022-03-28 12:11:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:43 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-data-autodebit.png"): Taking screenshot successfully
+
+2022-03-28 12:11:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-data-autodebit.png]]
+
+2022-03-28 12:11:44 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input data autodebit"): scenario 1 - Input data autodebit
+
+2022-03-28 12:11:44 - [MESSAGE][PASSED] - scenario 1 - Input data autodebit
+
+2022-03-28 12:11:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:45 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_Mutasi Rekening")): Object: 'Object Repository/ME_CollateralandLoan_information/button_Mutasi Rekening' is clicked on
+
+2022-03-28 12:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_Mutasi Rekening' is clicked on
+
+2022-03-28 12:11:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:47 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-submenu-input-mutasi-rekening.png"): Taking screenshot successfully
+
+2022-03-28 12:11:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-submenu-input-mutasi-rekening.png]]
+
+2022-03-28 12:11:48 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk submenu input mutasi rekening"): scenario 1 - Masuk submenu input mutasi rekening
+
+2022-03-28 12:11:48 - [MESSAGE][PASSED] - scenario 1 - Masuk submenu input mutasi rekening
+
+2022-03-28 12:11:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:49 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_Add Mutasi Rekening")): Object: 'Object Repository/ME_CollateralandLoan_information/button_Add Mutasi Rekening' is clicked on
+
+2022-03-28 12:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_Add Mutasi Rekening' is clicked on
+
+2022-03-28 12:11:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:50 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-sebelum-input-data-mutasi-rekening.png"): Taking screenshot successfully
+
+2022-03-28 12:11:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:11:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-sebelum-input-data-mutasi-rekening.png]]
+
+2022-03-28 12:11:51 - [TEST_STEP][PASSED] - markPassed("scenario 1 - sebelum input data mutasi rekening"): scenario 1 - sebelum input data mutasi rekening
+
+2022-03-28 12:11:51 - [MESSAGE][PASSED] - scenario 1 - sebelum input data mutasi rekening
+
+2022-03-28 12:11:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:52 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/a_Capture File_mutasirek")): Object: 'Object Repository/ME_CollateralandLoan_information/a_Capture File_mutasirek' is clicked on
+
+2022-03-28 12:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/a_Capture File_mutasirek' is clicked on
+
+2022-03-28 12:11:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_npwp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:11:54 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:11:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:55 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Mutasi Debit_form-control text-right ng-untouched ng-pristine ng-valid"), information_mutasiDebit): Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Debit_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:56 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Debit_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:57 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Mutasi Kredit_form-control text-right ng-untouched ng-pristine ng-valid"), information_mutasiKredit): Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Kredit_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:57 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Kredit_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:11:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralandLoan_information/input_Mutasi Saldo_form-control text-right ng-untouched ng-pristine ng-valid"), information_mutasiSaldo): Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Saldo_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:59 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/ME_CollateralandLoan_information/input_Mutasi Saldo_form-control text-right ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:11:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:00 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-data-mutasi-rekening.png"): Taking screenshot successfully
+
+2022-03-28 12:12:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:12:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-data-mutasi-rekening.png]]
+
+2022-03-28 12:12:01 - [TEST_STEP][PASSED] - markPassed("scenario 1 - input data mutasi rekening"): scenario 1 - input data mutasi rekening
+
+2022-03-28 12:12:01 - [MESSAGE][PASSED] - scenario 1 - input data mutasi rekening
+
+2022-03-28 12:12:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:02 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_Add"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/button_Add' is clicked on
+
+2022-03-28 12:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_Add' is clicked on
+
+2022-03-28 12:12:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:03 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_View Detail_btn btn-edit ng-star-inserted"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/button_View Detail_btn btn-edit ng-star-inserted' is clicked on
+
+2022-03-28 12:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_View Detail_btn btn-edit ng-star-inserted' is clicked on
+
+2022-03-28 12:12:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:05 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/button_Save"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/button_Save' is clicked on
+
+2022-03-28 12:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/button_Save' is clicked on
+
+2022-03-28 12:12:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:06 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralandLoan_information/a_View Detail_mutasirekening"), OPTIONAL): Object: 'Object Repository/ME_CollateralandLoan_information/a_View Detail_mutasirekening' is clicked on
+
+2022-03-28 12:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralandLoan_information/a_View Detail_mutasirekening' is clicked on
+
+2022-03-28 12:12:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:08 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-mengisi-data-information.png"): Taking screenshot successfully
+
+2022-03-28 12:12:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:12:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-mengisi-data-information.png]]
+
+2022-03-28 12:12:09 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Berhasil mengisi data information"): scenario 1 - Berhasil mengisi data information
+
+2022-03-28 12:12:09 - [MESSAGE][PASSED] - scenario 1 - Berhasil mengisi data information
+
+2022-03-28 12:12:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:10 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-03-02-Transaction-AppPending-InputData-Vehicle" time="233.862" classname="Test Cases/Sprint 4/Skenario 4/04-03-02-Transaction-AppPending-InputData-Vehicle" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:12:10 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-03-02-Transaction-AppPending-InputData-Vehicle: Test Cases/Sprint 4/Skenario 4/04-03-02-Transaction-AppPending-InputData-Vehicle
+
+2022-03-28 12:12:10 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:12:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 130): Browser is scrolled to position x = 0, y = 130
+
+2022-03-28 12:12:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 130
+
+2022-03-28 12:12:12 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-halaman-collateral-loan-vehicle.png"): Taking screenshot successfully
+
+2022-03-28 12:12:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:12:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-halaman-collateral-loan-vehicle.png]]
+
+2022-03-28 12:12:13 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk halaman collateral loan vehicle"): scenario 1 - Masuk halaman collateral loan vehicle
+
+2022-03-28 12:12:13 - [MESSAGE][PASSED] - scenario 1 - Masuk halaman collateral loan vehicle
+
+2022-03-28 12:12:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:14 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/li_Vehicle")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/li_Vehicle' is clicked on
+
+2022-03-28 12:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/li_Vehicle' is clicked on
+
+2022-03-28 12:12:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_dealername_ketiga"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga' is present
+
+2022-03-28 12:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga' is present
+
+2022-03-28 12:12:15 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_dealername_ketiga"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga' is clicked on
+
+2022-03-28 12:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga' is clicked on
+
+2022-03-28 12:12:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_dealername_ketiga"), "Akita Prima Mobilindo, PT", OPTIONAL): Text 'Akita Prima Mobilindo, PT' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga'
+
+2022-03-28 12:12:18 - [MESSAGE][PASSED] - Text 'Akita Prima Mobilindo, PT' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_dealername_ketiga'
+
+2022-03-28 12:12:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:19 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/span_Akita Prima Mobilindo, PT")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Akita Prima Mobilindo, PT' is clicked on
+
+2022-03-28 12:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Akita Prima Mobilindo, PT' is clicked on
+
+2022-03-28 12:12:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_branch_ketiga"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga' is present
+
+2022-03-28 12:12:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga' is present
+
+2022-03-28 12:12:21 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_branch_ketiga")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga' is clicked on
+
+2022-03-28 12:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga' is clicked on
+
+2022-03-28 12:12:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:22 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_branch_ketiga"), "Akita Prima Mobilindo - Pondok Cabe"): Text 'Akita Prima Mobilindo - Pondok Cabe' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga'
+
+2022-03-28 12:12:23 - [MESSAGE][PASSED] - Text 'Akita Prima Mobilindo - Pondok Cabe' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_branch_ketiga'
+
+2022-03-28 12:12:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe' is present
+
+2022-03-28 12:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe' is present
+
+2022-03-28 12:12:25 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe' is clicked on
+
+2022-03-28 12:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_A1617 - Akita Prima Mobilindo - Pondok Cabe' is clicked on
+
+2022-03-28 12:12:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_Address_address"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Address_address' is present
+
+2022-03-28 12:12:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:26 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Address_address' is present
+
+2022-03-28 12:12:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_City_city"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_City_city' is present
+
+2022-03-28 12:12:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_City_city' is present
+
+2022-03-28 12:12:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_Telephone_phone"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Telephone_phone' is present
+
+2022-03-28 12:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Telephone_phone' is present
+
+2022-03-28 12:12:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_Authorize Dealer_authorizedDealer"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Authorize Dealer_authorizedDealer' is present
+
+2022-03-28 12:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Authorize Dealer_authorizedDealer' is present
+
+2022-03-28 12:12:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_Fax_fax"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Fax_fax' is present
+
+2022-03-28 12:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:32 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Fax_fax' is present
+
+2022-03-28 12:12:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/td_1-nomorrekening"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/td_1-nomorrekening' is present
+
+2022-03-28 12:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/td_1-nomorrekening' is present
+
+2022-03-28 12:12:33 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-halaman-collateral-loan-vehicle.png"): Taking screenshot successfully
+
+2022-03-28 12:12:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:12:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-halaman-collateral-loan-vehicle.png]]
+
+2022-03-28 12:12:34 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk halaman collateral loan vehicle"): scenario 1 - Masuk halaman collateral loan vehicle
+
+2022-03-28 12:12:34 - [MESSAGE][PASSED] - scenario 1 - Masuk halaman collateral loan vehicle
+
+2022-03-28 12:12:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:37 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/button_Data Vehicle")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Data Vehicle' is clicked on
+
+2022-03-28 12:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Data Vehicle' is clicked on
+
+2022-03-28 12:12:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:38 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-halaman-input-data-vehicle.png"): Taking screenshot successfully
+
+2022-03-28 12:12:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:12:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-data-vehicle.png]]
+
+2022-03-28 12:12:40 - [TEST_STEP][PASSED] - markPassed("scenario 1 - halaman input data vehicle"): scenario 1 - halaman input data vehicle
+
+2022-03-28 12:12:40 - [MESSAGE][PASSED] - scenario 1 - halaman input data vehicle
+
+2022-03-28 12:12:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:12:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:12:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ME_CollateralAndLoan_Vehicle/button_Data Vehicle"), 0, STOP_ON_FAILURE): Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Data Vehicle' successfully
+
+2022-03-28 12:12:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Data Vehicle' successfully
+
+2022-03-28 12:12:42 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_used_carCondition-radio")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_used_carCondition-radio' is clicked on
+
+2022-03-28 12:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_used_carCondition-radio' is clicked on
+
+2022-03-28 12:12:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ME_CollateralAndLoan_Vehicle/div_Pilih Product Code"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Pilih Product Code' is clicked on
+
+2022-03-28 12:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Pilih Product Code' is clicked on
+
+2022-03-28 12:12:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_productcode2"), "leasing"): Text 'leasing' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_productcode2'
+
+2022-03-28 12:12:46 - [MESSAGE][PASSED] - Text 'leasing' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_productcode2'
+
+2022-03-28 12:12:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:47 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/span_Leasing")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Leasing' is clicked on
+
+2022-03-28 12:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Leasing' is clicked on
+
+2022-03-28 12:12:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:48 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_brand_kedua")): Object: 'Object Repository/vehiclekedua/input_brand_kedua' is clicked on
+
+2022-03-28 12:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_brand_kedua' is clicked on
+
+2022-03-28 12:12:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_brand_kedua"), "toyota"): Text 'toyota' is set on object 'Object Repository/vehiclekedua/input_brand_kedua'
+
+2022-03-28 12:12:50 - [MESSAGE][PASSED] - Text 'toyota' is set on object 'Object Repository/vehiclekedua/input_brand_kedua'
+
+2022-03-28 12:12:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:51 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_TOYOTA_brand")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_TOYOTA_brand' is clicked on
+
+2022-03-28 12:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_TOYOTA_brand' is clicked on
+
+2022-03-28 12:12:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:53 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_model_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_model_kedua' is clicked on
+
+2022-03-28 12:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_model_kedua' is clicked on
+
+2022-03-28 12:12:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:54 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_model_kedua"), "ALL NEW HILUX", OPTIONAL): Text 'ALL NEW HILUX' is set on object 'Object Repository/vehiclekedua/input_model_kedua'
+
+2022-03-28 12:12:55 - [MESSAGE][PASSED] - Text 'ALL NEW HILUX' is set on object 'Object Repository/vehiclekedua/input_model_kedua'
+
+2022-03-28 12:12:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:56 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_ALL NEW HILUX_model_datavehicle"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HILUX_model_datavehicle' is clicked on
+
+2022-03-28 12:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HILUX_model_datavehicle' is clicked on
+
+2022-03-28 12:12:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/input_typekendaraan"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan' is present
+
+2022-03-28 12:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan' is present
+
+2022-03-28 12:12:58 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_typekendaraan"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan' is clicked on
+
+2022-03-28 12:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan' is clicked on
+
+2022-03-28 12:12:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:12:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_typekendaraan"), "ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) M/T DIESEL 2017", OPTIONAL): Text 'ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) M/T DIESEL 2017' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan'
+
+2022-03-28 12:13:01 - [MESSAGE][PASSED] - Text 'ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) M/T DIESEL 2017' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_typekendaraan'
+
+2022-03-28 12:13:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle' is present
+
+2022-03-28 12:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle' is present
+
+2022-03-28 12:13:03 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle' is clicked on
+
+2022-03-28 12:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_ALL NEW HI LUX DOUBLE CABIN 2.4 G (4X4) MT DIESEL 2017_type_datavehicle' is clicked on
+
+2022-03-28 12:13:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:04 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_packet_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_packet_kedua' is clicked on
+
+2022-03-28 12:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_packet_kedua' is clicked on
+
+2022-03-28 12:13:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:06 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_packet_kedua"), "BCAI - IIMS - SUBS OTR ADDB", OPTIONAL): Text 'BCAI - IIMS - SUBS OTR ADDB' is set on object 'Object Repository/vehiclekedua/input_packet_kedua'
+
+2022-03-28 12:13:33 - [MESSAGE][PASSED] - Text 'BCAI - IIMS - SUBS OTR ADDB' is set on object 'Object Repository/vehiclekedua/input_packet_kedua'
+
+2022-03-28 12:13:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB"), 300): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB' is present
+
+2022-03-28 12:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB' is present
+
+2022-03-28 12:13:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:36 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB' is clicked on
+
+2022-03-28 12:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_BCAI - IIMS - SUBS OTR ADDB' is clicked on
+
+2022-03-28 12:13:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:38 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Keterangan Type Kendaraan_keteranganType"), "bekas"): Text 'bekas' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Keterangan Type Kendaraan_keteranganType'
+
+2022-03-28 12:13:39 - [MESSAGE][PASSED] - Text 'bekas' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Keterangan Type Kendaraan_keteranganType'
+
+2022-03-28 12:13:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:40 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Year_year (1)"), "2020"): Text '2020' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Year_year (1)'
+
+2022-03-28 12:13:40 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Year_year (1)'
+
+2022-03-28 12:13:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:41 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/a_Capture File_bpkb")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Capture File_bpkb' is clicked on
+
+2022-03-28 12:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Capture File_bpkb' is clicked on
+
+2022-03-28 12:13:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:43 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_npwp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:13:43 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:13:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:44 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/a_Capture Files_stnk_datavehicle")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Capture Files_stnk_datavehicle' is clicked on
+
+2022-03-28 12:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Capture Files_stnk_datavehicle' is clicked on
+
+2022-03-28 12:13:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:46 - [TEST_STEP][PASSED] - uploadFile(findTestObject("MEApp_AppBaru_InisiasiKonsumen/Capture_"), userDir + pathfinder_npwp): File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:13:46 - [MESSAGE][PASSED] - File 'C:/Users/elanf/git/BCAF_MEAPP_i3/Assets/npwp-dummy.jpg' sent to object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Capture_'
+
+2022-03-28 12:13:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:47 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Color_text-input (1)"), "hitam"): Text 'hitam' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Color_text-input (1)'
+
+2022-03-28 12:13:48 - [MESSAGE][PASSED] - Text 'hitam' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Color_text-input (1)'
+
+2022-03-28 12:13:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_BPKB No_text-input"), "1111111111"): Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_BPKB No_text-input'
+
+2022-03-28 12:13:49 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_BPKB No_text-input'
+
+2022-03-28 12:13:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Engine No_text-input"), "1111111111"): Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Engine No_text-input'
+
+2022-03-28 12:13:51 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Engine No_text-input'
+
+2022-03-28 12:13:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Police No_text-input"), "B1234AB"): Text 'B1234AB' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Police No_text-input'
+
+2022-03-28 12:13:53 - [MESSAGE][PASSED] - Text 'B1234AB' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Police No_text-input'
+
+2022-03-28 12:13:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Body No_text-input"), "1111111111"): Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Body No_text-input'
+
+2022-03-28 12:13:55 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Body No_text-input'
+
+2022-03-28 12:13:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:56 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_purpose_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_purpose_kedua' is clicked on
+
+2022-03-28 12:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_purpose_kedua' is clicked on
+
+2022-03-28 12:13:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_purpose_kedua"), "operasional", OPTIONAL): Text 'operasional' is set on object 'Object Repository/vehiclekedua/input_purpose_kedua'
+
+2022-03-28 12:13:58 - [MESSAGE][PASSED] - Text 'operasional' is set on object 'Object Repository/vehiclekedua/input_purpose_kedua'
+
+2022-03-28 12:13:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:13:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:13:59 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_Operasional"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Operasional' is clicked on
+
+2022-03-28 12:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Operasional' is clicked on
+
+2022-03-28 12:13:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_BPKB Owner_text-input"), "sendiri"): Text 'sendiri' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_BPKB Owner_text-input'
+
+2022-03-28 12:14:01 - [MESSAGE][PASSED] - Text 'sendiri' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_BPKB Owner_text-input'
+
+2022-03-28 12:14:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:02 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua' is clicked on
+
+2022-03-28 12:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua' is clicked on
+
+2022-03-28 12:14:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:04 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua"), "pasangan", OPTIONAL): Text 'pasangan' is set on object 'Object Repository/vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua'
+
+2022-03-28 12:14:04 - [MESSAGE][PASSED] - Text 'pasangan' is set on object 'Object Repository/vehiclekedua/input_hubungan_bpkbownerdgdebitur_kedua'
+
+2022-03-28 12:14:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:05 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_pasangan"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_pasangan' is clicked on
+
+2022-03-28 12:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_pasangan' is clicked on
+
+2022-03-28 12:14:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:07 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_nonproduktif"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_nonproduktif' is clicked on
+
+2022-03-28 12:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_nonproduktif' is clicked on
+
+2022-03-28 12:14:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:08 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_produktif"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_produktif' is clicked on
+
+2022-03-28 12:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tujuan Penggunaan Kendaraan_produktif' is clicked on
+
+2022-03-28 12:14:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:10 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-data-vehicle.png"): Taking screenshot successfully
+
+2022-03-28 12:14:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:14:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-vehicle.png]]
+
+2022-03-28 12:14:11 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input data vehicle"): scenario 1 - berhasil input data vehicle
+
+2022-03-28 12:14:11 - [MESSAGE][PASSED] - scenario 1 - berhasil input data vehicle
+
+2022-03-28 12:14:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:13 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/button_Loan Data"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Loan Data' is clicked on
+
+2022-03-28 12:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Loan Data' is clicked on
+
+2022-03-28 12:14:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-halaman-input-loan-data.png"): Taking screenshot successfully
+
+2022-03-28 12:14:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:14:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-loan-data.png]]
+
+2022-03-28 12:14:17 - [TEST_STEP][PASSED] - markPassed("scenario 1 - halaman input loan data"): scenario 1 - halaman input loan data
+
+2022-03-28 12:14:17 - [MESSAGE][PASSED] - scenario 1 - halaman input loan data
+
+2022-03-28 12:14:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ME_CollateralAndLoan_Vehicle/button_Loan Data"), 0): Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Loan Data' successfully
+
+2022-03-28 12:14:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:14:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Loan Data' successfully
+
+2022-03-28 12:14:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_On The Road Price_otr"), "150000000"): Text '150000000' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_On The Road Price_otr'
+
+2022-03-28 12:14:20 - [MESSAGE][PASSED] - Text '150000000' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_On The Road Price_otr'
+
+2022-03-28 12:14:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Down Payment_dpNominal"), "0"): Text '0' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Down Payment_dpNominal'
+
+2022-03-28 12:14:22 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Down Payment_dpNominal'
+
+2022-03-28 12:14:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_DP_dpPercent"), "30"): Text '30' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_DP_dpPercent'
+
+2022-03-28 12:14:23 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_DP_dpPercent'
+
+2022-03-28 12:14:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:24 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Tenor (bulan)_tenor1"), "48"): Text '48' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tenor (bulan)_tenor1'
+
+2022-03-28 12:14:25 - [MESSAGE][PASSED] - Text '48' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Tenor (bulan)_tenor1'
+
+2022-03-28 12:14:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:26 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Loan Type_inadvance"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Loan Type_inadvance' is clicked on
+
+2022-03-28 12:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Loan Type_inadvance' is clicked on
+
+2022-03-28 12:14:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:27 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Flat Rate_flatRate"), "7"): Text '7' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Flat Rate_flatRate'
+
+2022-03-28 12:14:28 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Flat Rate_flatRate'
+
+2022-03-28 12:14:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Flat Rate 2_flatRate2"), "7"): Text '7' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Flat Rate 2_flatRate2'
+
+2022-03-28 12:14:30 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Flat Rate 2_flatRate2'
+
+2022-03-28 12:14:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:31 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Effective Rate_effectiveRate"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Effective Rate_effectiveRate' is clicked on
+
+2022-03-28 12:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Effective Rate_effectiveRate' is clicked on
+
+2022-03-28 12:14:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:32 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Effective Rate 2_effectiveRate2"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Effective Rate 2_effectiveRate2' is clicked on
+
+2022-03-28 12:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Effective Rate 2_effectiveRate2' is clicked on
+
+2022-03-28 12:14:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Provisional Percent_provisionPercent"), "2"): Text '2' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Provisional Percent_provisionPercent'
+
+2022-03-28 12:14:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Provisional Percent_provisionPercent'
+
+2022-03-28 12:14:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:35 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Provisional Payment_prepaid"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Provisional Payment_prepaid' is clicked on
+
+2022-03-28 12:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Provisional Payment_prepaid' is clicked on
+
+2022-03-28 12:14:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/input_Adm Fee_admFee"), "2000000"): Text '2000000' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee_admFee'
+
+2022-03-28 12:14:38 - [MESSAGE][PASSED] - Text '2000000' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee_admFee'
+
+2022-03-28 12:14:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:39 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_onloan"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_onloan' is clicked on
+
+2022-03-28 12:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_onloan' is clicked on
+
+2022-03-28 12:14:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:40 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_prepaid"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_prepaid' is clicked on
+
+2022-03-28 12:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Adm Fee Payment_prepaid' is clicked on
+
+2022-03-28 12:14:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:41 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_gabung_jenisUnit20"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_gabung_jenisUnit20' is clicked on
+
+2022-03-28 12:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_gabung_jenisUnit20' is clicked on
+
+2022-03-28 12:14:42 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-data-loan.png"): Taking screenshot successfully
+
+2022-03-28 12:14:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:14:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-loan.png]]
+
+2022-03-28 12:14:44 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input data loan"): scenario 1 - berhasil input data loan
+
+2022-03-28 12:14:44 - [MESSAGE][PASSED] - scenario 1 - berhasil input data loan
+
+2022-03-28 12:14:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:46 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/button_Insurance"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Insurance' is clicked on
+
+2022-03-28 12:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Insurance' is clicked on
+
+2022-03-28 12:14:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:47 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Insurance_inline-checkbox1"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Insurance_inline-checkbox1' is clicked on
+
+2022-03-28 12:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Insurance_inline-checkbox1' is clicked on
+
+2022-03-28 12:14:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:49 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-halaman-input-insurance.png"): Taking screenshot successfully
+
+2022-03-28 12:14:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:14:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-insurance.png]]
+
+2022-03-28 12:14:50 - [TEST_STEP][PASSED] - markPassed("scenario 1 - halaman input insurance"): scenario 1 - halaman input insurance
+
+2022-03-28 12:14:50 - [MESSAGE][PASSED] - scenario 1 - halaman input insurance
+
+2022-03-28 12:14:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:51 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_carinsurance_kedua"), "NO INSURANCE"): Text 'NO INSURANCE' is set on object 'Object Repository/vehiclekedua/input_carinsurance_kedua'
+
+2022-03-28 12:14:52 - [MESSAGE][PASSED] - Text 'NO INSURANCE' is set on object 'Object Repository/vehiclekedua/input_carinsurance_kedua'
+
+2022-03-28 12:14:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:53 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/div_NO INSURANCE_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/div_NO INSURANCE_kedua' is clicked on
+
+2022-03-28 12:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/div_NO INSURANCE_kedua' is clicked on
+
+2022-03-28 12:14:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:54 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_carinsurancebranch_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_carinsurancebranch_kedua' is clicked on
+
+2022-03-28 12:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_carinsurancebranch_kedua' is clicked on
+
+2022-03-28 12:14:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:56 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_carinsurancebranch_kedua"), "NO INSURANCE", OPTIONAL): Text 'NO INSURANCE' is set on object 'Object Repository/vehiclekedua/input_carinsurancebranch_kedua'
+
+2022-03-28 12:14:57 - [MESSAGE][PASSED] - Text 'NO INSURANCE' is set on object 'Object Repository/vehiclekedua/input_carinsurancebranch_kedua'
+
+2022-03-28 12:14:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:58 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_NO INSURANCE_branch"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_NO INSURANCE_branch' is clicked on
+
+2022-03-28 12:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_NO INSURANCE_branch' is clicked on
+
+2022-03-28 12:14:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:14:59 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_carinsurancetype_kedua")): Object: 'Object Repository/vehiclekedua/input_carinsurancetype_kedua' is clicked on
+
+2022-03-28 12:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_carinsurancetype_kedua' is clicked on
+
+2022-03-28 12:15:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_carinsurancetype_kedua"), "all risk"): Text 'all risk' is set on object 'Object Repository/vehiclekedua/input_carinsurancetype_kedua'
+
+2022-03-28 12:15:01 - [MESSAGE][PASSED] - Text 'all risk' is set on object 'Object Repository/vehiclekedua/input_carinsurancetype_kedua'
+
+2022-03-28 12:15:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:02 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/div_All Risk_kedua")): Object: 'Object Repository/vehiclekedua/div_All Risk_kedua' is clicked on
+
+2022-03-28 12:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/div_All Risk_kedua' is clicked on
+
+2022-03-28 12:15:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:04 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_RSCC_carInsuranceRscc0")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_RSCC_carInsuranceRscc0' is clicked on
+
+2022-03-28 12:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_RSCC_carInsuranceRscc0' is clicked on
+
+2022-03-28 12:15:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:05 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_RSMB_carInsuranceRsmb0")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_RSMB_carInsuranceRsmb0' is clicked on
+
+2022-03-28 12:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_RSMB_carInsuranceRsmb0' is clicked on
+
+2022-03-28 12:15:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:07 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Insurance Payment_prepaid")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Insurance Payment_prepaid' is clicked on
+
+2022-03-28 12:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Insurance Payment_prepaid' is clicked on
+
+2022-03-28 12:15:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:08 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Machine Warranty_lifeInsurance")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Machine Warranty_lifeInsurance' is clicked on
+
+2022-03-28 12:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Machine Warranty_lifeInsurance' is clicked on
+
+2022-03-28 12:15:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:10 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-halaman-input-life-insurance.png"): Taking screenshot successfully
+
+2022-03-28 12:15:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-halaman-input-life-insurance.png]]
+
+2022-03-28 12:15:11 - [TEST_STEP][PASSED] - markPassed("scenario 1 - halaman input life insurance"): scenario 1 - halaman input life insurance
+
+2022-03-28 12:15:11 - [MESSAGE][PASSED] - scenario 1 - halaman input life insurance
+
+2022-03-28 12:15:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ME_CollateralAndLoan_Vehicle/a_Calculate All Unit (1)"), 0): Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Calculate All Unit (1)' successfully
+
+2022-03-28 12:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:15:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Calculate All Unit (1)' successfully
+
+2022-03-28 12:15:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:14 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_lifeinsurancecorp_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_lifeinsurancecorp_kedua' is clicked on
+
+2022-03-28 12:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_lifeinsurancecorp_kedua' is clicked on
+
+2022-03-28 12:15:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_lifeinsurancecorp_kedua"), "ASURANSI LAINNYA", OPTIONAL): Text 'ASURANSI LAINNYA' is set on object 'Object Repository/vehiclekedua/input_lifeinsurancecorp_kedua'
+
+2022-03-28 12:15:16 - [MESSAGE][PASSED] - Text 'ASURANSI LAINNYA' is set on object 'Object Repository/vehiclekedua/input_lifeinsurancecorp_kedua'
+
+2022-03-28 12:15:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:17 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/div_ASURANSI LAINNYA_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/div_ASURANSI LAINNYA_kedua' is clicked on
+
+2022-03-28 12:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/div_ASURANSI LAINNYA_kedua' is clicked on
+
+2022-03-28 12:15:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:18 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/input_lifeinsurancebranch_kedua"), OPTIONAL): Object: 'Object Repository/vehiclekedua/input_lifeinsurancebranch_kedua' is clicked on
+
+2022-03-28 12:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/input_lifeinsurancebranch_kedua' is clicked on
+
+2022-03-28 12:15:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_lifeinsurancebranch_kedua"), "AS. LAINNYA", OPTIONAL): Text 'AS. LAINNYA' is set on object 'Object Repository/vehiclekedua/input_lifeinsurancebranch_kedua'
+
+2022-03-28 12:15:21 - [MESSAGE][PASSED] - Text 'AS. LAINNYA' is set on object 'Object Repository/vehiclekedua/input_lifeinsurancebranch_kedua'
+
+2022-03-28 12:15:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:22 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/div_AS. LAINNYA_lifeinsurance"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_AS. LAINNYA_lifeinsurance' is clicked on
+
+2022-03-28 12:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/div_AS. LAINNYA_lifeinsurance' is clicked on
+
+2022-03-28 12:15:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:23 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_Annual_lifeInsurancePayment"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Annual_lifeInsurancePayment' is clicked on
+
+2022-03-28 12:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_Annual_lifeInsurancePayment' is clicked on
+
+2022-03-28 12:15:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:25 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-input-data-insurance.png"): Taking screenshot successfully
+
+2022-03-28 12:15:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-input-data-insurance.png]]
+
+2022-03-28 12:15:26 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input data insurance"): scenario 1 - berhasil input data insurance
+
+2022-03-28 12:15:26 - [MESSAGE][PASSED] - scenario 1 - berhasil input data insurance
+
+2022-03-28 12:15:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:27 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/button_Note"), OPTIONAL): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Note' is clicked on
+
+2022-03-28 12:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Note' is clicked on
+
+2022-03-28 12:15:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:29 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-submenu-notes.png"): Taking screenshot successfully
+
+2022-03-28 12:15:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-submenu-notes.png]]
+
+2022-03-28 12:15:30 - [TEST_STEP][PASSED] - markPassed("scenario 1 - submenu notes"): scenario 1 - submenu notes
+
+2022-03-28 12:15:30 - [MESSAGE][PASSED] - scenario 1 - submenu notes
+
+2022-03-28 12:15:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:31 - [TEST_STEP][PASSED] - setText(findTestObject("ME_CollateralAndLoan_Vehicle/textarea_Note CMO_noteCMO"), "notes cmo note cmo"): Text 'notes cmo note cmo' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/textarea_Note CMO_noteCMO'
+
+2022-03-28 12:15:32 - [MESSAGE][PASSED] - Text 'notes cmo note cmo' is set on object 'Object Repository/ME_CollateralAndLoan_Vehicle/textarea_Note CMO_noteCMO'
+
+2022-03-28 12:15:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:33 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-submenu-notes.png"): Taking screenshot successfully
+
+2022-03-28 12:15:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-submenu-notes.png]]
+
+2022-03-28 12:15:34 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil input  notes CMO"): scenario 1 - berhasil input  notes CMO
+
+2022-03-28 12:15:34 - [MESSAGE][PASSED] - scenario 1 - berhasil input  notes CMO
+
+2022-03-28 12:15:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:35 - [TEST_STEP][PASSED] - click(findTestObject("vehiclekedua/a_Add Unit Kendaraan_kedua")): Object: 'Object Repository/vehiclekedua/a_Add Unit Kendaraan_kedua' is clicked on
+
+2022-03-28 12:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vehiclekedua/a_Add Unit Kendaraan_kedua' is clicked on
+
+2022-03-28 12:15:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:37 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-pop-up-add-kendaraan.png"): Taking screenshot successfully
+
+2022-03-28 12:15:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-pop-up-add-kendaraan.png]]
+
+2022-03-28 12:15:38 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Popup add unit kendaraan"): scenario 1 - Popup add unit kendaraan
+
+2022-03-28 12:15:38 - [MESSAGE][PASSED] - scenario 1 - Popup add unit kendaraan
+
+2022-03-28 12:15:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_Jumlah unit_kedua"), "2"): Text '2' is set on object 'Object Repository/vehiclekedua/input_Jumlah unit_kedua'
+
+2022-03-28 12:15:40 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/vehiclekedua/input_Jumlah unit_kedua'
+
+2022-03-28 12:15:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:41 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/input_ya_copy_addunit")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_ya_copy_addunit' is clicked on
+
+2022-03-28 12:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/input_ya_copy_addunit' is clicked on
+
+2022-03-28 12:15:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:42 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/span_Pilih Unit")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Pilih Unit' is clicked on
+
+2022-03-28 12:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/span_Pilih Unit' is clicked on
+
+2022-03-28 12:15:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:44 - [TEST_STEP][PASSED] - setText(findTestObject("vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua"), "Unit 1"): Text 'Unit 1' is set on object 'Object Repository/vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua'
+
+2022-03-28 12:15:44 - [MESSAGE][PASSED] - Text 'Unit 1' is set on object 'Object Repository/vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua'
+
+2022-03-28 12:15:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua'
+
+2022-03-28 12:15:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/vehiclekedua/input_Add_select2-search__field-UNIT_yangakandicopy_kedua'
+
+2022-03-28 12:15:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:47 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-add-kendaraan.png"): Taking screenshot successfully
+
+2022-03-28 12:15:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:15:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-add-kendaraan.png]]
+
+2022-03-28 12:15:48 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil add unit kendaraan"): scenario 1 - berhasil add unit kendaraan
+
+2022-03-28 12:15:48 - [MESSAGE][PASSED] - scenario 1 - berhasil add unit kendaraan
+
+2022-03-28 12:15:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:49 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/button_Add_unit")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Add_unit' is clicked on
+
+2022-03-28 12:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/button_Add_unit' is clicked on
+
+2022-03-28 12:15:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:50 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/a_Calculate All Unit")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Calculate All Unit' is clicked on
+
+2022-03-28 12:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Calculate All Unit' is clicked on
+
+2022-03-28 12:15:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/label_Summary Total"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/label_Summary Total' is present
+
+2022-03-28 12:15:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:15:58 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/label_Summary Total' is present
+
+2022-03-28 12:15:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:15:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:15:59 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-pop-up-summary-total.png"): Taking screenshot successfully
+
+2022-03-28 12:16:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-pop-up-summary-total.png]]
+
+2022-03-28 12:16:01 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Popup summary total"): scenario 1 - Popup summary total
+
+2022-03-28 12:16:01 - [MESSAGE][PASSED] - scenario 1 - Popup summary total
+
+2022-03-28 12:16:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ME_CollateralAndLoan_Vehicle/div_Calculating Summary_mx-0 proceed-state state-1_success"), 0): Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Calculating Summary_mx-0 proceed-state state-1_success' is present
+
+2022-03-28 12:16:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/ME_CollateralAndLoan_Vehicle/div_Calculating Summary_mx-0 proceed-state state-1_success' is present
+
+2022-03-28 12:16:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:03 - [TEST_STEP][PASSED] - click(findTestObject("ME_CollateralAndLoan_Vehicle/a_Close_calculate")): Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Close_calculate' is clicked on
+
+2022-03-28 12:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ME_CollateralAndLoan_Vehicle/a_Close_calculate' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-04-Transaction-InputPenyimpangan-ProcessBM" time="25.736" classname="Test Cases/Sprint 4/Skenario 4/04-04-Transaction-InputPenyimpangan-ProcessBM" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:16:04 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-04-Transaction-InputPenyimpangan-ProcessBM: Test Cases/Sprint 4/Skenario 4/04-04-Transaction-InputPenyimpangan-ProcessBM
+
+2022-03-28 12:16:04 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:16:04 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2022-03-28 12:16:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2022-03-28 12:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Penyimpangan/span_Penyimpangan"), OPTIONAL): Object: 'Object Repository/Penyimpangan/span_Penyimpangan' is clicked on
+
+2022-03-28 12:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Penyimpangan/span_Penyimpangan' is clicked on
+
+2022-03-28 12:16:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:06 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-masuk-menu-penyimpangan.png"): Taking screenshot successfully
+
+2022-03-28 12:16:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-masuk-menu-penyimpangan.png]]
+
+2022-03-28 12:16:07 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Masuk menu penyimpangan"): scenario 1 - Masuk menu penyimpangan
+
+2022-03-28 12:16:07 - [MESSAGE][PASSED] - scenario 1 - Masuk menu penyimpangan
+
+2022-03-28 12:16:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Penyimpangan/input_keyword"), processBM_keyword, OPTIONAL): Text 'BM - (Tidak berlaku lagi) Bukti rumah berupa AJB / PBB / PPJB / HGB / Perjanjian Kredit KPR yang menunjukkan alamat sesuai dengan tempat tinggal konsumen (dapat atas nama pemohon / pasangan / anak / orang tua / mertua) (CS)' is set on object 'Object Repository/Penyimpangan/input_keyword'
+
+2022-03-28 12:16:13 - [MESSAGE][PASSED] - Text 'BM - (Tidak berlaku lagi) Bukti rumah berupa AJB / PBB / PPJB / HGB / Perjanjian Kredit KPR yang menunjukkan alamat sesuai dengan tempat tinggal konsumen (dapat atas nama pemohon / pasangan / anak / orang tua / mertua) (CS)' is set on object 'Object Repository/Penyimpangan/input_keyword'
+
+2022-03-28 12:16:13 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-penyimpangan.png"): Taking screenshot successfully
+
+2022-03-28 12:16:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-penyimpangan.png]]
+
+2022-03-28 12:16:15 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input penyimpangan"): scenario 1 - Input penyimpangan
+
+2022-03-28 12:16:15 - [MESSAGE][PASSED] - scenario 1 - Input penyimpangan
+
+2022-03-28 12:16:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Penyimpangan/span_BM 1"), OPTIONAL): Object: 'Object Repository/Penyimpangan/span_BM 1' is clicked on
+
+2022-03-28 12:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Penyimpangan/span_BM 1' is clicked on
+
+2022-03-28 12:16:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Penyimpangan/textarea_Catatan_note"), 0, OPTIONAL): Scroll to object 'Object Repository/Penyimpangan/textarea_Catatan_note' successfully
+
+2022-03-28 12:16:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-28 12:16:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Penyimpangan/textarea_Catatan_note' successfully
+
+2022-03-28 12:16:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Penyimpangan/textarea_Catatan_note"), processBM_catatanNote, OPTIONAL): Text 'Pengajuan 4' is set on object 'Object Repository/Penyimpangan/textarea_Catatan_note'
+
+2022-03-28 12:16:20 - [MESSAGE][PASSED] - Text 'Pengajuan 4' is set on object 'Object Repository/Penyimpangan/textarea_Catatan_note'
+
+2022-03-28 12:16:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:21 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-input-penyimpangan-selesai.png"): Taking screenshot successfully
+
+2022-03-28 12:16:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-input-penyimpangan-selesai.png]]
+
+2022-03-28 12:16:22 - [TEST_STEP][PASSED] - markPassed("scenario 1 - Input penyimpangan selesai"): scenario 1 - Input penyimpangan selesai
+
+2022-03-28 12:16:22 - [MESSAGE][PASSED] - scenario 1 - Input penyimpangan selesai
+
+2022-03-28 12:16:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Penyimpangan/span_Proceed"), OPTIONAL): Object: 'Object Repository/Penyimpangan/span_Proceed' is clicked on
+
+2022-03-28 12:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Penyimpangan/span_Proceed' is clicked on
+
+2022-03-28 12:16:23 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-1-berhasil-proceed.png"): Taking screenshot successfully
+
+2022-03-28 12:16:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-1-berhasil-proceed.png]]
+
+2022-03-28 12:16:24 - [TEST_STEP][PASSED] - markPassed("scenario 1 - berhasil proceed"): scenario 1 - berhasil proceed
+
+2022-03-28 12:16:24 - [MESSAGE][PASSED] - scenario 1 - berhasil proceed
+
+2022-03-28 12:16:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-28 12:16:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-28 12:16:29 - [TEST_STEP][PASSED] - getSearch4 = getText(findTestObject("Object Repository/Penyimpangan/SetSearch")): Text of object 'Object Repository/Penyimpangan/SetSearch' is: '4003886'
+
+2022-03-28 12:16:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Penyimpangan/SetSearch' is: '4003886'
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - println(getSearch4): null
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - Search4 = getSearch4: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 4/Skenario 4/04-05-Transaction-InquiryStatus-SearchPengajuan" time="19.509" classname="Test Cases/Sprint 4/Skenario 4/04-05-Transaction-InquiryStatus-SearchPengajuan" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:16:30 - [TEST_CASE][PASSED] - Test Cases/Sprint 4/Skenario 4/04-05-Transaction-InquiryStatus-SearchPengajuan: Test Cases/Sprint 4/Skenario 4/04-05-Transaction-InquiryStatus-SearchPengajuan
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Inquiry_Status/a_Close")): Object: 'Object Repository/Inquiry_Status/a_Close' is clicked on
+
+2022-03-28 12:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Inquiry_Status/a_Close' is clicked on
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - id4 = Search4: null
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - println(id4): null
+
+2022-03-28 12:16:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Inquiry_Status/span_Inquiry Status Aplikasi")): Object: 'Object Repository/Inquiry_Status/span_Inquiry Status Aplikasi' is clicked on
+
+2022-03-28 12:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Inquiry_Status/span_Inquiry Status Aplikasi' is clicked on
+
+2022-03-28 12:16:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:33 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-3-menu-inquiry-status.png"): Taking screenshot successfully
+
+2022-03-28 12:16:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-3-menu-inquiry-status.png]]
+
+2022-03-28 12:16:33 - [TEST_STEP][PASSED] - markPassed("scenario 3 - menu inquiry status"): scenario 3 - menu inquiry status
+
+2022-03-28 12:16:33 - [MESSAGE][PASSED] - scenario 3 - menu inquiry status
+
+2022-03-28 12:16:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Inquiry_Status/input_Mobile ID  Application ID_form-control ng-untouched ng-pristine ng-valid"), id4): Text '4003886' is set on object 'Object Repository/Inquiry_Status/input_Mobile ID  Application ID_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:16:35 - [MESSAGE][PASSED] - Text '4003886' is set on object 'Object Repository/Inquiry_Status/input_Mobile ID  Application ID_form-control ng-untouched ng-pristine ng-valid'
+
+2022-03-28 12:16:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-28 12:16:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-28 12:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Inquiry_Status/span_Search")): Object: 'Object Repository/Inquiry_Status/span_Search' is clicked on
+
+2022-03-28 12:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Inquiry_Status/span_Search' is clicked on
+
+2022-03-28 12:16:37 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(userDir + sprint4WebScreenshootPath + "scenario-3-input-search-inquiry-status-data-pengajuan-4.png"): Taking screenshot successfully
+
+2022-03-28 12:16:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-28 12:16:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\elanf\git\BCAF_MEAPP_i3\Screenshoot\Sprint4\Web\keyes\keyes-scenario-3-input-search-inquiry-status-data-pengajuan-4.png]]
+
+2022-03-28 12:16:38 - [TEST_STEP][PASSED] - markPassed("scenario 3 - input search inquiry status data pengajuan 4"): scenario 3 - input search inquiry status data pengajuan 4
+
+2022-03-28 12:16:38 - [MESSAGE][PASSED] - scenario 3 - input search inquiry status data pengajuan 4
+
+2022-03-28 12:16:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-28 12:16:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-28 12:16:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-28 12:16:49 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-28 12:06:05 - [TEST_SUITE][PASSED] - S4: Test Cases/Sprint 4/Skenario 4/04-05-Transaction-InquiryStatus-SearchPengajuan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

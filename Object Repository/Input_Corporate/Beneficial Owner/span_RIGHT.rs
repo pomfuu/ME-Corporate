@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_RIGHT</name>
+   <tag></tag>
+   <elementGuidId>cae6fc34-2248-4b16-b8f6-90725e7013ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '›' or . = '›')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.next > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>47512909-f9b5-41cc-b566-6a4127d7815b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>›</value>
+      <webElementGuid>caee413c-02bb-469e-8afb-6d6bb824f936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;c-app&quot;]/bs-datepicker-container[@class=&quot;bottom ng-tns-c42-9 ng-star-inserted&quot;]/div[@class=&quot;bs-datepicker ng-tns-c42-9 theme-blue ng-star-inserted&quot;]/div[@class=&quot;bs-datepicker-container ng-tns-c42-9 ng-trigger ng-trigger-datepickerAnimation&quot;]/div[@class=&quot;bs-calendar-container ng-tns-c42-9&quot;]/div[@class=&quot;bs-media-container ng-tns-c42-9 ng-star-inserted&quot;]/bs-years-calendar-view[@class=&quot;ng-tns-c42-9 ng-star-inserted&quot;]/bs-calendar-layout[1]/div[@class=&quot;bs-datepicker-head&quot;]/bs-datepicker-navigation-view[1]/button[@class=&quot;next&quot;]/span[1]</value>
+      <webElementGuid>be48adc2-7fd4-4362-b2a7-04494078f6ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/following::span[2]</value>
+      <webElementGuid>09525540-a115-4a4e-b0bf-ea8783e521a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='›']/parent::*</value>
+      <webElementGuid>1f7179e5-6589-450c-9741-53aeb03e7345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/span</value>
+      <webElementGuid>da3c1882-fb44-467c-ae16-38762fb10869</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '›' or . = '›')]</value>
+      <webElementGuid>6ef3ac5d-8554-4634-b10f-d8f38b5f29e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

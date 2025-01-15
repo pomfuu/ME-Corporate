@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_No KTP_form-control ng-untouched ng-pristine ng-invalid</name>
+   <tag></tag>
+   <elementGuidId>370d6dd2-7de7-4a57-9e40-2b6538e60371</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'number' and @formcontrolname = 'noKtp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.mt-2 > div.col-md-6.form-group > div.input-container.d-flex > input.form-control.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>243e56ca-5e79-40c8-8a18-4a102a5a4cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>54c9df7b-4114-4450-a4fd-61998bba30c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>noKtp</value>
+      <webElementGuid>4f66fb3b-b193-4662-abed-d94c51e2e77a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>9b7f94ef-5498-4bca-8a01-3ab0cdf3e30a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Payment&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;header-question&quot;]/div[@class=&quot;body-question&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-6 form-group&quot;]/div[@class=&quot;input-container d-flex&quot;]/input[@class=&quot;form-control ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>badeac32-dfe5-4300-aeee-d04c2e09ea77</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name=''])[24]</value>
+      <webElementGuid>11cf71a2-73f4-4c92-a787-325223a43045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Payment']/div/div[3]/div/div/div/div[3]/div[2]/div/input</value>
+      <webElementGuid>a986e7d1-2785-4adc-9b0b-ba2f1b920833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/input</value>
+      <webElementGuid>ac43527d-300a-4776-8279-46d617718467</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'number']</value>
+      <webElementGuid>d09f3b0c-0c27-40c6-bbc3-541c00600ef3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

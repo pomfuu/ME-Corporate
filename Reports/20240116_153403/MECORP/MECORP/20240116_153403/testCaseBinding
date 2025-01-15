@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/me corp/Login","testCaseId":"Test Cases/me corp/Login","iterationVariableName":"role","bindedValues":{"role":"\"cmo\""}}
+{"testCaseName":"Test Cases/me corp/Transaction-AppBaru-InputData-inisiasi","testCaseId":"Test Cases/me corp/Transaction-AppBaru-InputData-inisiasi","iterationVariableName":""}
+{"testCaseName":"Test Cases/me corp/Transaction-AppPending-InputData-data-entry","testCaseId":"Test Cases/me corp/Transaction-AppPending-InputData-data-entry","iterationVariableName":""}
+{"testCaseName":"Test Cases/me corp/Transaction-AppPending-InputData-corporateLoan","testCaseId":"Test Cases/me corp/Transaction-AppPending-InputData-corporateLoan","iterationVariableName":""}
+{"testCaseName":"Test Cases/me corp/Transaction-AppPending-InputData-Vehicle","testCaseId":"Test Cases/me corp/Transaction-AppPending-InputData-Vehicle","iterationVariableName":""}

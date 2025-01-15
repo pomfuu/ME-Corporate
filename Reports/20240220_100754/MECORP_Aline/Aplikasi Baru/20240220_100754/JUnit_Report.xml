@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aplikasi Baru" time="362.484" tests="5" failures="1" errors="0">
+   <testsuite name="Aplikasi Baru" tests="5" failures="1" errors="0" time="362.484" skipped="0" timestamp="20-02-2024T10:08:02" hostname="clarien cahyono - LAPTOP-JTB6QV1G" id="Test Suites/MECORP_Aline/Aplikasi Baru">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754"/>
+         <property name="logFiles" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\execution0.log"/>
+         <property name="attachments" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\1708398765636.png, D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\1708398798740.png, D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\1708398825935.png, D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\1708398844466.png"/>
+         <property name="hostName" value="clarien cahyono - LAPTOP-JTB6QV1G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.10.13.39"/>
+         <property name="sessionId" value="8a2bc4ec397663cc9c8a83f36ecdc66e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/me corp - aline/Login" time="7.879" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[20-02-2024T10:08:02 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+20-02-2024T10:08:02 - [TEST_STEP][PASSED] - switch (role): null
+
+20-02-2024T10:08:02 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T10:08:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2024T10:08:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2024T10:08:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T10:08:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2024T10:08:05 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2024T10:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), AHUUsername): Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:06 - [MESSAGE][PASSED] - Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:07 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru" time="28.658" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru" status="PASSED">
+         <system-out><![CDATA[20-02-2024T10:08:10 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru: Test Cases/me corp - aline/Transaction/AplikasiBaru
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - npwp = NPWPGenerator.generateIncrementingNPWP(): null
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - ssDir = userDir + sprint2WebScreenshotPath: null
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - if (tipeKonsumen == "Perorangan"): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@value='radio-perorangan']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//ng-select[@formcontrolname='businessType']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://form//*[text()='$badanUsaha']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - npwpPath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - siupPath = pathfinder_siup.replace("/", "\"): null
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - tdpPath = pathfinder_tdp.replace("/", "\"): null
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - uploadFile = [["path":npwpPath], ["path":siupPath], ["path":tdpPath]]: null
+
+20-02-2024T10:08:11 - [TEST_STEP][PASSED] - uploadFile.each({ java.lang.Object key -> ... }): popup.popup.uploadFile is PASSED
+
+20-02-2024T10:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:13 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:08:13 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:18 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:08:18 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:21 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:08:21 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:08:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), 2): Object 'Object Repository/xpath_dynamic' is visible
+
+20-02-2024T10:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is visible
+
+20-02-2024T10:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), npwp): Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:23 - [MESSAGE][PASSED] - Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='name']"]), nama): Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:23 - [MESSAGE][PASSED] - Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:08:23 - [TEST_STEP][PASSED] - if (isPerubahanData == "ya"): null
+
+20-02-2024T10:08:23 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ada Perubahan Data?']/following-sibling::div[2]"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Proses ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T10:08:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T10:08:26 - [TEST_STEP][PASSED] - for ([i = 1, i < 5, (i++)]): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='tab-content']/div[4]//*[text()='OK']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@type='checkbox']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ya']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate" time="160.07" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate" status="PASSED">
+         <system-out><![CDATA[20-02-2024T10:08:38 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate
+
+20-02-2024T10:08:39 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T10:08:39 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T10:08:39 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T10:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@formcontrolname='sidName']"]), information_namaPemilikRek): Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:39 - [MESSAGE][PASSED] - Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Surat Keterangan Domisili ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@role='tablist']//div[4]//*[text()=' Capture ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:46 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T10:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:09:48 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='FAP ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Add Capture']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:49 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T10:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:50 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:09:51 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:09:51 - [TEST_STEP][PASSED] - fieldData = [["Jenis Usaha", "TEST"], ["Omzet Usaha per Tahun", information_mutasiSaldo], ["Alamat Perusahaan", information_cabang], ["Berdiri Sejak Tahun", "2003"], ["No. Rekening BCA", "12345678911"]]: null
+
+20-02-2024T10:09:51 - [TEST_STEP][PASSED] - for (def data : fieldData): Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:52 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:53 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:54 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '2003' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:55 - [MESSAGE][PASSED] - Text '2003' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:55 - [MESSAGE][PASSED] - Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:55 - [TEST_STEP][PASSED] - fieldSearchData = [["Kode Lokasi Proyek", information_cabang], ["Kab/Kota", information_cabang], ["Kelurahan", "Arteri Pondok Indah"], ["Economy Code", "100107"], ["Provinsi", "Banten"], ["Kecamatan", "pamulang"], ["Kode Pos", "15418"]]: null
+
+20-02-2024T10:09:55 - [TEST_STEP][PASSED] - for (def data : fieldSearchData): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:56 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:58 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:09:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:00 - [MESSAGE][PASSED] - Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text '100107' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:02 - [MESSAGE][PASSED] - Text '100107' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:04 - [MESSAGE][PASSED] - Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:06 - [MESSAGE][PASSED] - Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:07 - [MESSAGE][PASSED] - Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:08 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:08 - [TEST_STEP][PASSED] - fieldData2 = [["email", "test@gmail.com"], ["phoneAreaCode2", "62"], ["telepon2", "8888888"], ["phoneAreaCode1", "62"], ["telepon1", "8888887"], ["faxAreaCode2", "1"], ["fax2", "12345"], ["faxAreaCode1", "1"], ["fax1", "12345"]]: null
+
+20-02-2024T10:10:08 - [TEST_STEP][PASSED] - for (def data : fieldData2): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text 'test@gmail.com' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:09 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:10 - [MESSAGE][PASSED] - Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '8888888' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:10 - [MESSAGE][PASSED] - Text '8888888' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:11 - [MESSAGE][PASSED] - Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '8888887' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:12 - [MESSAGE][PASSED] - Text '8888887' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:13 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:13 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:14 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Resume AHU' and @href='#tab-resumeahu']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Pengurus' and @href='#tab-pengurus']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@id='accordionPengurus']//*[text()=' Add']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@formarrayname='pengurus']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@data-parent='#accordionPengurus']//*[text()='Capture File']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:22 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), ktpPath): popup.popup.uploadFile is PASSED
+
+20-02-2024T10:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:23 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:10:24 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:10:24 - [TEST_STEP][PASSED] - fieldDataPengurus = [["Name", "TEST"], ["Identity No", "12345"], ["Birth Place", "Jakarta Selatan"], ["SID Pengurus", "TEST"], ["Alamat", "Jakarta Selatan"]]: null
+
+20-02-2024T10:10:24 - [TEST_STEP][PASSED] - for (def data : fieldDataPengurus): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T10:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:44 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T10:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:45 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T10:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:46 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T10:10:47 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:47 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T10:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:49 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:49 - [TEST_STEP][PASSED] - fieldSearchDataPengurus = [["Provinsi", "Banten"], ["Kecamatan", "pamulang"], ["Kode Pos", "15418"], ["Kab/Kota", information_cabang], ["Kelurahan", "Arteri Pondok Indah"]]: null
+
+20-02-2024T10:10:49 - [TEST_STEP][PASSED] - for (def data : fieldSearchDataPengurus): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:49 - [MESSAGE][PASSED] - Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:51 - [MESSAGE][PASSED] - Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:53 - [MESSAGE][PASSED] - Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:55 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:57 - [MESSAGE][PASSED] - Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:57 - [TEST_STEP][PASSED] - fieldSearchDataRole = [["Role", "Signer"], ["Job Title", "Komisaris Utama"]]: null
+
+20-02-2024T10:10:57 - [TEST_STEP][PASSED] - for (def data : fieldSearchDataRole): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Signer' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:58 - [MESSAGE][PASSED] - Text 'Signer' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:10:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:10:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Komisaris Utama' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:00 - [MESSAGE][PASSED] - Text 'Komisaris Utama' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:00 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Birth Date']/following-sibling::div[1]//button"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='2024']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='2023']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='July']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='7']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Pemegang Saham' and @href='#tab-pemegangSaham']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Penjamin' and @href='#tab-penjamin']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Financial' and @href='#tab-financial']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Contact Person' and @href='#tab-contact-person']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Other Document' and @href='#tab-other-document']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='BO' and @href='#tab-bo']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='button-save-draft']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information" time="21.997" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information" status="PASSED">
+         <system-out><![CDATA[20-02-2024T10:11:18 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div//following-sibling::span[text()='Collateral dan Loan']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - fieldDataInformation = [["salesOffice", sales_office], ["salesAgent", sales_agent], ["jenisPengajuan", information_jenisPengajuan], ["tujuan", information_tujuanKredit]]: null
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - for (def data : fieldDataInformation): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text '0001' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:20 - [MESSAGE][PASSED] - Text '0001' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text '010247' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:23 - [MESSAGE][PASSED] - Text '010247' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'mobil bekas' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:25 - [MESSAGE][PASSED] - Text 'mobil bekas' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:25 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'pembelian aset' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:27 - [MESSAGE][PASSED] - Text 'pembelian aset' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:27 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div//input[@name='cluster']/following-sibling::label[text()='$cluster']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:11:28 - [TEST_STEP][PASSED] - fieldDataReccomendation = [["recommenderName", information_namaPemilikRek], ["recommenderBranch", information_cabang], ["recommenderRole", test]]: null
+
+20-02-2024T10:11:28 - [TEST_STEP][PASSED] - for (def data : fieldDataReccomendation): Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:29 - [MESSAGE][PASSED] - Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:30 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:31 - [MESSAGE][PASSED] - Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ng-select[@formcontrolname='paymentMethod']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@role='option']//*[text()='Bank (Transfer)']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@formcontrolname='bcaAccountNo']"]), information_accountNum): Text '11111111111' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:32 - [MESSAGE][PASSED] - Text '11111111111' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Mutasi Rekening']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Add Mutasi Rekening']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='modal-content']//*[text()='Capture File']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:34 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T10:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:35 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T10:11:35 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T10:11:35 - [TEST_STEP][PASSED] - fieldDataMutasi = [["mutasiDebit", information_mutasiDebit], ["mutasiSaldo", information_mutasiSaldo], ["mutasiKredit", information_mutasiKredit]]: null
+
+20-02-2024T10:11:35 - [TEST_STEP][PASSED] - for (def data : fieldDataMutasi): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:37 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:38 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:38 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//button[text()=' Add']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='View Detail']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@class='close']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='button-save-draft']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle" time="18.535" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle" status="FAILED">
+         <failure type="FAILED" message="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=121.0.6167.185)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[20-02-2024T10:13:46 - [TEST_CASE][FAILED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+20-02-2024T10:13:46 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T10:13:46 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T10:13:46 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T10:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Vehicle' and @href='#tab-vehicle']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:13:57 - [TEST_STEP][PASSED] - fieldDataVehicle = [["dealerName", "Adhiprima Utama Mobilindo, PT"], ["dealerBranchName", "a"]]: null
+
+20-02-2024T10:13:57 - [TEST_STEP][PASSED] - for (def data : fieldDataVehicle): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'Adhiprima Utama Mobilindo, PT' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:14:00 - [MESSAGE][PASSED] - Text 'Adhiprima Utama Mobilindo, PT' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:14:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'a' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:14:02 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T10:14:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T10:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Data Vehicle']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T10:14:03 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@formcontrolname='carCondition' and @value='2']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:14:04 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T10:14:04 - [TEST_STEP][PASSED] - fieldSelectVehicle = [["productCode", "New General"], ["packetName", "Non Packet"], ["brandName", "DAIHATSU"], ["modelName", "AYLA"], ["type", "AYLA"], ["purpose", "Operasional"], ["hubunganDebitur", "Konsumen"]]: null
+
+20-02-2024T10:14:04 - [TEST_STEP][FAILED] - for (def data : fieldSelectVehicle): Unable to set text 'New General' of object 'Object Repository/xpath_dynamic' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1708333903094.run(Script1708333903094.groovy:68)
+	... 18 more
+)
+
+20-02-2024T10:14:04 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Unable to set text 'New General' of object 'Object Repository/xpath_dynamic' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1708333903094.run(Script1708333903094.groovy:68)
+	... 18 more
+)
+
+20-02-2024T10:14:04 - [MESSAGE][FAILED] - Unable to set text 'New General' of object 'Object Repository/xpath_dynamic' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1708333903094.run(Script1708333903094.groovy:68)
+	... 18 more
+)
+[[ATTACHMENT|D:\\BCAF\\me-corp-add-data\\Reports\\20240220_100754\\MECORP_Aline\\Aplikasi Baru\\20240220_100754\\1708398844466.png]]]]></system-out>
+         <system-err><![CDATA[20-02-2024T10:13:46 - [TEST_CASE][FAILED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New General' of object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2024T10:08:02 - [TEST_SUITE][FAILED] - Aplikasi Baru: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="btn btn-outline-primary btn-icon ng-star-inserted">...</a> is not clickable at point (395, 16). Other element would receive the click: <header _ngcontent-snd-c84="" id="mainHeader" class="c-header c-header-light c-header-fixed">...</header>
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at jdk.internal.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[20-02-2024T10:08:02 - [TEST_SUITE][FAILED] - Aplikasi Baru: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/xpath_dynamic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CollateralLoan-Vehicle.run(CollateralLoan-Vehicle:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708398474226.run(TempTestSuite1708398474226.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="btn btn-outline-primary btn-icon ng-star-inserted">...</a> is not clickable at point (395, 16). Other element would receive the click: <header _ngcontent-snd-c84="" id="mainHeader" class="c-header c-header-light c-header-fixed">...</header>
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-JTB6QV1G', ip: '10.10.13.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CLARIE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2bc4ec397663cc9c8a83f36ecdc66e
+	at jdk.internal.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

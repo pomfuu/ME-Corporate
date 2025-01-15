@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Birth Date_btn btn-outline-secondary</name>
+   <tag></tag>
+   <elementGuidId>23fbdd3d-0171-4b5e-9233-7193ad940fc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-pristine.ng-invalid.ng-touched > #tab-0 > div.card-body > div.row > div.col-md-6.form-group > div.d-flex.input-container > div.input-group > div.input-group-append.ng-star-inserted > button.btn.btn-outline-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[18]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0b54de80-d736-40e9-90cb-327370fe38bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b321cc67-1734-48af-9d21-ac8ff8e0f95b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-secondary</value>
+      <webElementGuid>2d341de3-e155-48fe-8b66-0433c1d0a1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3791a983-b610-4161-a8eb-a547cf670ad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionBO&quot;)/form[@class=&quot;ng-dirty ng-invalid ng-touched&quot;]/div[@class=&quot;card mb-1 rounded-0 ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/div[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@id=&quot;tab-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 form-group&quot;]/div[@class=&quot;d-flex input-container&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append ng-star-inserted&quot;]/button[@class=&quot;btn btn-outline-secondary&quot;]</value>
+      <webElementGuid>7567b129-b456-49b2-906c-8400238c5041</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[18]</value>
+      <webElementGuid>70836256-8070-4212-b4f4-3815bc133bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-0']/div/div[3]/div[3]/div/div/div/button</value>
+      <webElementGuid>43cfda81-f92c-4a78-bbe0-cb8b6554e201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birth Date'])[3]/following::button[1]</value>
+      <webElementGuid>3b192037-b4fe-4cf4-86c7-41dde4968a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identity No'])[3]/following::button[1]</value>
+      <webElementGuid>8dade771-06fb-42e0-83b9-3c325bbfdf9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birth Place'])[3]/preceding::button[1]</value>
+      <webElementGuid>f65aae73-fd79-40d2-a3a8-5741267ae194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Beneficial Owner 1'])[1]/preceding::button[1]</value>
+      <webElementGuid>1b68256c-e780-4848-b378-45e039a346f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>5b859291-eb85-4fe9-85d5-039960b354cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>3e182eb8-c340-4e25-8112-3abe25063bce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

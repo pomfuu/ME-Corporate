@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,Firefox 121.0,,,2024-01-09 11:22:36,2024-01-09 11:23:02,26.115s,PASSED
+,,,,,,,
+Test Cases/me corp/Login,Firefox 121.0,,,2024-01-09 11:22:37,2024-01-09 11:22:51,14.043s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 121.0,,,2024-01-09 11:22:38,2024-01-09 11:22:38,0.002s,PASSED
+"password = ""Mobile123+""",Firefox 121.0,,,2024-01-09 11:22:38,2024-01-09 11:22:38,0.001s,PASSED
+switch (role),Firefox 121.0,,,2024-01-09 11:22:38,2024-01-09 11:22:40,2.082s,PASSED
+"openBrowser("""")",Firefox 121.0,,,2024-01-09 11:22:40,2024-01-09 11:22:47,7.200s,PASSED
+navigateToUrl(ME_url),Firefox 121.0,,,2024-01-09 11:22:47,2024-01-09 11:22:48,1.246s,PASSED
+maximizeWindow(),Firefox 121.0,,,2024-01-09 11:22:48,2024-01-09 11:22:48,0.084s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User ID_login""), username)",Firefox 121.0,,,2024-01-09 11:22:48,2024-01-09 11:22:49,1.013s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User Password_login""), password)",Firefox 121.0,,,2024-01-09 11:22:49,2024-01-09 11:22:50,0.735s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Login""))",Firefox 121.0,,,2024-01-09 11:22:50,2024-01-09 11:22:51,0.686s,PASSED
+,,,,,,,
+Test Cases/me corp/inisiasi,Firefox 121.0,,,2024-01-09 11:22:51,2024-01-09 11:23:02,11.381s,PASSED
+robot = new java.awt.Robot(),Firefox 121.0,,,2024-01-09 11:22:52,2024-01-09 11:22:52,0.083s,PASSED
+driver = getWebDriver(),Firefox 121.0,,,2024-01-09 11:22:52,2024-01-09 11:22:52,0.018s,PASSED
+userDir = getProjectDir(),Firefox 121.0,,,2024-01-09 11:22:52,2024-01-09 11:22:52,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,Firefox 121.0,,,2024-01-09 11:22:52,2024-01-09 11:22:52,0.002s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""))",Firefox 121.0,,,2024-01-09 11:22:52,2024-01-09 11:22:53,0.634s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru""))",Firefox 121.0,,,2024-01-09 11:22:53,2024-01-09 11:22:54,0.679s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + ""scenario-1-memilih-button-transaksi-dan-aplikasi-baru.png"")",Firefox 121.0,,,2024-01-09 11:22:54,2024-01-09 11:22:55,0.892s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_korporasi_radios-apptype""))",Firefox 121.0,,,2024-01-09 11:22:55,2024-01-09 11:22:55,0.607s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""))",Firefox 121.0,,,2024-01-09 11:22:55,2024-01-09 11:22:56,0.693s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input-badanusaha""), ""Perseroan Terbatas"")",Firefox 121.0,,,2024-01-09 11:22:56,2024-01-09 11:22:57,0.766s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + ""scenario-1-input-badan-usaha.png"")",Firefox 121.0,,,2024-01-09 11:22:57,2024-01-09 11:22:57,0.677s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )""))",Firefox 121.0,,,2024-01-09 11:22:57,2024-01-09 11:22:58,0.758s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + ""scenario-1-page-sebelum-input-capture.png"")",Firefox 121.0,,,2024-01-09 11:22:58,2024-01-09 11:22:59,0.552s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp""))",Firefox 121.0,,,2024-01-09 11:22:59,2024-01-09 11:22:59,0.626s,PASSED
+npwpPath = userDir + pathfinder_npwp,Firefox 121.0,,,2024-01-09 11:22:59,2024-01-09 11:22:59,0.002s,PASSED
+"popup.popup.uploadFile(findTestObject(""Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File""), npwpPath.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-09 11:22:59,2024-01-09 11:23:02,2.462s,PASSED
+"markPassed(npwpPath.replace(""/"", ""\""))",Firefox 121.0,,,2024-01-09 11:23:02,2024-01-09 11:23:02,0.022s,PASSED
+"waitForElementPresent(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_NPWP""), 0)",Firefox 121.0,,,2024-01-09 11:23:02,2024-01-09 11:23:02,0.373s,PASSED

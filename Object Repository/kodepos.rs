@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kodepos</name>
+   <tag></tag>
+   <elementGuidId>32838d49-2317-4063-b212-ffc69e75d0ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/bcaf-site-layout/div[2]/div/bcaf-application/bcaf-forms-container/main/div/div/div/div/bcaf-corporate-data/div/div[2]/div/div[4]/bcaf-pemegang-saham/div[1]/div/form/div/div/div[2]/div/div/div[11]/div/bcaf-autocomplete/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

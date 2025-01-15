@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aplikasi Baru" time="31.109" tests="2" failures="0" errors="0">
+   <testsuite name="Aplikasi Baru" tests="2" failures="0" errors="0" time="31.109" skipped="0" timestamp="20-02-2024T11:20:12" hostname="clarien cahyono - LAPTOP-JTB6QV1G" id="Test Suites/MECORP_Aline/Aplikasi Baru">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_112005\\MECORP_Aline\\Aplikasi Baru\\20240220_112005"/>
+         <property name="logFiles" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_112005\\MECORP_Aline\\Aplikasi Baru\\20240220_112005\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="clarien cahyono - LAPTOP-JTB6QV1G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.10.13.39"/>
+         <property name="sessionId" value="4bc98d300e1a360d84d57be120d93c8f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/me corp - aline/Login" time="7.725" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:20:13 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+20-02-2024T11:20:13 - [TEST_STEP][PASSED] - switch (role): null
+
+20-02-2024T11:20:13 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T11:20:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2024T11:20:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2024T11:20:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T11:20:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2024T11:20:17 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2024T11:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), AHUUsername): Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:17 - [MESSAGE][PASSED] - Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:18 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru" time="23.169" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:20:20 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru: Test Cases/me corp - aline/Transaction/AplikasiBaru
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - npwp = NPWPGenerator.generateIncrementingNPWP(): null
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - ssDir = userDir + sprint2WebScreenshotPath: null
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - if (tipeKonsumen == "Perorangan"): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:20:21 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@value='radio-perorangan']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//ng-select[@formcontrolname='businessType']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://form//*[text()='$badanUsaha']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:22 - [TEST_STEP][PASSED] - npwpPath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T11:20:23 - [TEST_STEP][PASSED] - siupPath = pathfinder_siup.replace("/", "\"): null
+
+20-02-2024T11:20:23 - [TEST_STEP][PASSED] - tdpPath = pathfinder_tdp.replace("/", "\"): null
+
+20-02-2024T11:20:23 - [TEST_STEP][PASSED] - uploadFile = [["path":npwpPath], ["path":siupPath], ["path":tdpPath]]: null
+
+20-02-2024T11:20:23 - [TEST_STEP][PASSED] - uploadFile.each({ java.lang.Object key -> ... }): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:24 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:20:25 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:29 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:20:29 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:31 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:20:32 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:20:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), 3): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), npwp): Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:34 - [MESSAGE][PASSED] - Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='name']"]), nama): Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:34 - [MESSAGE][PASSED] - Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:20:34 - [TEST_STEP][PASSED] - if (isPerubahanData == "ya"): null
+
+20-02-2024T11:20:34 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ada Perubahan Data?']/following-sibling::div[2]"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Proses ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T11:20:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T11:20:37 - [TEST_STEP][PASSED] - for ([i = 1, i < 5, (i++)]): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='tab-content']/div[4]//*[text()='OK']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@type='checkbox']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ya']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2024T11:20:12 - [TEST_SUITE][PASSED] - Aplikasi Baru: Test Cases/me corp - aline/Transaction/AplikasiBaru]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Beneficial Owner 1</name>
+   <tag></tag>
+   <elementGuidId>db87455e-459a-4ff2-8314-51bbbb8ef04d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='headingOne']/button)[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Beneficial Owner 1 ' or . = 'Beneficial Owner 1 ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-untouched.ng-pristine.ng-invalid > #headingOne > button.btn-trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>25f924f2-af29-4462-a08e-889312cff05f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>1fb0fadf-34ab-4fe9-9548-a0ef0907a9f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a10fe241-9fbb-4354-83f0-caf79cca4b01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-trigger</value>
+      <webElementGuid>fec93e65-8726-4b31-b8b5-407bd70a66f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#tab-0</value>
+      <webElementGuid>5a16a5d3-a91d-44f6-bafa-537b72908a0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>tab-0</value>
+      <webElementGuid>158ab011-b820-4d9f-a2fc-5b8c09b0aa21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beneficial Owner 1 </value>
+      <webElementGuid>551284ae-5451-4f7d-94da-d134228a81c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionBO&quot;)/form[@class=&quot;ng-dirty ng-touched ng-invalid&quot;]/div[@class=&quot;card mb-1 rounded-0 ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@id=&quot;headingOne&quot;]/button[@class=&quot;btn-trigger&quot;]</value>
+      <webElementGuid>99bdee7a-79cc-4376-9031-6b9f90406c65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='headingOne']/button)[4]</value>
+      <webElementGuid>ccd54e76-214b-414c-9f2b-3585989f77bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak'])[3]/following::button[1]</value>
+      <webElementGuid>b6374952-fd11-46c5-97d3-591dcf9d8f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ya'])[3]/following::button[1]</value>
+      <webElementGuid>8c446603-0937-4dbe-aa3c-d043ba4be15b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kewarganegaraan'])[1]/preceding::button[1]</value>
+      <webElementGuid>bf4a326b-0fc7-47b5-b8d9-8842f6103bfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Warga Negara Indonesia'])[1]/preceding::button[1]</value>
+      <webElementGuid>07289c5e-69b7-4196-8fac-5c68d46aaee2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Beneficial Owner 1']/parent::*</value>
+      <webElementGuid>59af46d3-17ae-4382-b05a-0c28c3acbd5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div/button</value>
+      <webElementGuid>4dd47f35-1955-47fe-a177-813e078014fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Beneficial Owner 1 ' or . = 'Beneficial Owner 1 ')]</value>
+      <webElementGuid>da2a0a05-feb9-4d28-aded-574b18fba502</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

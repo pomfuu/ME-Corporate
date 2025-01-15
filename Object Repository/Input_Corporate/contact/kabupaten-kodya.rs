@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kabupaten-kodya</name>
+   <tag></tag>
+   <elementGuidId>d66e8ba7-a43b-46a3-9525-ce8d5e38d6b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[43]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.bcaf-autocomplete.ng-valid.ng-touched.ng-dirty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control bcaf-autocomplete ng-valid ng-touched ng-dirty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pilih </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appContainer&quot;)/div[@class=&quot;fade-in&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/bcaf-corporate-data[1]/div[@class=&quot;card card-aplikasi-baru&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;tab-content&quot;]/div[@id=&quot;tab-contact-person&quot;]/bcaf-contact-person[1]/div[@class=&quot;document-content&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;body-question&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 form-group&quot;]/div[@class=&quot;d-flex input-container&quot;]/bcaf-autocomplete[@class=&quot;w-100&quot;]/div[@class=&quot;controls&quot;]/div[@class=&quot;input-group search-form&quot;]/input[@class=&quot;form-control bcaf-autocomplete ng-valid ng-touched ng-dirty&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[43]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-contact-person']/bcaf-contact-person/div/div[2]/div/form/div/div[3]/div/bcaf-autocomplete/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//bcaf-contact-person/div/div[2]/div/form/div/div[3]/div/bcaf-autocomplete/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,,,,2024-01-09 15:09:19,2024-01-09 15:09:28,8.966s,ERROR
+,,,,,,,
+Test Cases/me corp/Login,,,,2024-01-09 15:09:19,2024-01-09 15:09:26,6.577s,FAILED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-01-09 15:09:20,2024-01-09 15:09:20,0.002s,PASSED
+"password = ""Mobile123+""",,,,2024-01-09 15:09:20,2024-01-09 15:09:20,0.001s,PASSED
+switch (role),,,,2024-01-09 15:09:20,2024-01-09 15:09:22,1.755s,PASSED
+"openBrowser("""")",,,,2024-01-09 15:09:22,2024-01-09 15:09:26,3.967s,FAILED
+,,,,,,,
+Test Cases/me corp/inisiasi,,,,2024-01-09 15:09:26,2024-01-09 15:09:28,1.679s,ERROR
+robot = new java.awt.Robot(),,,,2024-01-09 15:09:27,2024-01-09 15:09:28,0.097s,PASSED
+driver = getWebDriver(),,,,2024-01-09 15:09:28,2024-01-09 15:09:28,0.033s,ERROR

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_BCAI - IIMS - SUBS OTR ADDB</name>
+   <tag></tag>
+   <elementGuidId>9317d075-29c5-47d9-80c9-eadf41de381c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a3dc20f3bd67-2']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'keteranganType']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a3dc20f3bd67-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>keteranganType</value>
+      <webElementGuid>5847ccc9-2518-4254-afc5-d44c21299fec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='a3dc20f3bd67-2']</value>
+      <webElementGuid>9697f2d8-f011-4301-aec4-59e562fc79cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel[@id='a3dc20f3bd67']/div/div[2]/div[3]</value>
+      <webElementGuid>026498ca-c915-4174-88d1-68683eb4c05e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ASTRIDO (FIX 4TH N CAP 2TH 8.19% EFF 15.010563% IN ARREAR)'])[1]/following::div[1]</value>
+      <webElementGuid>b4ffa206-4232-4aa3-a788-ec27c27d87e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ASTRIDO (FIX 3TH N CAP 2TH 8.19% EFF 15.010563% IN ARREAR)'])[1]/following::div[2]</value>
+      <webElementGuid>1e86628e-b0b0-4229-a2fa-5e0adbb230d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BCAI IIMS - CS ADDM PREPAID SUBS'])[1]/preceding::div[1]</value>
+      <webElementGuid>02e9ce39-8846-41a9-ae4e-0497f83210d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel/div/div[2]/div[3]</value>
+      <webElementGuid>ad21ab0e-6ab5-4d18-b8c3-d1cf34ce6670</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'a3dc20f3bd67-2' and (text() = 'BCAI - IIMS - SUBS OTR ADDB' or . = 'BCAI - IIMS - SUBS OTR ADDB')]</value>
+      <webElementGuid>70b04416-1df0-4650-9f3f-965847444f1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

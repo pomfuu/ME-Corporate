@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,,,,2024-01-15 13:52:52,2024-01-15 13:53:03,10.435s,FAILED
+,,,,,,,
+Test Cases/me corp/Login,,,,2024-01-15 13:52:53,2024-01-15 13:52:57,4.070s,FAILED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-01-15 13:52:54,2024-01-15 13:52:54,0.004s,PASSED
+"password = ""Mobile123+""",,,,2024-01-15 13:52:54,2024-01-15 13:52:54,0.001s,PASSED
+switch (role),,,,2024-01-15 13:52:54,2024-01-15 13:52:55,1.293s,PASSED
+"openBrowser("""")",,,,2024-01-15 13:52:55,2024-01-15 13:52:57,2.131s,FAILED
+,,,,,,,
+Test Cases/me corp/inisiasi,,,,2024-01-15 13:52:57,2024-01-15 13:52:59,1.532s,FAILED
+robot = new java.awt.Robot(),,,,2024-01-15 13:52:58,2024-01-15 13:52:58,0.078s,PASSED
+driver = getWebDriver(),,,,2024-01-15 13:52:58,2024-01-15 13:52:58,0.022s,PASSED
+userDir = getProjectDir(),,,,2024-01-15 13:52:58,2024-01-15 13:52:58,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,,,,2024-01-15 13:52:58,2024-01-15 13:52:58,0.001s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/span_Transaksi""))",,,,2024-01-15 13:52:58,2024-01-15 13:52:59,0.175s,FAILED
+,,,,,,,
+Test Cases/me corp/data-entry-aplikasi-pending,,,,2024-01-15 13:52:59,2024-01-15 13:53:01,2.530s,FAILED
+userDir = getProjectDir(),,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.001s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/input_SID Name_form-control ng-untouched ng-pristine ng-invalid""), konsumen_SID, OPTIONAL)",,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.234s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/i_Fax 2_ri-arrow-right-line""), 60, OPTIONAL)",,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.177s,PASSED
+"click(findTestObject(""Object Repository/Input_Corporate/Input_Konsumen/button_Surat Keterangan Domisili""), OPTIONAL)",,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.138s,PASSED
+"takeFullPageScreenshotAsCheckpoint(ssDir + ""scenario-1-masuk-submenu-surat-keterangan-domisili.png"")",,,,2024-01-15 13:53:01,2024-01-15 13:53:01,0.058s,FAILED
+,,,,,,,
+Test Cases/me corp/corporateLoan,,,,2024-01-15 13:53:01,2024-01-15 13:53:03,1.779s,FAILED
+userDir = getProjectDir(),,,,2024-01-15 13:53:03,2024-01-15 13:53:03,0.002s,PASSED
+ssDir = userDir + sprint2WebScreenshotPath,,,,2024-01-15 13:53:03,2024-01-15 13:53:03,0.001s,PASSED
+"click(findTestObject(""ME_AppPending/span_Collateral dan Loan""))",,,,2024-01-15 13:53:03,2024-01-15 13:53:03,0.163s,FAILED

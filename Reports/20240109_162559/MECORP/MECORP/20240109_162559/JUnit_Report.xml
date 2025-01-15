@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MECORP" time="60.881" tests="2" failures="1" errors="0">
+   <testsuite name="MECORP" tests="2" failures="1" errors="0" time="60.881" skipped="0" timestamp="2024-01-09 16:26:10" hostname="Jerry - DESKTOP-R03MSOE" id="Test Suites/MECORP/MECORP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_162559\\MECORP\\MECORP\\20240109_162559"/>
+         <property name="logFiles" value="C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_162559\\MECORP\\MECORP\\20240109_162559\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-memilih-button-transaksi-dan-aplikasi-baru.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-input-badan-usaha.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-page-sebelum-input-capture.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Capture-npwp-siup-tdp.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Memilih-Radio-Button-Perubahan-Data.png, C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Masuk-aplikasi-matching.png, C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_162559\\MECORP\\MECORP\\20240109_162559\\1704792431445.png"/>
+         <property name="hostName" value="Jerry - DESKTOP-R03MSOE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Firefox 121.0"/>
+         <property name="hostAddress" value="192.168.136.1"/>
+         <property name="sessionId" value="548e245e-96a3-49c1-ae10-588aa4cd6f3b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/me corp/Login" time="9.883" classname="Test Cases/me corp/Login" status="PASSED">
+         <system-out><![CDATA[2024-01-09 16:26:11 - [TEST_CASE][PASSED] - Test Cases/me corp/Login: Test Cases/me corp/Login
+
+2024-01-09 16:26:11 - [TEST_STEP][PASSED] - username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2024-01-09 16:26:11 - [TEST_STEP][PASSED] - password = "Mobile123+": null
+
+2024-01-09 16:26:11 - [TEST_STEP][PASSED] - switch (role): null
+
+2024-01-09 16:26:11 - [TEST_STEP][PASSED] - case "cmo":: null
+
+2024-01-09 16:26:11 - [TEST_STEP][PASSED] - username = CMO: null
+
+2024-01-09 16:26:12 - [TEST_STEP][PASSED] - break: null
+
+2024-01-09 16:26:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 16:26:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-01-09 16:26:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 16:26:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 16:26:17 - [TEST_STEP][PASSED] - navigateToUrl(ME_url): Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2024-01-09 16:26:18 - [MESSAGE][PASSED] - Navigate to 'https://mecorporate.idofocus.co.id:25443/login' successfully
+
+2024-01-09 16:26:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-09 16:26:18 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-09 16:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User ID_login"), username): Text '20160535' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2024-01-09 16:26:19 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User ID_login'
+
+2024-01-09 16:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_User Password_login"), password): Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2024-01-09 16:26:20 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_User Password_login'
+
+2024-01-09 16:26:20 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Login")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on
+
+2024-01-09 16:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp/inisiasi" time="50.545" classname="Test Cases/me corp/inisiasi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/me corp/inisiasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;btn btn-primary&quot;> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-01-09 16:26:20 - [TEST_CASE][FAILED] - Test Cases/me corp/inisiasi: Test Cases/me corp/inisiasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-01-09 16:26:22 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2024-01-09 16:26:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2024-01-09 16:26:22 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+2024-01-09 16:26:22 - [TEST_STEP][PASSED] - ssDir = userDir + sprint2WebScreenshotPath: null
+
+2024-01-09 16:26:22 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Transaksi")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2024-01-09 16:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Transaksi' is clicked on
+
+2024-01-09 16:26:23 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2024-01-09 16:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Aplikasi Baru' is clicked on
+
+2024-01-09 16:26:23 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-memilih-button-transaksi-dan-aplikasi-baru.png"): Taking screenshot successfully
+
+2024-01-09 16:26:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:26:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-memilih-button-transaksi-dan-aplikasi-baru.png]]
+
+2024-01-09 16:26:24 - [TEST_STEP][PASSED] - if (tipeKonsumen == "Perorangan"): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype' is clicked on
+
+2024-01-09 16:26:24 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype' is clicked on
+
+2024-01-09 16:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_perorangan_radios-apptype' is clicked on
+
+2024-01-09 16:26:25 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2024-01-09 16:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha' is clicked on
+
+2024-01-09 16:26:25 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input-badanusaha"), "Perseroan Terbatas"): Text 'Perseroan Terbatas' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2024-01-09 16:26:26 - [MESSAGE][PASSED] - Text 'Perseroan Terbatas' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input-badanusaha'
+
+2024-01-09 16:26:26 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-input-badan-usaha.png"): Taking screenshot successfully
+
+2024-01-09 16:26:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:26:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-input-badan-usaha.png]]
+
+2024-01-09 16:26:26 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2024-01-09 16:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/span_Perseroan Terbatas ( PT. , NV. , LTD. )' is clicked on
+
+2024-01-09 16:26:27 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-page-sebelum-input-capture.png"): Taking screenshot successfully
+
+2024-01-09 16:26:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:26:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-page-sebelum-input-capture.png]]
+
+2024-01-09 16:26:27 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2024-01-09 16:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_npwp' is clicked on
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - npwpPath = userDir + pathNPWP: null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - siupPath = userDir + pathSIUP: null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - tdpPath = userDir + pathTDP: null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - npwpPath = npwpPath.replace("/", "\"): null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - siupPath = siupPath.replace("/", "\"): null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - tdpPath = tdpPath.replace("/", "\"): null
+
+2024-01-09 16:26:28 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File"), npwpPath): popup.popup.uploadFile is PASSED
+
+2024-01-09 16:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File' is clicked on
+
+2024-01-09 16:26:30 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2024-01-09 16:26:30 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+2024-01-09 16:26:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_NPWP"), 0): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present
+
+2024-01-09 16:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-09 16:26:53 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_NPWP' is present
+
+2024-01-09 16:26:53 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix"), npwp): Text '1222223334556' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix'
+
+2024-01-09 16:26:54 - [MESSAGE][PASSED] - Text '1222223334556' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_NPWP No fix'
+
+2024-01-09 16:26:54 - [TEST_STEP][PASSED] - setText(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_Name fix"), nama): Text 'Tester1' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Name fix'
+
+2024-01-09 16:26:55 - [MESSAGE][PASSED] - Text 'Tester1' is set on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Name fix'
+
+2024-01-09 16:26:55 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix' is clicked on
+
+2024-01-09 16:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_siupfix' is clicked on
+
+2024-01-09 16:26:55 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File"), siupPath): popup.popup.uploadFile is PASSED
+
+2024-01-09 16:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File' is clicked on
+
+2024-01-09 16:26:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2024-01-09 16:26:58 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+2024-01-09 16:26:58 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP' is clicked on
+
+2024-01-09 16:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Capture_TDP' is clicked on
+
+2024-01-09 16:26:59 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File"), tdpPath): popup.popup.uploadFile is PASSED
+
+2024-01-09 16:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_Local File' is clicked on
+
+2024-01-09 16:27:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2024-01-09 16:27:01 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+2024-01-09 16:27:01 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-Capture-npwp-siup-tdp.png"): Taking screenshot successfully
+
+2024-01-09 16:27:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:27:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Capture-npwp-siup-tdp.png]]
+
+2024-01-09 16:27:01 - [TEST_STEP][PASSED] - if (isPerubahanData == "ya"): null
+
+2024-01-09 16:27:01 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak' is clicked on
+
+2024-01-09 16:27:01 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak' is clicked on
+
+2024-01-09 16:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/input_Ada Perubahan Data Tidak' is clicked on
+
+2024-01-09 16:27:02 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-Memilih-Radio-Button-Perubahan-Data.png"): Taking screenshot successfully
+
+2024-01-09 16:27:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:27:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Memilih-Radio-Button-Perubahan-Data.png]]
+
+2024-01-09 16:27:03 - [TEST_STEP][PASSED] - click(findTestObject("MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix' is clicked on
+
+2024-01-09 16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/button_Prosesfix' is clicked on
+
+2024-01-09 16:27:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching"), 300): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching' is present
+
+2024-01-09 16:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/AplikasiBaruMatching' is present
+
+2024-01-09 16:27:07 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint(ssDir + matrix + "-Masuk-aplikasi-matching.png"): Taking screenshot successfully
+
+2024-01-09 16:27:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-09 16:27:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Jerry\Katalon Studio\me-corp-add-data\Screenshoot\Sprint2\Web\keyes\keyes-0-Masuk-aplikasi-matching.png]]
+
+2024-01-09 16:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Rejectlist")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Rejectlist' is clicked on
+
+2024-01-09 16:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Rejectlist' is clicked on
+
+2024-01-09 16:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_In Process")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_In Process' is clicked on
+
+2024-01-09 16:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_In Process' is clicked on
+
+2024-01-09 16:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Blacklist")): Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Blacklist' is clicked on
+
+2024-01-09 16:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/a_Blacklist' is clicked on
+
+2024-01-09 16:27:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK")): Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK' is clickable
+
+2024-01-09 16:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK' is clickable
+
+2024-01-09 16:27:11 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK")): Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1704773199216.run(Script1704773199216.groovy:105)
+	... 13 more
+)
+
+2024-01-09 16:27:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1704773199216.run(Script1704773199216.groovy:105)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Jerry\\Katalon Studio\\me-corp-add-data\\Reports\\20240109_162559\\MECORP\\MECORP\\20240109_162559\\1704792431445.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-09 16:26:20 - [TEST_CASE][FAILED] - Test Cases/me corp/inisiasi: Test Cases/me corp/inisiasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-09 16:26:10 - [TEST_SUITE][FAILED] - MECORP: Test Cases/me corp/inisiasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-01-09 16:26:10 - [TEST_SUITE][FAILED] - MECORP: Test Cases/me corp/inisiasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MEApp_AppBaru_InisiasiKonsumen/Page_Mobile Entry - BCAF/button_OK'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at inisiasi.run(inisiasi:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704792359481.run(TempTestSuite1704792359481.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <button class="btn btn-primary"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R03MSOE', ip: '192.168.136.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13756, moz:profile: C:\Users\Jerry\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 548e245e-96a3-49c1-ae10-588aa4cd6f3b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

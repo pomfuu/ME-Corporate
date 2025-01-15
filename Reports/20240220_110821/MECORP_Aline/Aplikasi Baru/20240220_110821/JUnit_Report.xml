@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aplikasi Baru" time="344.85" tests="6" failures="0" errors="0">
+   <testsuite name="Aplikasi Baru" tests="6" failures="0" errors="0" time="344.85" skipped="0" timestamp="20-02-2024T11:08:27" hostname="clarien cahyono - LAPTOP-JTB6QV1G" id="Test Suites/MECORP_Aline/Aplikasi Baru">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_110821\\MECORP_Aline\\Aplikasi Baru\\20240220_110821"/>
+         <property name="logFiles" value="D:\\BCAF\\me-corp-add-data\\Reports\\20240220_110821\\MECORP_Aline\\Aplikasi Baru\\20240220_110821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="clarien cahyono - LAPTOP-JTB6QV1G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.10.13.39"/>
+         <property name="sessionId" value="076bba578a8f1bfe5408e4cb130f4679"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/me corp - aline/Login" time="8.03" classname="Test Cases/me corp - aline/Login" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:08:28 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Login: Test Cases/me corp - aline/Login
+
+20-02-2024T11:08:28 - [TEST_STEP][PASSED] - switch (role): null
+
+20-02-2024T11:08:28 - [TEST_STEP][PASSED] - openBrowser(ME_url): Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T11:08:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2024T11:08:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2024T11:08:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mecorporate.idofocus.co.id:25443/login'
+
+20-02-2024T11:08:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2024T11:08:32 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2024T11:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='username']"]), AHUUsername): Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:33 - [MESSAGE][PASSED] - Text '20111907' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='password']"]), password): Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:33 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//button[@type='submit']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ul/li[@id='menu0']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@id='sidebar']//a[@href='/aplikasi-baru']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru" time="22.494" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:08:36 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru: Test Cases/me corp - aline/Transaction/AplikasiBaru
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - npwp = NPWPGenerator.generateIncrementingNPWP(): null
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - ssDir = userDir + sprint2WebScreenshotPath: null
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - if (tipeKonsumen == "Perorangan"): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:08:36 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@value='radio-perorangan']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//ng-select[@formcontrolname='businessType']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://form//*[text()='$badanUsaha']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:38 - [TEST_STEP][PASSED] - npwpPath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T11:08:38 - [TEST_STEP][PASSED] - siupPath = pathfinder_siup.replace("/", "\"): null
+
+20-02-2024T11:08:38 - [TEST_STEP][PASSED] - tdpPath = pathfinder_tdp.replace("/", "\"): null
+
+20-02-2024T11:08:38 - [TEST_STEP][PASSED] - uploadFile = [["path":npwpPath], ["path":siupPath], ["path":tdpPath]]: null
+
+20-02-2024T11:08:38 - [TEST_STEP][PASSED] - uploadFile.each({ java.lang.Object key -> ... }): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:39 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:08:40 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:44 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:08:45 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:08:47 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:08:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), 2): Object 'Object Repository/xpath_dynamic' is visible
+
+20-02-2024T11:08:49 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is visible
+
+20-02-2024T11:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='npwpNo']"]), npwp): Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:49 - [MESSAGE][PASSED] - Text '967856985858681' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//form//input[@formcontrolname='name']"]), nama): Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:50 - [MESSAGE][PASSED] - Text 'TESTER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:08:50 - [TEST_STEP][PASSED] - if (isPerubahanData == "ya"): null
+
+20-02-2024T11:08:50 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ada Perubahan Data?']/following-sibling::div[2]"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Proses ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T11:08:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T11:08:53 - [TEST_STEP][PASSED] - for ([i = 1, i < 5, (i++)]): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://ul[@role='tablist']/li[$i]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='tab-content']/div[4]//*[text()='OK']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@type='checkbox']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Ya']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate" time="182.436" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:08:58 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/Corporate
+
+20-02-2024T11:08:59 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T11:08:59 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T11:08:59 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T11:08:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='SID Name']"]), 3): Scroll to object 'Object Repository/xpath_dynamic' successfully
+
+20-02-2024T11:09:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/xpath_dynamic' successfully
+
+20-02-2024T11:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@formcontrolname='sidName']"]), "AFGAN"): Text 'AFGAN' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:20 - [MESSAGE][PASSED] - Text 'AFGAN' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Surat Keterangan Domisili ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@role='tablist']//div[4]//*[text()=' Capture ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:21 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:22 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:10:23 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='FAP ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Add Capture']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:24 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:25 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:10:26 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:10:26 - [TEST_STEP][PASSED] - fieldData = [["Jenis Usaha", "TEST"], ["Omzet Usaha per Tahun", information_mutasiSaldo], ["Alamat Perusahaan", information_cabang], ["Berdiri Sejak Tahun", "2003"], ["No. Rekening BCA", "12345678911"]]: null
+
+20-02-2024T11:10:26 - [TEST_STEP][PASSED] - for (def data : fieldData): Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:28 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:29 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:30 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '2003' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:31 - [MESSAGE][PASSED] - Text '2003' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:32 - [MESSAGE][PASSED] - Text '12345678911' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:32 - [TEST_STEP][PASSED] - fieldSearchData = [["Kode Lokasi Proyek", information_cabang], ["Kab/Kota", information_cabang], ["Kelurahan", "Arteri Pondok Indah"], ["Economy Code", "100107"], ["Provinsi", "Banten"], ["Kecamatan", "pamulang"], ["Kode Pos", "15418"]]: null
+
+20-02-2024T11:10:32 - [TEST_STEP][PASSED] - for (def data : fieldSearchData): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:33 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:35 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:35 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:37 - [MESSAGE][PASSED] - Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text '100107' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:40 - [MESSAGE][PASSED] - Text '100107' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:42 - [MESSAGE][PASSED] - Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:44 - [MESSAGE][PASSED] - Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]/bcaf-autocomplete//input]), data[1]): Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:46 - [MESSAGE][PASSED] - Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:47 - [TEST_STEP][PASSED] - fieldData2 = [["email", "test@gmail.com"], ["phoneAreaCode2", "62"], ["telepon2", "8888888"], ["phoneAreaCode1", "62"], ["telepon1", "8888887"], ["faxAreaCode2", "1"], ["fax2", "12345"], ["faxAreaCode1", "1"], ["fax1", "12345"]]: null
+
+20-02-2024T11:10:47 - [TEST_STEP][PASSED] - for (def data : fieldData2): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text 'test@gmail.com' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:48 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:48 - [MESSAGE][PASSED] - Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '8888888' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:49 - [MESSAGE][PASSED] - Text '8888888' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:50 - [MESSAGE][PASSED] - Text '62' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '8888887' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:51 - [MESSAGE][PASSED] - Text '8888887' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:52 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$data[0]']]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:54 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Resume AHU' and @href='#tab-resumeahu']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Pengurus' and @href='#tab-pengurus']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@id='accordionPengurus']//*[text()=' Add']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@formarrayname='pengurus']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@data-parent='#accordionPengurus']//*[text()='Capture File']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:02 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), ktpPath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:03 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:11:04 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:11:04 - [TEST_STEP][PASSED] - fieldDataPengurus = [["Name", "TEST"], ["Identity No", "12345"], ["Birth Place", "Jakarta Selatan"], ["SID Pengurus", "TEST"], ["Alamat", "Jakarta Selatan"]]: null
+
+20-02-2024T11:11:04 - [TEST_STEP][PASSED] - for (def data : fieldDataPengurus): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T11:11:22 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:22 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T11:11:23 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:24 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T11:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:25 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T11:11:26 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:27 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), 0, STOP_ON_FAILURE): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T11:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@class='row'][2]//*[text()='$data[0]']/following-sibling::div[1]/*]), data[1]): Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:28 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:28 - [TEST_STEP][PASSED] - fieldSearchDataPengurus = [["Provinsi", "Banten"], ["Kecamatan", "pamulang"], ["Kode Pos", "15418"], ["Kab/Kota", information_cabang], ["Kelurahan", "Arteri Pondok Indah"]]: null
+
+20-02-2024T11:11:28 - [TEST_STEP][PASSED] - for (def data : fieldSearchDataPengurus): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:29 - [MESSAGE][PASSED] - Text 'Banten' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:29 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:31 - [MESSAGE][PASSED] - Text 'pamulang' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:32 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:33 - [MESSAGE][PASSED] - Text '15418' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:34 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:36 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:38 - [MESSAGE][PASSED] - Text 'Arteri Pondok Indah' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//ul[1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:39 - [TEST_STEP][PASSED] - fieldSearchDataRole = [["Role", "Signer"], ["Job Title", "Komisaris Utama"]]: null
+
+20-02-2024T11:11:39 - [TEST_STEP][PASSED] - for (def data : fieldSearchDataRole): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Signer' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:40 - [MESSAGE][PASSED] - Text 'Signer' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//input]), data[1]): Text 'Komisaris Utama' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:42 - [MESSAGE][PASSED] - Text 'Komisaris Utama' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:11:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']]), 2): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div[@data-parent='#accordionPengurus']//*[text()='$data[0]']/following-sibling::div[1]//div[@role='option']])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Birth Date']/following-sibling::div[1]//button"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='2024']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='2023']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='July']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='7']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Pemegang Saham' and @href='#tab-pemegangSaham']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Penjamin' and @href='#tab-penjamin']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Financial' and @href='#tab-financial']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Contact Person' and @href='#tab-contact-person']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Other Document' and @href='#tab-other-document']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='BO' and @href='#tab-bo']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='button-save-draft']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information" time="30.997" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:12:01 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Information
+
+20-02-2024T11:12:01 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T11:12:01 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T11:12:01 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T11:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div//following-sibling::span[text()='Collateral dan Loan']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:02 - [TEST_STEP][PASSED] - fieldDataInformation = [["salesOffice", sales_office], ["salesAgent", sales_agent], ["jenisPengajuan", information_jenisPengajuan], ["tujuan", information_tujuanKredit]]: null
+
+20-02-2024T11:12:02 - [TEST_STEP][PASSED] - for (def data : fieldDataInformation): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text '0001' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:03 - [MESSAGE][PASSED] - Text '0001' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text '010247' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:05 - [MESSAGE][PASSED] - Text '010247' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:06 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'mobil bekas' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:08 - [MESSAGE][PASSED] - Text 'mobil bekas' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'pembelian aset' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:10 - [MESSAGE][PASSED] - Text 'pembelian aset' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:11 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://div//input[@name='cluster']/following-sibling::label[text()='$cluster']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:12:11 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:12:11 - [TEST_STEP][PASSED] - fieldDataReccomendation = [["recommenderName", information_namaPemilikRek], ["recommenderBranch", information_cabang], ["recommenderRole", test]]: null
+
+20-02-2024T11:12:11 - [TEST_STEP][PASSED] - for (def data : fieldDataReccomendation): Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:12 - [MESSAGE][PASSED] - Text 'Afgan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:13 - [MESSAGE][PASSED] - Text 'jakarta selatan' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:15 - [MESSAGE][PASSED] - Text 'tester
+' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//ng-select[@formcontrolname='paymentMethod']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@role='option']//*[text()='Bank (Transfer)']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@formcontrolname='bcaAccountNo']"]), information_accountNum): Text '11111111111' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:17 - [MESSAGE][PASSED] - Text '11111111111' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Mutasi Rekening']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Add Mutasi Rekening']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='modal-content']//*[text()='Capture File']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:18 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:19 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:12:20 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:12:20 - [TEST_STEP][PASSED] - fieldDataMutasi = [["mutasiDebit", information_mutasiDebit], ["mutasiSaldo", information_mutasiSaldo], ["mutasiKredit", information_mutasiKredit]]: null
+
+20-02-2024T11:12:20 - [TEST_STEP][PASSED] - for (def data : fieldDataMutasi): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:22 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:23 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:24 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//button[text()=' Add']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='View Detail']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@class='close']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='button-save-draft']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Vehicle' and @href='#tab-vehicle']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle" time="73.089" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:12:32 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/CollateralLoan-Vehicle
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - userDir = getProjectDir(): null
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - filePath = pathfinder_npwp.replace("/", "\"): null
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - ktpPath = cobaKTP.replace("/", "\"): null
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - fieldDataVehicle = [["dealerName", "Adhiprima Utama Mobilindo, PT"], ["dealerBranchName", "a"]]: null
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - for (def data : fieldDataVehicle): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'Adhiprima Utama Mobilindo, PT' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:34 - [MESSAGE][PASSED] - Text 'Adhiprima Utama Mobilindo, PT' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'a' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:37 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:38 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Data Vehicle']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:39 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@formcontrolname='carCondition' and @value='2']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:12:39 - [TEST_STEP][PASSED] - fieldSelectVehicle = [["productCode", "New General"], ["packetName", "Non Packet"], ["brandName", "DAIHATSU"], ["modelName", "AYLA"], ["type", "AYLA"], ["purpose", "Operasional"], ["hubunganDebitur", "Konsumen"]]: null
+
+20-02-2024T11:12:39 - [TEST_STEP][PASSED] - for (def data : fieldSelectVehicle): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'New General' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:40 - [MESSAGE][PASSED] - Text 'New General' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'Non Packet' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:42 - [MESSAGE][PASSED] - Text 'Non Packet' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'DAIHATSU' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:45 - [MESSAGE][PASSED] - Text 'DAIHATSU' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'AYLA' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:48 - [MESSAGE][PASSED] - Text 'AYLA' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'AYLA' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:50 - [MESSAGE][PASSED] - Text 'AYLA' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'Operasional' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:53 - [MESSAGE][PASSED] - Text 'Operasional' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:53 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'Konsumen' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:55 - [MESSAGE][PASSED] - Text 'Konsumen' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:12:56 - [TEST_STEP][PASSED] - fieldInsertVehicle = [["keteranganType", "NEW"], ["year", "2024"], ["bpkbNo", "12345"], ["color", "RED"], ["policeNo", "B1234BIM"], ["engineNo", "B1234BIM"], ["bodyNo", "B1234BIM"], ["bpkbOwner", "AFGAN"]]: null
+
+20-02-2024T11:12:56 - [TEST_STEP][PASSED] - for (def data : fieldInsertVehicle): Text 'AFGAN' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'NEW' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:56 - [MESSAGE][PASSED] - Text 'NEW' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '2024' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:57 - [MESSAGE][PASSED] - Text '2024' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:58 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'RED' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:59 - [MESSAGE][PASSED] - Text 'RED' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:00 - [MESSAGE][PASSED] - Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:01 - [MESSAGE][PASSED] - Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:02 - [MESSAGE][PASSED] - Text 'B1234BIM' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text 'AFGAN' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:03 - [MESSAGE][PASSED] - Text 'AFGAN' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@class='row ng-star-inserted']//div[@class='col-md-12 form-group']/div[3]//*[text()=' Add Capture']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:05 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:07 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:13:07 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//label[text()='Capture STNK']//following-sibling::div[1]//*[text()='Capture File']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:09 - [TEST_STEP][PASSED] - popup.popup.uploadFile(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//modal-container//button[2]"]), filePath): popup.popup.uploadFile is PASSED
+
+20-02-2024T11:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:10 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+20-02-2024T11:13:10 - [MESSAGE][PASSED] - popup.popup.uploadFile is PASSED
+
+20-02-2024T11:13:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@value='produktif']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Loan Data']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:12 - [TEST_STEP][PASSED] - fieldInsertLoanVehicle = [["otr", "1000000"], ["dpNominal", "100000"], ["dpPercent", "10"], ["residualValue", "100000"], ["tenor", "12"], ["tenor2", "12"], ["flatRate", "100000"], ["effectiveRate2", "100000"], ["jumlahSubsidi", "1"], ["provisionPercent", "10"], ["provisionFee", "100000"], ["admFee", "10000"], ["hargaChasis", "100000"]]: null
+
+20-02-2024T11:13:12 - [TEST_STEP][PASSED] - for (def data : fieldInsertLoanVehicle): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '1000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:13 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:14 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:15 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:16 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:17 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:17 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:18 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:19 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:21 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:22 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:23 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:23 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:23 - [TEST_STEP][PASSED] - fieldRadioLoanVehicle = [["provisionPayment", "1"], ["admFeePayment", "1"], ["jenisUnit", "gabung"]]: null
+
+20-02-2024T11:13:23 - [TEST_STEP][PASSED] - for (def data : fieldRadioLoanVehicle): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:23 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@value='$data[1]' and @formcontrolname='$data[0]']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:24 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@value='$data[1]' and @formcontrolname='$data[0]']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:25 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@value='$data[1]' and @formcontrolname='$data[0]']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Loan Data']"]), 2, STOP_ON_FAILURE): Scroll to object 'Object Repository/xpath_dynamic' successfully
+
+20-02-2024T11:13:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/xpath_dynamic' successfully
+
+20-02-2024T11:13:25 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@value='R' and @formcontrolname='loanType']"])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@data-target='#insurance-accordion']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:27 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/xpath_dynamic", ["xpath"://input[@formcontrolname='$asuransiType']])): Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is checked
+
+20-02-2024T11:13:27 - [TEST_STEP][PASSED] - otherInsuranceSelectField = [["otherInsuranceType", "CFP"], ["otherInsuranceCompany", "FOXLOGGER"], ["otherInsuranceTenor", "12"], ["coverageType", "REGULER"]]: null
+
+20-02-2024T11:13:27 - [TEST_STEP][PASSED] - for (def data : otherInsuranceSelectField): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'CFP' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:28 - [MESSAGE][PASSED] - Text 'CFP' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'FOXLOGGER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:31 - [MESSAGE][PASSED] - Text 'FOXLOGGER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:32 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:34 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//input]), data[1]): Text 'REGULER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:37 - [MESSAGE][PASSED] - Text 'REGULER' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]]), 1): Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:38 - [MESSAGE][PASSED] - Object 'Object Repository/xpath_dynamic' is clickable
+
+20-02-2024T11:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']//div[@role='option'][1]])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@formcontrolname='otherInsuranceFeeType']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div[@role='option']//*[text()='Prepaid']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:39 - [TEST_STEP][PASSED] - fieldInsertInsurance = [["otherInsuranceFee", "1000000"], ["deductionNominal", "100000"], ["deductionPercentage", "10"]]: null
+
+20-02-2024T11:13:39 - [TEST_STEP][PASSED] - for (def data : fieldInsertInsurance): Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '1000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:40 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:41 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xpath_dynamic", ["xpath"://*[@formcontrolname='$data[0]']]), data[1]): Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:42 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/xpath_dynamic'
+
+20-02-2024T11:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//input[@formcontrolname='paymentType' and @value='Prepaid']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()='Note']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[text()=' Add Unit Kendaraan ']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//*[@class='close']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/MatchingPenyimpangan" time="27.534" classname="Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/MatchingPenyimpangan" status="PASSED">
+         <system-out><![CDATA[20-02-2024T11:13:45 - [TEST_CASE][PASSED] - Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/MatchingPenyimpangan: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/MatchingPenyimpangan
+
+20-02-2024T11:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div//following-sibling::span[text()='Matching Result']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xpath_dynamic", ["xpath":"//div//following-sibling::span[text()='Penyimpangan']"])): Object: 'Object Repository/xpath_dynamic' is clicked on
+
+20-02-2024T11:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xpath_dynamic' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2024T11:08:27 - [TEST_SUITE][PASSED] - Aplikasi Baru: Test Cases/me corp - aline/Transaction/AplikasiBaru-Steps/MatchingPenyimpangan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

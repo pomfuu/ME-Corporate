@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MECORP,Firefox 121.0,,,2024-01-09 16:14:41,2024-01-09 16:14:52,10.217s,ERROR
+,,,,,,,
+Test Cases/me corp/Login,Firefox 121.0,,,2024-01-09 16:14:42,2024-01-09 16:14:52,9.743s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 121.0,,,2024-01-09 16:14:42,2024-01-09 16:14:42,0.002s,PASSED
+"password = ""Mobile123+""",Firefox 121.0,,,2024-01-09 16:14:42,2024-01-09 16:14:42,0.000s,PASSED
+switch (role),Firefox 121.0,,,2024-01-09 16:14:42,2024-01-09 16:14:43,1.098s,PASSED
+"openBrowser("""")",Firefox 121.0,,,2024-01-09 16:14:43,2024-01-09 16:14:48,4.988s,PASSED
+navigateToUrl(ME_url),Firefox 121.0,,,2024-01-09 16:14:48,2024-01-09 16:14:49,0.798s,PASSED
+maximizeWindow(),Firefox 121.0,,,2024-01-09 16:14:49,2024-01-09 16:14:49,0.040s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User ID_login""), username)",Firefox 121.0,,,2024-01-09 16:14:49,2024-01-09 16:14:50,0.787s,PASSED
+"setText(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/input_User Password_login""), password)",Firefox 121.0,,,2024-01-09 16:14:50,2024-01-09 16:14:51,0.766s,PASSED
+"click(findTestObject(""MEApp_AppBaru_InisiasiKonsumen/button_Login""))",Firefox 121.0,,,2024-01-09 16:14:51,2024-01-09 16:14:52,0.733s,PASSED
+,,,,,,,
+Test Cases/me corp/inisiasi,Firefox 121.0,,,2024-01-09 16:14:52,2024-01-09 16:14:52,0.025s,ERROR
