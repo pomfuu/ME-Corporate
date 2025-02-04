@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -95,13 +96,26 @@ switch(information_Membership) {
 }
 
 // Lama Membership
-WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//input[@formcontrolname='lamaMembership']"]), information_LamaMembership, FailureHandling.CONTINUE_ON_FAILURE)
+def lamaMembershipXpath = "//input[@formcontrolname='lamaMembership']"
+def elMember = WebUI.waitForElementVisible(findTestObject('Object Repository/xpath_dynamic', ['xpath': lamaMembershipXpath]), 2)
+if (elMember) {
+    WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath': lamaMembershipXpath]), information_LamaMembership, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 // Plafond
-WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//input[@formcontrolname='plafondDiBca']"]), information_Plafond, FailureHandling.CONTINUE_ON_FAILURE)
+def plafondXpath = "//input[@formcontrolname='plafondDiBca']"
+def elPlafond = WebUI.waitForElementVisible(findTestObject('Object Repository/xpath_dynamic', ['xpath': plafondXpath]), 2)
+if (elPlafond) {
+    WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath': plafondXpath]), information_Plafond, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 // Sumber Aplikasi DS
-WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//input[@formcontrolname='sumberAplikasiDs']"]), information_sumberDS, FailureHandling.CONTINUE_ON_FAILURE)
+def sumberDSXpath = "//input[@formcontrolname='sumberAplikasiDs']"
+def elDS = WebUI.waitForElementVisible(findTestObject('Object Repository/xpath_dynamic', ['xpath': sumberDSXpath]), 2)
+if (elDS) {
+    WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath': sumberDSXpath]), information_sumberDS, FailureHandling.CONTINUE_ON_FAILURE)
+}
+
 
 // bukti membership
 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//a[text()='Capture']"]))

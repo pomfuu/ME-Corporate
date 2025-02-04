@@ -6,8 +6,10 @@
    <UUID>5e718b15-9ac7-4520-bc4b-f2b17eec74c5</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\BCAF\me-corp-add-data\BCAF Sprint 4.prj</projectFileLocation>
+   <projectFileLocation>C:\ME-Corporate\BCAF Sprint 4.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

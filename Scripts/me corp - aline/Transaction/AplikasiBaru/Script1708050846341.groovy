@@ -31,6 +31,7 @@ def driver = DriverFactory.getWebDriver()
 
 String baseDir = System.getProperty('user.dir')
 
+/*
 if(aplikasiBaru_RO == 'ya') {
 	WebUI.check(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//input[@id='isRepeatOrder-yes']"]))
 } else WebUI.check(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//input[@id='isRepeatOrder-no']"]))
@@ -38,7 +39,7 @@ if(aplikasiBaru_RO == 'ya') {
 if(aplikasiBaru_tipeKonsumen == 'Perorangan') {
 	WebUI.check(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//form//input[@value='radio-perorangan']"]))
 } else WebUI.check(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//form//input[@value='radio-korporasi']"]))
-
+*/
 	
 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//form//ng-select[@formcontrolname='businessType']"]))
 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//form//*[text()='${aplikasiBaru_badanUsaha}']"]))

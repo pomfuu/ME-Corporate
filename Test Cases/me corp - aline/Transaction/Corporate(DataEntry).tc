@@ -4,13 +4,14 @@
    <name>Corporate(DataEntry)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a6835932-1c72-4165-96d6-f073eca1c680</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>9297ab76-2d65-4823-af0f-8442abb54777</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
-         <value>47</value>
+         <value>57</value>
       </iterationEntity>
       <testDataId>Data Files/MeCorpDynamic</testDataId>
    </testDataLinks>

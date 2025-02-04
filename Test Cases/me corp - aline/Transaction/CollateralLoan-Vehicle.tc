@@ -4,13 +4,14 @@
    <name>CollateralLoan-Vehicle</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f5d02aef-a237-41fc-ace8-f38ecb61b22a</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>cde03c6d-c80c-4907-81d5-f291497fe253</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
-         <value>47</value>
+         <value>57</value>
       </iterationEntity>
       <testDataId>Data Files/MeCorpDynamic</testDataId>
    </testDataLinks>

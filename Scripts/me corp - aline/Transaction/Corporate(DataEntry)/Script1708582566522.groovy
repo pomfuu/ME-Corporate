@@ -64,10 +64,12 @@ def fieldSearchData = [
 for(data in fieldSearchData) {
 	WebUI.setText(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='${data[0]}']/following-sibling::div[1]/bcaf-autocomplete//input"]), data[1])
 	WebUI.waitForElementClickable(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//*[text()='${data[0]}']/following-sibling::div[1]//ul[1]"]), 2)
+	WebUI.delay(1)
 	WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='${data[0]}']/following-sibling::div[1]//ul[1]"]))
 }
 
 // ---- Alamat Pengiriman Surat
+WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//input[@name='isAlamatPengirimanSurat' and @value='tidak']"]))
 WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//input[@formcontrolname='alamatPengirimanSurat' and @value='$konsumen_alamatPengirimanSurat']"]))
 WebUI.setText(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//*[@formgroupname='alamatPengirimanSuratLainnya']//input[@formcontrolname='alamat']"]), konsumen_namaAlamatPengirimanSurat)
 
@@ -420,14 +422,15 @@ switch(penjamin_isPenjamin) {
 WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//*[text()='Financial' and @href='#tab-financial']"]))
 
 // Halaman Financial
-def handleFileUpload(String filePurpose, String filePath) {
-	WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//*[text()='" + filePurpose + "']"]),FailureHandling.STOP_ON_FAILURE)
+def handleFileUpload(String filePurpose, String filePath) {E
 	WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "//*[@id='accordion_financial']/div[contains(., '" + filePurpose + "')]//*[text()='Capture File']"]),FailureHandling.STOP_ON_FAILURE)
 	CustomKeywords.'popup.popup.uploadFile'(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//modal-container//button[2]"]), filePath)
 }
 
 switch(financial_haveFinancialDocuments) {
 	case "yes":
+		WebUI.click(findTestObject('Object Repository/xpath_dynamic',['xpath' : "(//button[@data-target='#npwp-document'])[2]"]),FailureHandling.CONTINUE_ON_FAILURE)
+		
 		handleFileUpload('Laporan Keuangan', filePath)
 		handleFileUpload('Bukti Kepemilikan Rekening', filePath)
 		
