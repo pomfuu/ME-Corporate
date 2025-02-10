@@ -4,7 +4,6 @@
    <name>CollateralLoan-Information</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>bbe06db3-9d62-4cfb-9bac-d26d9f50e1d8</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

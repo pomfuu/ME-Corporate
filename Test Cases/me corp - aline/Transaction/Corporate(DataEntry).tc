@@ -4,7 +4,6 @@
    <name>Corporate(DataEntry)</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>a6835932-1c72-4165-96d6-f073eca1c680</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

@@ -179,7 +179,7 @@ if(aplikasiBaru_badanUsaha=='Perseroan Terbatas') {
 	
 			WebUI.scrollToElement(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='Birth Date']/following-sibling::div[1]//button"]), 0)
 			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='Birth Date']/following-sibling::div[1]//button"]))
-			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2024']"]))
+			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2025']"]))
 	
 			String[] dobComponents = pengurus_dob.split("-")
 			String day = dobComponents[0]
@@ -255,7 +255,7 @@ if(aplikasiBaru_badanUsaha=='Perseroan Terbatas') {
 					 }
 					 
 					 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[@formarrayname='pemegangSaham'][1]//*[text()='Birth Date']/following-sibling::div[1]//button"]))
-					 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2024']"]))
+					 WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2025']"]))
 					 
 					String[] dobComponents = saham_dob.split("-")
 					String day = dobComponents[0]
@@ -383,7 +383,7 @@ switch(penjamin_isPenjamin) {
 			}
 			
 			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[@formarrayname='pemegangSaham'][1]//*[text()='Birth Date']/following-sibling::div[1]//button"]))
-			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2024']"]))
+			WebUI.click(findTestObject('Object Repository/xpath_dynamic', ['xpath' : "//*[text()='2025']"]))
 			 
 			String[] dobComponents = penjamin_peroranganDOB.split("-")
 			String day = dobComponents[0]
